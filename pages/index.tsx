@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import Intro from "../components/Intro";
+import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Ocean from '../components/Ocean';
+import Toolbar from '../components/Toolbar';
 
 
 const Home: NextPage = () => {
@@ -17,7 +18,8 @@ const Home: NextPage = () => {
             </Head>
 
             <main className="flex flex-col items-center">
-                <Intro />
+                <Toolbar />
+                <Hero />
 
                 <div className="max-w-full 2xl:max-w-screen-2xl overflow-x-hidden">
 
