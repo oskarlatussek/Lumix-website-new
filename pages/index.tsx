@@ -3,9 +3,12 @@ import Head from 'next/head'
 
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Ocean from '../components/Ocean';
 import Toolbar from '../components/Toolbar';
 import Promiss from "../components/Promiss";
+import Team from "../components/Team";
+import Process from "../components/Process";
+import FAQ from "../components/FAQ";
+
 
 
 
@@ -23,6 +26,10 @@ const Home: NextPage = () => {
                 <Toolbar />
                 <Hero />
                 <Promiss />
+                <Team />
+                <Process/>
+                <FAQ />
+
 
 
             </main>

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "sans":["Alterwave","sans-serif"]
+        "sans":["Work Sans","sans-serif"]
 
       }
     },

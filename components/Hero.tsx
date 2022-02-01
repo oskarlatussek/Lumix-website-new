@@ -18,7 +18,7 @@ const Hero = () => {
                 <img src="/Logos/lumix-logo_gr.svg"/>
 
 
-            </div>
+            </div>a
 
         </div>
     )
