@@ -7,6 +7,7 @@ import Toolbar from '../components/Toolbar';
 import Promiss from "../components/Promiss";
 import Team from "../components/Team";
 import Process from "../components/Process";
+import Vision from  "../components/Vision";
 import FAQ from "../components/FAQ";
 
 
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
                 <Promiss />
                 <Team />
                 <Process/>
+                <Vision/>
                 <FAQ />
 
 

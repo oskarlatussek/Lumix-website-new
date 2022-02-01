@@ -7,7 +7,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="bg-gray-200 flex flex-col mt-20 p-10 items-center space-y-20">
+        <footer className="bg-gray-50 flex flex-col mt-20 p-10 items-center space-y-20">
             <div className="flex justify-evenly items-center space-x-44">
                 <a href="/" className="">
                     <img src="/Logos/lumix-logo_gr.svg" className="h-40" />
