@@ -5,6 +5,8 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Ocean from '../components/Ocean';
 import Toolbar from '../components/Toolbar';
+import Promiss from "../components/Promiss";
+
 
 
 const Home: NextPage = () => {
@@ -20,12 +22,8 @@ const Home: NextPage = () => {
             <main className="flex flex-col items-center">
                 <Toolbar />
                 <Hero />
+                <Promiss />
 
-                <div className="max-w-full 2xl:max-w-screen-2xl overflow-x-hidden">
-
-                    <Ocean />
-
-                </div>
 
             </main>
 
