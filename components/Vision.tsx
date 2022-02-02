@@ -1,37 +1,23 @@
 const Vision = () => {
 
     return (
-        <div>
-            <div className="w-full bg-[url('/Logos/photovoltaic-2138992.jpg')] flex border h-1/2 hover:min-h-screen p-6">
-                <div>
-                    <p className="text-7xl mb-20">Unsere Vision</p>
-                    <p className="text-2xl text-gray-800 mb-20">Unabhängige, effiziente und nachhaltige Stromerzeugung für alle. </p>
-                </div>
-                <div>
-
-                    <img className="" src="/Logos/photovoltaic-2138992.jpg"></img>
+        <>
+            <div className="h-screen -mb-10 flex items-stretch">
+                <div className="flex items-center">
+                    <p className="text-7xl font-semibold max-w-2xl text-right p-10">Unabhängige, effiziente und nachhaltige <span className="text-amber-400 font-bold">Stromerzeugung</span> für alle!</p>
                 </div>
 
-
-
+                <img src="/Images/solar-2.jpg" className="grayscale w-1/2 flex-grow object-cover" />
             </div>
-            <div className="w-full bg-[url('/Logos/alternative-21761.jpg')] flex border h-1/2 hover:min-h-screen p-6">
-                <div>
 
-                    <img className="" src="/Logos/alternative-21761.jpg"></img>
+            <div className="h-screen -mt-10 flex items-stretch">
+                <img src="/Images/solar-1.jpg" className="grayscale w-1/2 flex-grow object-cover" />
+
+                <div className="flex items-center">
+                    <p className="text-4xl font-medium max-w-2xl p-10">Vertrieb und Montage von modernsten <span className="text-amber-400 font-semibold">Solarmodulen</span> und <span className="text-amber-400 font-semibold">Energiespeichersystemen</span>, durch kundennahe, individuelle und ganzheitliche Projektplanung zugute der Energiewende.</p>
                 </div>
-
-                <div>
-                    <p className="text-7xl mb-20">Unsere Mission</p>
-                    <p className="text-2xl text-gray-800 mb-20">Vertrieb und Montage von modernsten Solarmodulen und Energiespeichersystemen, durch kundennahe, individuelle und ganzheitliche Projektplanung zugute der Energiewende. </p>
-                </div>
-
-
-
             </div>
-        </div>
-
-
+        </>
     )
 
 }

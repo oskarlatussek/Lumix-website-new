@@ -1,26 +1,17 @@
-const Card = ({ title, text, classes, img_src, button }: any) => {
+const Card = ({ title, text }: any) => {
 
     return (
 
 
-        <div className={`w-1/6 h-96 ${classes} justify-betweenrounded-xl shadow-xl hover:scale-105 transition duration-100 ease-in-out p-5 flex flex-col items-center `}>
-            <div className="flex flex-col space-y-3">
-                <p className="text-2xl text-center object-top font-WorkSans italic py-1.5">
-                    {title}
+        <div className={`p-5 flex flex-col items-center w-1/4`}>
+            <div className="flex flex-col items-stretch mb-10">
+                <div className="flex justify-center items-center py-5 px-2 bg-amber-400/30 min-h-[7rem]">
+                    <p className="text-3xl font-medium text-gray-800 text-center">{title}</p>
+                </div>
+                <div className="border-2 rounded-ful border-amber-400" />
 
-                </p>
-                <p className="text-base font-WorkSans">
-                    {text}
-                </p>
+                <p className="text-xl mt-4 px-2 text-gray-700">{text}</p>
             </div>
-            <img src={img_src} alt="" />
-            <div className=" bg-gray-100 p-2 px-4 text-lg font-WorkSans shadow-lg text-center rounded-full">
-                {button}
-            </div>
-
-
-
-
         </div>
 
     )

@@ -1,27 +1,29 @@
+import Link from "next/link"
 import Question from "./Question"
 
 const FAQ = () => {
     return (
 
-        <div className="border w-full min-h-screen flex flex-col p-10 items-center">
-            <p className="text-4xl font-medium pb-5">Häufig gestellte Fragen</p>
-            <div className="flex flex-col max-w-lg space-y-5">
-                <Question question="Frage" answer="Antwort"></Question>
-                <Question question="Frage" answer="Antwort"></Question>
-                <Question question="Frage" answer="Antwort"></Question>
-                <Question question="Frage" answer="Antwort"></Question>
-                <Question question="Frage" answer="Antwort"></Question>
+        <div id="faq" className="w-full flex flex-col p-10 items-center py-20">
+            <div className="w-full flex space-x-24 items-center">
+                <p className="text-8xl font-medium pb-5 max-w-min text-right leading-tight">Häufig gestellte <span className="text-amber-400 text-9xl font-semibold">Fragen</span></p>
 
-                <a href="/faq" className="bg-gray-200 p-2 px-4 text-xl font-semibold shadow-lg text-center rounded-full">Mehr dazu</a>
+                <div className="flex flex-col max-w-3xl space-y-5 items-center">
+                    <Question question="Frage wefqöi qwöefqw fqöwioef qweföoiqwef qwöeoin werfäkönwe " answer="Antwort" />
+                    <Question question="Frage" answer="Antwort" />
+                    <Question question="Frage" answer="Antwort" />
+                    <Question question="Frage" answer="Antwort" />
+                    <Question question="Frage" answer="Antwort" />
+                </div>
+            </div>
 
-            </div> 
-            
+            <Link href="/faq">
+                <a className="rounded-full mt-10 border border-black bg-black text-white max-w-max px-3 py-2 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                    Alle Fragen
+                </a>
+            </Link>
 
-        </div>
-
-
-
-
+        </div >
 
     )
 }

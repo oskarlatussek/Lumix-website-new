@@ -1,23 +1,24 @@
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai"
+import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 
 
 const Question = ({ question, answer }: any) => {
 
     return (
-        <div className=" p-3 cursor-pointer w-full ">
+        <div className="p-3 cursor-pointer w-full flex flex-col">
             <label className="cursor-pointer grid grid-cols-12 place-items-start">
                 <input type="checkbox" className="hidden peer" />
 
-                <AiOutlinePlus className="block text-black text-opacity-80 text-3xl peer-checked:hidden" />
+                <AiFillPlusCircle className="block text-black text-3xl peer-checked:hidden" />
 
-                <AiOutlineMinus className=" text-black text-opacity-80 text-3xl hidden peer-checked:block max-w-min peer-checked:mb-3" />
+                <AiFillMinusCircle className=" text-black text-3xl hidden peer-checked:block max-w-min peer-checked:mb-3" />
 
-                <p className="text-black opacity-80 font-medium text-xl sm:text-2xl peer-checked:mb-3 ml-3 col-span-11 select-none">{question}</p>
+                <p className="text-black font-medium text-xl sm:text-2xl peer-checked:mb-3 col-span-11 select-none">{question}</p>
 
-                <div className="hidden peer-checked:block text-black text-opacity-60 col-span-full whitespace-pre-wrap font-medium">
+                <div className="hidden peer-checked:block text-gray-600 col-span-full whitespace-pre-wrap pl-16">
                     {answer}
                 </div>
             </label>
+            {/* <hr className="border w-3/4 mt-5 self-center" /> */}
         </div>
     )
 }
