@@ -7,7 +7,7 @@ const Team = () => {
 
             <div className="flex space-x- items-stretch mb-10">
                 <div className="flex items-center bg-amber-400/30">
-                    <p className="text-xl text-gray-800 text-right max-w-xs px-8">Wir sind die 5 Freunde, Julien und Dick, Anna, und Georg und Timmy der Hund!</p>
+                    <p className="text-xl text-gray-800 text-right max-w-xs px-8">Lumix Solar ist ein in Mannheim ansässiges Photovoltaikunternehmen mit dem Scherpunkt auf Vertrieb und Montage.</p>
                 </div>
                 <div className="border-4 rounded-ful border-amber-400 h-48" />
                 <p className="text-8xl font-medium max-w-xs text-left pl-8">Das Team</p>

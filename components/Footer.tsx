@@ -16,10 +16,10 @@ const Footer = () => {
                     <FiMail className="text-amber-400 text-3xl"/>
                     <a href="mailto:info@lumix.solar" className="">info@lumix.solar</a>
                 </div>
-                <div className="flex items-center space-x-3 text-xl">
+                {/* <div className="flex items-center space-x-3 text-xl">
                     <FiPhone className="text-amber-400 text-3xl"/>
                     <a href="tel:+4915783651735" className="">+49 1578 3651734</a>
-                </div>
+                </div> */}
 
                 <div className="flex text-gray-600 items-center space-x-1 pt-4">
                     <a href="/impressum" className=' hover:text-amber-400 transition ease-in-out duration-300'>Impressum</a>
