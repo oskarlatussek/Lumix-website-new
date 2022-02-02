@@ -18,7 +18,7 @@ const FAQPage: NextPage = () => {
       </Head>
 
 
-      <main className="flex flex-col items-center bg-gray-50 pt-20 lg:pt-32 pb-20">
+      <main className="flex flex-col items-center bg-gray-0 pt-20 lg:pt-32 pb-20">
         <Toolbar dark={false} />
 
         <div className="flex flex-col items-center text-black opacity-90 p-2 sm:p-10 w-full 2xl:max-w-screen-2xl">
