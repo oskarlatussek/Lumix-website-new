@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center w-screen overflow-x-hidden">
+            <div className="flex flex-col items-center max-w-full">
                 <Hero />
                 <Process/>
                 <Vision/>

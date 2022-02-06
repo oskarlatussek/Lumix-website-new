@@ -5,8 +5,8 @@ import { NextPage } from "next";
 const ImpressumPage: NextPage = () => {
     return (
         <>
-            <div className="flex flex-col p-2 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
-                <h1 className="text-9xl mb-10 sm:mb-20 text-amber-400">Impressum</h1>
+            <div className="flex flex-col p-5 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
+                <h1 className="text-5xl md:text-9xl mb-10 sm:mb-20 text-yellow-400">Impressum</h1>
 
                 <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GbR</h4>
                 <p>Strahlenburgstraße 27<br /> 68219 Mannheim <br /> Deutschland</p>
@@ -15,10 +15,10 @@ const ImpressumPage: NextPage = () => {
                 <p>Johannes Gerstlauer <br />Maximilian Mühlhause <br />Oskar Latussek</p>
 
                 <h5 className="text-xl font-medium mb-1 mt-3">Website</h5>
-                <a className="text-amber-400" href="/">www.lumix.solar</a>
+                <a className="text-yellow-400" href="/">www.lumix.solar</a>
 
                 <h5 className="text-xl font-medium mb-1 mt-3">Kontakt</h5>
-                <a className="text-amber-400" href="mailto:info@lumix.solar">info@lumix.solar</a>
+                <a className="text-yellow-400" href="mailto:info@lumix.solar">info@lumix.solar</a>
 
                 {/* <h5 className="text-xl font-medium mb-1 mt-3">Ust.-IdNr.</h5>
                     <p className="font-light">DE338994705</p> */}
@@ -28,7 +28,7 @@ const ImpressumPage: NextPage = () => {
                     Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
                     Die Europäische Kommission stellt jedoch eine Plattform zur Online-Streitbeilegung unter
                     <a href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a> bereit.
-                    <br />Kontakt per Mail: <a className="text-amber-400" href="mailto:info@lumix.solar">info@lumix.solar</a>
+                    <br />Kontakt per Mail: <a className="text-yellow-400" href="mailto:info@lumix.solar">info@lumix.solar</a>
                 </p>
                 <h5 className="text-xl font-medium mb-1 mt-3">Haftung für Inhalte</h5>
                 <p className="font-light">

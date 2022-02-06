@@ -6,7 +6,7 @@ const FAQ = () => {
 
         <div id="faq" className="w-full flex flex-col p-10 items-center py-20">
             <div className="w-full flex space-x-24 items-center">
-                <p className="text-8xl font-medium pb-5 max-w-min text-right leading-tight">Häufig gestellte <span className="text-amber-400 text-9xl font-semibold">Fragen</span></p>
+                <p className="text-8xl font-medium pb-5 max-w-min text-right leading-tight">Häufig gestellte <span className="text-yellow-400 text-9xl font-semibold">Fragen</span></p>
 
                 <div className="flex flex-col max-w-3xl space-y-5 items-center">
                     <Question question="Frage wefqöi qwöefqw fqöwioef qweföoiqwef qwöeoin werfäkönwe " answer="Antwort" />

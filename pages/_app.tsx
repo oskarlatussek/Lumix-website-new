@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Lumix Solar | Solaranalgen & Batteriespeicher</title>
-        <meta name="description" content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und in der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Monatage." />
+        <meta name="description" content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und in der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage." />
         <meta name="robots" content="noodp,noydir" />
       </Head>
       <Toolbar />

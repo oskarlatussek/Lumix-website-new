@@ -5,7 +5,7 @@ const Vision = () => {
             <img src="/Images/solar-2.jpg" className="sticky top-0 h-screen translate-x-1/2 grayscale object-cover border border-red-500" />
 
             <div className="h-screen sticky top-0 flex items-center border">
-                <p className="text-7xl font-semibold max-w-2xl text-right p-10">Unabhängige, effiziente und nachhaltige <span className="text-amber-400 font-bold">Stromerzeugung</span> für alle!</p>
+                <p className="text-7xl font-semibold max-w-2xl text-right p-10">Unabhängige, effiziente und nachhaltige <span className="text-yellow-400 font-bold">Stromerzeugung</span> für alle!</p>
             </div>
 
 

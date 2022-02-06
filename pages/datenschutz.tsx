@@ -5,8 +5,8 @@ import { NextPage } from "next";
 const DatenschutzPage: NextPage = () => {
     return (
         <>
-            <div className="flex flex-col p-2 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
-                <h1 className="text-9xl mb-10 sm:mb-20 text-amber-400">Datenschutz</h1>
+            <div className="flex flex-col p-5 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
+                <h1 className="text-5xl md:text-9xl mb-10 sm:mb-20 text-yellow-400">Datenschutz</h1>
 
                 <p className="">
                     Der Schutz Ihrer Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten in Übereinstimmung mit den anwendbaren Rechtsvorschriften zum Schutz personenbezogener Daten, insbesondere der EU-Datenschutzgrundverordnung (im Folgenden: EU-DSGVO) und den für unser Unternehmen geltenden deutschen Ausführungsvorschriften.
