@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <div style={{backgroundImage: 'url(/Images/hero-2.jpg)', backgroundSize: "cover"}} className=" w-full min-h-screen relative h-full flex justify-between p-5 sm:p-10 items-center">
 
-            <div className="pr- flex flex-col relative space-y-10 pt-0 sm:pt-20">
-                <div className="absolute w-full h-full z-0 bg-white/100 blur-3xl -ml-5 rounded-br-full"></div>
+            <div className="pr-10 lg:pr-20 flex flex-col relative space-y-10 pt-0 sm:pt-20">
+                <div className="absolute w-full h-full z-0 bg-white/100 blur-2xl sm:blur-3xl -ml-5 rounded-br-full"></div>
 
                 <h1 className="text-4xl lg:text-6xl font-medium max-w-lg z-10"><span className="text-yellow-400 text-5xl lg:text-8xl font-semibold">Solaranlagen</span><br/> in Mannheim, Rhein-Neckar und der Pfalz</h1>
 
