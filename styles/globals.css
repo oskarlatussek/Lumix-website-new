@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: 'Satoshi';
-  font-weight: 100 900;
-  src: url("./fonts/Satoshi-Variable.ttf");
+  src: url('./fonts/Satoshi-Variable.ttf') format('truetype');
 }
 
 html,
