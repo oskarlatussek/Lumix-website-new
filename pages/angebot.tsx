@@ -40,7 +40,7 @@ const Angebot: NextPage = () => {
                         <h2>Wechselrichter</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich hochwertige Produkte ein: Mit Ihrer Solarstromanlage erhalten Sie einen optimal dimensionierten Wechselrichter, der ausgezeichnete Wirkungsgrade erreicht. Aber wir achten auch ganz besonders auf die bestmögliche Abstimmung zwischen den Modulen und Wechselrichtern jeder Anlage. Denn davon hängen Wirtschaftlichkeit und Effizienz entscheidend ab.
+                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich hochwertige Produkte ein. Mit Ihrer Solarstromanlage erhalten Sie einen optimal dimensionierten Wechselrichter, der ausgezeichnete Wirkungsgrade erreicht. Aber wir achten auch ganz besonders auf die bestmögliche Abstimmung zwischen den Modulen und Wechselrichtern jeder Anlage. Denn davon hängen Wirtschaftlichkeit und Effizienz entscheidend ab.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>

@@ -9,7 +9,7 @@ const Privat: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image='/Fotos/compressed/DSCF6857.jpg' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig Flexibilität seinen eigenen Energieverbrauch zu managen.' />
+                <Hero image='/Fotos/compressed/DSCF6857.jpg' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig die Flexibilität seinen eigenen Energieverbrauch zu managen.' />
 
 
                 <div id="first_section" className={`w-full flex flex-col items-center space-y-44 pt-44 px-2 sm:px-10 max-w-screen-2xl`}>
@@ -22,7 +22,7 @@ const Privat: NextPage = () => {
                             <div className='flex flex-col space-y-5 sm:space-y-10 items-center text-center'>
                                 <p className='text-4xl xl:text-5xl text-[#215250] max-w-2xl text-left sm:text-center'>Die reine Photovoltaik-Anlage</p>
                                 <p className='max-w-xl text-justify sm:text-center'>
-                                    Eine Photovoltaikanlage kann schon für sich alleine eine große Menge Strom für den Eigenbedarf erzeugen, allerdings ist zu beachten, dass Autarkiegrade über 30% mit einer reinen PV nur selten zu erreichen sind.
+                                    Der Fokus von Photovoltaikanlagen ohne angeschlossenen Batteriespeicher liegt auf der größtmöglichen Abdeckung des Stromeigenbedarfs. Durch die natürlich begrenzte, schwankende Sonneneinstrahlung ergibt sich folgende näherungsweise Abdeckung im Tagesverlauf.
                                 </p>
                             </div>
 
@@ -38,7 +38,7 @@ const Privat: NextPage = () => {
                             <div className='flex flex-col space-y-5 sm:space-y-10 items-center'>
                                 <p className='text-4xl xl:text-5xl text-[#215250] max-w-2xl text-left sm:text-center'>PV-Anlage in Kombination mit Batteriespeicher</p>
                                 <p className='max-w-xl text-justify sm:text-center'>
-                                    In Kombination mit einem geeignet großen Batteriespeicher kann der über den Tag produzierte Strom auch über Nacht zum Eigenverbrauch genutzt werden. Zusätzlich lassen sich auch Leistungsspitzen glätten und somit sind auch Autarkiegrade bis zu 80% realistisch.
+                                    In Kombination mit einem geeignet großen Batteriespeicher kann der über den Tag produzierte Strom auch über Nacht zum Eigenverbrauch genutzt werden. Zusätzlich lassen sich auch Leistungsspitzen glätten wodurch eine Abdeckung des Eigenbedarfs von bis zu 80% erreicht werden kann.
                                 </p>
                             </div>
 
@@ -54,7 +54,7 @@ const Privat: NextPage = () => {
                             <div className='flex flex-col space-y-5 sm:space-y-10 items-center text-center'>
                                 <p className='text-4xl xl:text-5xl text-[#215250] max-w-2xl text-left sm:text-center'>PV-Anlage in Kombination mit Batteriespeicher und Elektrofahrzeug</p>
                                 <p className='max-w-xl text-justify sm:text-center'>
-                                    Ein größtmöglicher Eigenverbrauch lässt sich bequem mit der Nutzung des eigenen Solarstroms für das Laden eines E-Fahrzeugs erreichen. Dabei kann das Laden mit einer intelligenten Wallbox nach Leistung der PV-Anlage, und damit nach der Sonne,  gerichtet werden, um so viel Sonnenstrom wir möglich und so wenig teuren Strom aus dem Netz zu nutzen.
+                                    Das regelmäßige Laden von Elektrofahrzeugen mit dem eigenen Sonnenstrom schafft ein ganzheitliches und nachhaltiges System. Jedoch sollte der zusätzliche Strombedarf in die Kaufentscheidung von Batteriespeichern mit einbezogen werden, um eine ideale Nutzung des produzierten Stroms sicherzustellen.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Privat: NextPage = () => {
                         <p className='text-justify text-sm sm:text-base'>
                             Durch steigende Rohstoffpreise und dem geplanten Auslaufen von ölbetrieben Heizungen werden Wärmepumpensysteme in Kombination mit erneuerbarem Strom langfristig zur Standardlösung für Gebäudeheizsysteme. Auch in den warmen Monaten werden in Europa Klimageräte immer beliebter.
                             Vor allem der Betrieb einer Klimaanlage mit dem eigenen Solarstrom lohnt sich, da sich die Leistungsspitze der PV-Anlage und die Hauptbetriebszeit des Klimageräts zeitlich decken und so der produzierte Strom direkt genutzt werden kann.
-                            Auch eine Wärmepumpe kann in den Wintermonaten durch die PV-Anlage unterstützt werden. Da eine Solaranlage aber nur ca. 30% ihrer Stromerzeugung in den Wintermonaten generiert, kann eine Wärmepumpe realistischer Weise nicht komplett durch eine PV-Anlage betrieben werden. Dennoch sparen Sie bares Geld, da Sie durch eine Anlage den  Bezug von teurem Netzstrom minimieren können.
+                            Auch eine Wärmepumpe kann in den Wintermonaten durch die PV-Anlage unterstützt werden. Da eine Solaranlage aber nur ca. 30% ihrer Stromerzeugung in den Wintermonaten generiert, kann eine Wärmepumpe realistischer Weise nicht komplett durch eine PV-Anlage betrieben werden. Dennoch sparen Sie bares Geld, da Sie durch eine Anlage den Bezug von teurem Netzstrom minimieren können.
                         </p>
                     </div>
 
@@ -82,7 +82,7 @@ const Privat: NextPage = () => {
                         <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Autarkie und Notstromversorgung</p>
                         <p className='text-justify text-sm sm:text-base'>
                             Autarkie und Unabhängigkeit in der Stromversorgung werden für viele unserer Kunden ein immer wichtigerer Faktor. Dabei spielt die PV-Anlage eine zentrale Rolle, da sie die maßgebliche Stromertragsquelle darstellt und eine Netzbetreiber-unabhängige Stromversorgung unterstützt. Mit Batteriespeicher können bereits heute Autarkiegrade bis zu 80% erreicht werden, was bedeutet, das bis zu 80% des genutzten Strom aus der Photovoltaikanlage stammt.
-                            Generell gilt, dass bei einem festgelegten Stromverbrauch, der Autarkiegrad zum Großteil durch die Anlagen- und Batteriespeichergröße bestimmt wird. Allerdings ist dabei die Wirtschaftlichkeit zu beachten, da eine Verdoppelung der Speicherkapazität nicht gleich ein Verdoppelung der Autarkie bedeutet. Wir helfen Ihnen dabei, alle individuellen Faktoren Ihres Verbrauchs und der örtlichen Gegebenheiten in Ihre Entscheidung mit einfließen zu lassen.
+                            Generell gilt, dass bei einem festgelegten Stromverbrauch, der Autarkiegrad zum Großteil durch die Anlagen- und Batteriespeichergröße bestimmt wird. Allerdings ist dabei die Wirtschaftlichkeit zu beachten, da eine Verdoppelung der Speicherkapazität nicht gleich ein Verdoppelung des Autarkiegrades bedeutet. Wir helfen Ihnen dabei, alle individuellen Faktoren Ihres Verbrauchs und der örtlichen Gegebenheiten in Ihre Entscheidung mit einfließen zu lassen.
                         </p>
                     </div>
                 </div>

@@ -15,16 +15,16 @@ const Gewerbe: NextPage = () => {
                 <div id="first_section" className={`w-full flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 py-20 px-2 sm:px-10 text-justify text-lg items-center max-w-screen-2xl`}>
 
                     <p className='w-full lg:w-1/2 px-5'>
-                        Mit einer PV Anlage auf Ihren gewerblich Bauten können Sie Ihren selbst produzierten Strom direkt nutzen und können somit erhebliche Stromkosten sparen. Sie sollten keine geeignete Dachfläche ungenutzte lassen, denn diese bieten Ihnen jeden Tag das Potenzial, Stromkosten zu sparen, und das in einem Umfeld immer weiter steigender Preise. Die durchschnittlichen Stromkosten für Gewerbetreibende liegen bei deutlich über 23 Cent pro KWh, mit einer stark steigenden Tendenz. Mit einer größeren Photovoltaikanlage können Sie Strom bereits für 4-9 Cent pro KWh produzieren. Dieser kurze Vergleich macht deutlich, dass bis weit über die Hälfte der immer weiter steigenden Stromkosten durch eine PV Anlage eingespart werden können.<br />
+                        Mit einer PV Anlage auf Ihren gewerblich Bauten können Sie Ihren selbst produzierten Strom direkt nutzen und können somit erhebliche Stromkosten sparen. Sie sollten keine geeignete Dachfläche ungenutzte lassen, denn diese bieten Ihnen jeden Tag das Potenzial, Stromkosten zu sparen in einem Umfeld immer weiter steigender Preise. Die durchschnittlichen Stromkosten für Gewerbetreibende liegen bei deutlich über 23 Cent pro KWh, mit einer stark steigenden Tendenz. Mit einer größeren Photovoltaikanlage können Sie Strom bereits für 4-9 Cent pro KWh produzieren. Dieser kurze Vergleich macht deutlich, dass bis weit über die Hälfte der immer weiter steigenden Stromkosten durch eine PV Anlage eingespart werden können.<br />
                         <br />Der Eigenverbrauch von Solarstrom wird in der Kombination einem Batteriespeicher immer interessanter, da hier deutlich höhere Autarkiegrade erreicht werden können, was bedeutet, dass weniger des teuren Netzstroms bezogen werden muss.
                     </p>
                     <p className='p-5 bg-gray-100 rounded-xl w-full lg:w-1/2'>
                         <b>Bei uns erhalten Sie die volle Unterstützung bei Ihrem Solarprojekt! Jede gewerbliche Anlage ist individuell und folgende Punkte werden wir zusammen mit Ihnen ausarbeiten:</b><br />
 
                         <br /><b>Ihre tatsächlichen Stromkosten:</b>
-                        <br />Mit dieser Angabe können wir dann feststellen, wie hoch der Eigenversorgungsgrad bei Ihnen bestenfalls sein kann.<br />
+                        <br />Mit dieser Angabe können wir feststellen, wie hoch der Eigenversorgungsgrad bei Ihnen bestenfalls sein kann.<br />
                         <br /><b>Ihr Lastprofil:</b>
-                        <br />Wir analysieren, wann Ihre Hauptverbrauchszeiten sind und erstellen eine Lastenkurve<br />
+                        <br />Wir analysieren, wann Ihre Hauptverbrauchszeiten sind und erstellen eine Lastenkurve.<br />
                         <br /><b>Anlagengröße und Ausrichtung:</b>
                         <br />Wir legen zusammen mit Ihnen fest, wie groß die Solaranlage werden sollte und wählen den besten Montageort für die Solarmodule, Wechelrichtereinheiten und Speicher aus. Je nach Lastprofil ist zu überlegen, ob eine reine Südausrichtung oder eine Ost-West-Ausrichtung sinnvoller ist, z.B. wenn sie vor allem morgens und abends einen hohen Verbrauch haben.<br />
                     </p>
@@ -42,7 +42,7 @@ const Gewerbe: NextPage = () => {
                             <br />Eine Photovoltaikanlage über einem Parkplatz bietet gleich mehrere Vorteile, die durch die gleiche Lösungen erreicht werden. Zunächst kann die durch den Parkplatz versiegelte Fläche genutzt werden, um nachhaltig Strom mit der Photovoltaikanlage zu produzieren. Durch die steigende Nachfrage an Ladestationen für Elektrofahrzeuge, kann der somit erzeugte Storm direkt für das Laden von E-Fahrzeugen genutzt werden. Zusätzlich bietet eine Anlage weiteren Schutz vor Regen und Sonne, für die darunter abgestellten Fahrzeuge.<br />
                             <br /><b>Besondere Regelung in Baden-Württemberg: </b>
                             <br />Im §8b des Klimaschutzgesetzes wurde eine PV-Pflicht für neue Parkplätze ab 2022 geregelt.
-                            In Baden-Württemberg ist somit seit dem 1. Januar 2022 jeder, der einen neuen offenen Parkplatz baut, dazu verpflichtet, eine Photovoltaik-Anlage zu installieren.<br />
+                            In Baden-Württemberg ist somit seit dem 1. Januar 2022 jeder der einen neuen offenen Parkplatz baut, dazu verpflichtet, eine Photovoltaik-Anlage zu installieren.<br />
                             <br /><b>Wir unterstützen Sie bei der Errichtung eine Photovoltaikanlage über offenen Parkplätzen!</b>
                         </p>
                     </div>
