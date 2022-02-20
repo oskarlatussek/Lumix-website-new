@@ -41,7 +41,7 @@ const Gewerbe: NextPage = () => {
                             <b>Parkplätze bieten einen erstklassigen Standort für Photovoltaikanlagen, da so eine ohnehin schon versiegelte Fläche zur nachhaltigen Stromerzeugung genutzt werden kann.</b><br />
                             <br />Eine Photovoltaikanlage über einem Parkplatz bietet gleich mehrere Vorteile, die durch die gleiche Lösungen erreicht werden. Zunächst kann die durch den Parkplatz versiegelte Fläche genutzt werden, um nachhaltig Strom mit der Photovoltaikanlage zu produzieren. Durch die steigende Nachfrage an Ladestationen für Elektrofahrzeuge, kann der somit erzeugte Storm direkt für das Laden von E-Fahrzeugen genutzt werden. Zusätzlich bietet eine Anlage weiteren Schutz vor Regen und Sonne, für die darunter abgestellten Fahrzeuge.<br />
                             <br /><b>Besondere Regelung in Baden-Württemberg: </b>
-                            <br />Im §8b des Klimaschutzgesetzes wurde eine PV-Pflicht für neue Parkplätze ab 2022 geregelt.
+                            <br />Im §8b des Klimaschutzgesetzes wurde eine PV-Pflicht für neue Parkplätze ab 2022 geregelt.
                             In Baden-Württemberg ist somit seit dem 1. Januar 2022 jeder, der einen neuen offenen Parkplatz baut, dazu verpflichtet, eine Photovoltaik-Anlage zu installieren.<br />
                             <br /><b>Wir unterstützen Sie bei der Errichtung eine Photovoltaikanlage über offenen Parkplätzen!</b>
                         </p>

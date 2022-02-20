@@ -10,7 +10,8 @@ const Contact = () => {
     const [message, setMessage] = useState("")
     const [processing, setProcessing] = useState(false)
 
-    const handleSumbmit = async () => {
+    const handleSumbmit = async (e: any) => {
+        e.preventDefault();
         setProcessing(true)
 
         try {
