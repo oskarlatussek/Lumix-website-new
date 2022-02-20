@@ -9,7 +9,7 @@ const Privat: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image='/Fotos/DSCF6857.JPG' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig Flexibilität seinen eigenen Energieverbrauch zu managen.' />
+                <Hero image='/Fotos/compressed/DSCF6857.JPG' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig Flexibilität seinen eigenen Energieverbrauch zu managen.' />
 
 
                 <div id="first_section" className={`w-full flex flex-col items-center space-y-44 pt-44 px-2 sm:px-10 max-w-screen-2xl`}>

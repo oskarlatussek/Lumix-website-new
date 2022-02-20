@@ -53,11 +53,11 @@ const Angebot: NextPage = () => {
                         </div>
                     </div>
 
-                    <ImageSection image='/Fotos/DSCF6764 Kopie.JPG' />
+                    <ImageSection image='/Fotos/compressed/DSCF6764 Kopie.JPG' />
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Fotos/DSCF7235.JPG' />
+                    <ImageSection image='/Fotos/compressed/DSCF7235.JPG' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Batteriesysteme</h2>
@@ -85,11 +85,11 @@ const Angebot: NextPage = () => {
 
                     </div>
 
-                    <ImageSection image='/Fotos/DSCF6730.JPG' />
+                    <ImageSection image='/Fotos/compressed/DSCF6730.JPG' />
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Fotos/DSCF7220 Kopie.JPG' />
+                    <ImageSection image='/Fotos/compressed/DSCF7220 Kopie.JPG' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Wallboxen</h2>
