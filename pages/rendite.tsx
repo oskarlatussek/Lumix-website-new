@@ -10,7 +10,7 @@ const Rendite: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image='/Fotos/compressed/DSCF6789.JPG' title='Lohnt sich PV?' text='Die Solartechnologie fasziniert durch Ihre Wirtschaftlichkeit und Umweltverträglichkeit.' />
+                <Hero image='/Fotos/compressed/DSCF6789.jpg' title='Lohnt sich PV?' text='Die Solartechnologie fasziniert durch Ihre Wirtschaftlichkeit und Umweltverträglichkeit.' />
 
                 <div className='flex flex-col justify-center space-y-10 py-20 px-2 sm:px-10 w-full max-w-screen-2xl'>
 

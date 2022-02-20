@@ -12,10 +12,10 @@ const Home: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Fotos/compressed/DSCF6833.JPG' title='Solaranlagen' text='Mannheim | Rhein-Neckar | Pfalz'/>
+                <Hero image='/Fotos/compressed/DSCF6833.jpg' title='Solaranlagen' text='Mannheim | Rhein-Neckar | Pfalz'/>
                 <Process />
 
-                <Subpage title='Private Anlagen' text='Mit einer Photovoltaikanlage können Sie nicht nur den Wert Ihres Gebäudes steigern, sondern auch Ihren eigenen Strom produzieren und sich dadurch von steigenden Stromkosten unabhängig machen. Wir zeigen Ihnen welche Anlagenoptionen sich bei Ihnen rentieren und auf welche Faktoren Sie achten müssen.' image='/Fotos/compressed/DSCF6857.JPG' link="/photovoltaik" left />
+                <Subpage title='Private Anlagen' text='Mit einer Photovoltaikanlage können Sie nicht nur den Wert Ihres Gebäudes steigern, sondern auch Ihren eigenen Strom produzieren und sich dadurch von steigenden Stromkosten unabhängig machen. Wir zeigen Ihnen welche Anlagenoptionen sich bei Ihnen rentieren und auf welche Faktoren Sie achten müssen.' image='/Fotos/compressed/DSCF6857.jpg' link="/photovoltaik" left />
 
                 <div className="flex items-center w-full justify-center py-10">
                     <p className="text-2xl sm:text-4xl lg:text-5xl leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">Vertrieb und Montage von modernsten <span className="text-yellow-400 font-semibold">Solarmodulen</span> und <span className="text-yellow-400 font-semibold">Energiespeichersystemen</span>, durch kundennahe, individuelle und ganzheitliche Projektplanung zugute der Energiewende.</p>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
                 <Service />
 
-                <Subpage title='Lohnt sich PV?' text='Eine Photovoltaikanlage lohnt sich fast immer. Finanziell, aber auch für die Umwelt. Wir zeigen Ihnen, welche Faktoren die Rendite einer Anlage maßgeblich beeinflussen und wie man einen möglichst großen Nutzen aus Förderungen und steuerlichen Aspekten ziehen kann.' image='/Fotos/compressed/DSCF6789.JPG' link='/rendite' />
+                <Subpage title='Lohnt sich PV?' text='Eine Photovoltaikanlage lohnt sich fast immer. Finanziell, aber auch für die Umwelt. Wir zeigen Ihnen, welche Faktoren die Rendite einer Anlage maßgeblich beeinflussen und wie man einen möglichst großen Nutzen aus Förderungen und steuerlichen Aspekten ziehen kann.' image='/Fotos/compressed/DSCF6789.jpg' link='/rendite' />
 
                 {/* <FAQ /> */}
                 <Contact />
