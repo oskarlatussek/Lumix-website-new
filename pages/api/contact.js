@@ -23,8 +23,8 @@ async function main(name, email, phone, message) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: "info@lumix.solar", // generated ethereal user
-      pass: "JMOsolar_2022", // generated ethereal password
+      user: process.env.MAIL_USER, // generated ethereal user
+      pass: process.env.MAIL_PWD, // generated ethereal password
     },
   });
 

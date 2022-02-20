@@ -32,7 +32,7 @@ const Gewerbe: NextPage = () => {
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Bilder:Logos/pexels-kindel-media-9799756 Kopie.jpg' />
+                    <ImageSection image='/Images/pexels-kindel-media-9799756 Kopie.jpg' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Solar für Parkplätze und Carports</h2>
