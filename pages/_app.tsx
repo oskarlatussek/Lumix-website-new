@@ -1,22 +1,27 @@
-import '../styles/globals.css'
+
 import type { AppProps } from 'next/app'
-import { Footer, Toolbar } from '../components'
 import Head from 'next/head'
 
+import { Footer, Toolbar } from '../components'
+import '../styles/globals.css'
+
+
 function MyApp({ Component, pageProps }: AppProps) {
+
   return (
     <>
       <Head>
-        <title>Lumix Solar | Solaranalgen & Batteriespeicher</title>
-        <meta name="description" content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und in der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage." />
+        <title>Lumix Solar | Solaranlagen & Batteriespeicher</title>
+        <meta name="description" content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage." />
         <meta name="robots" content="noodp,noydir" />
       </Head>
-      <Toolbar />
-      <main>
+      <Toolbar dark />
+      <main className=''>
         <Component {...pageProps} />
       </main>
       <Footer />
     </>
   )
 }
+
 export default MyApp

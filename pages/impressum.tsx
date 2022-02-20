@@ -1,14 +1,17 @@
 import React from "react";
 import { NextPage } from "next";
 
+import { Toolbar } from "../components";
+
 
 const ImpressumPage: NextPage = () => {
     return (
         <>
+            <Toolbar />
             <div className="flex flex-col p-5 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
-                <h1 className="text-5xl md:text-9xl mb-10 sm:mb-20 text-yellow-400">Impressum</h1>
+                <h1 className="mb-10 sm:mb-20 font-normal">Impressum</h1>
 
-                <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GbR</h4>
+                <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GmbH i.G.</h4>
                 <p>Strahlenburgstraße 27<br /> 68219 Mannheim <br /> Deutschland</p>
 
                 <h5 className="text-xl font-medium mb-1 mt-3">Geschäftsführung</h5>

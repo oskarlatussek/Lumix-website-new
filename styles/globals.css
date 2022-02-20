@@ -27,3 +27,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  @apply text-yellow-400 text-5xl sm:text-7xl lg:text-8xl xl:text-9xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-bold
+}
+
+h2 {
+  @apply text-4xl lg:text-5xl xl:text-6xl text-[#215250] font-medium leading-tight
+}
+
+
+.image-section-left {
+  @apply relative w-full flex flex-col lg:flex-row items-center lg:items-stretch justify-center space-x-0 lg:space-x-10 py-20 lg:py-32 px-5 sm:px-10 min-h-full max-w-screen-2xl
+}
+
+.image-section-right {
+  @apply w-full flex flex-col-reverse lg:flex-row items-center lg:items-stretch justify-center space-x-0 lg:space-x-10 py-20 lg:py-32 px-5 sm:px-10 min-h-full max-w-screen-2xl
+}

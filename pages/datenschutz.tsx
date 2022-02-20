@@ -1,12 +1,15 @@
 import React from "react";
 import { NextPage } from "next";
 
+import { Toolbar } from "../components";
+
 
 const DatenschutzPage: NextPage = () => {
     return (
         <>
+            <Toolbar />
             <div className="flex flex-col p-5 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
-                <h1 className="text-5xl md:text-9xl mb-10 sm:mb-20 text-yellow-400">Datenschutz</h1>
+                <h1 className="mb-10 sm:mb-20 font-normal">Datenschutz</h1>
 
                 <p className="">
                     Der Schutz Ihrer Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten in Übereinstimmung mit den anwendbaren Rechtsvorschriften zum Schutz personenbezogener Daten, insbesondere der EU-Datenschutzgrundverordnung (im Folgenden: EU-DSGVO) und den für unser Unternehmen geltenden deutschen Ausführungsvorschriften.
@@ -54,7 +57,7 @@ const DatenschutzPage: NextPage = () => {
                     Wir verarbeiten Ihre personenbezogenen Daten auch, um Ihnen (personalisierte) Marketingmitteilungen und Benachrichtigungen zusenden zu können. Solche Mitteilungen umfassen die jüngsten Neuigkeiten, Rabattaktionen und Updates zu neuen Restaurants (per E-Mail oder Push- Benachrichtigung) unabhängig von dem Format, das wir für die Verteilung dieser Art von Mitteilungen verwenden (einschließlich E-Mail oder Push-Benachrichtigung). Die Rechtsgrundlage für diese Verarbeitung von personenbezogenen Daten, wie in der DSGVO definiert, besteht darin, dass Sie bei der Aufgabe einer Bestellung Ihre Einwilligung erteilt haben. Wenn Sie Ihre Präferenzen im Hinblick auf den Empfang solcher Mitteilungen und Benachrichtigungen ändern möchten, können Sie diese mit dem Link in der fraglichen Mitteilung abbestellen.
                     <br />Wir verarbeiten die folgenden personenbezogenen Daten für Marketingzwecke:
                     <br />• Name
-                    <br />• Kontaktdaten 
+                    <br />• Kontaktdaten
                     <h6 className="text-lg font-medium mt-2">3.4 Cookies</h6>
                     Schließlich verarbeiten wir auch personenbezogene Daten, die Sie indirekt an uns übermitteln. Lumix verwendet Cookies für Funktions-, Analyse- und Marketingzwecke. Die Funktions-Cookies sind für die Nutzung der Webseite erforderlich. Cookies erfassen die folgenden personenbezogenen Daten:
                     <br />• Standortdaten
