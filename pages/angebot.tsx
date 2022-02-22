@@ -57,9 +57,28 @@ const Angebot: NextPage = () => {
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Fotos/compressed/DSCF7235.jpg' />
+                    <ImageSection image='/Images/chuttersnap-xJLsHl0hIik-unsplash.jpg' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
+                        <h2>Wallboxen</h2>
+
+                        <p className='text-justify text-base lg:text-lg'>
+                            Neben den Hauptanlagekomponenten, wie den Modulen, Wechselrichtern und Batteriespeichern haben wir eine große Palette an Bauteilen und Einheiten rund um die Elektrifizierung Ihres Eigenheims oder Ihrer Betriebsstätte. Die KfW440 Förderung „Ladestationen für Elektroautos – Wohngebäude“ wurde ab dem 27.10.2021 ausgesetzt, allerdings sind durch die Förderungen KfW 439 und KfW 441 gewerbliche sowie der kommunale Ladeinfrastruktur weiterhin förderfähig. Wir bieten eine große Palette an förderfähigen Wallboxen für gewerbliche und kommunale Dimensionen und natürlich weiterhin Einheiten für den privaten Gebrauch in Wohngebäuden.
+                        </p>
+
+                        <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
+                            <img src="/Logos/Wallboxen/Download (18).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wallboxen/Download (19).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wallboxen/Download (20).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/Download (8).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/Download (9).png" className='w-20 xl:w-32 mx-5 my-2' />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className={`image-section-right`}>
+                    <div className='flex flex-col space-y-5 max-w-3xl text-left lg:text-right self-center'>
                         <h2>Batteriesysteme</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
@@ -73,38 +92,19 @@ const Angebot: NextPage = () => {
                             <img src="/Logos/Batteriespeicher/Download (17).png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
                     </div>
+
+                    <ImageSection image='/Fotos/compressed/DSCF7235.jpg' />
                 </div>
 
-                <div className={`image-section-right`}>
-                    <div className='flex flex-col space-y-5 max-w-3xl text-left lg:text-right self-center'>
+                <div className={`image-section-left`}>
+                    <ImageSection image='/Fotos/compressed/DSCF6730.jpg' />
+
+                    <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Montagegestelle</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
                             Das Montagegestell dient zur Befestigung der Module. Bei Anlagenlaufzeiten von 30 Jahren und mehr ist nur beste Qualität aus korrosionsfestem Material und eine hochwertige Konstruktion geeignet, um die Sicherheit der Anlage über die komplette Lebensdauer zu gewährleisten - allen Witterungsbedingungen zum Trotz. Um Dach und Anlage optimal aufeinander abzustimmen, arbeiten wir mit mehreren Herstellern zusammen, die unterschiedliche Systemformate anbieten. Dank unserer Partner im Bereich Metallbau und unsere internen Kompetenzen können wir auch Sonderlösungen realisieren.
                         </p>
-
-                    </div>
-
-                    <ImageSection image='/Fotos/compressed/DSCF6730.jpg' />
-                </div>
-
-                <div className={`image-section-left`}>
-                    <ImageSection image='/Fotos/compressed/DSCF7220 Kopie.jpg' />
-
-                    <div className='flex flex-col space-y-5 max-w-3xl self-center'>
-                        <h2>Wallboxen</h2>
-
-                        <p className='text-justify text-base lg:text-lg'>
-                            Der Batteriespeicher erhöht den Eigenverbrauch Ihres Anlagesystems enorm und wird mit zunehmend ansteigendes Strompreisen immer rentabler. Da das Batteriesystem einer größten Investitionspunkte eines Anlagesystems ist, ist das Preisleistungsverhältnis besonders wichtig. Wir arbeiten mit namenhaften Herstellern zusammen, die für Qualität und lange Haltedauer stehen.
-                        </p>
-
-                        <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
-                            <img src="/Logos/Wallboxen/Download (18).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wallboxen/Download (19).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wallboxen/Download (20).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (8).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (9).png" className='w-20 xl:w-32 mx-5 my-2' />
-                        </div>
 
                     </div>
                 </div>

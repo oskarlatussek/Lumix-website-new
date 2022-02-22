@@ -10,7 +10,7 @@ const Gewerbe: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image="/Images/nuno-marques-0GbrjL3vZF4-unsplash.jpg" title="Gewerbliche Anlagen" text="Neben privaten Anlagen planen und montieren wir auch gewerbliche Anlagen mit und ohne Batteriespeicher mit Leistungen bis zu 300 KWp." />
+                <Hero image="/Images/nuno-marques-0GbrjL3vZF4-unsplash.jpg" title="Gewerbliche Anlagen" text="Neben privaten Anlagen planen und montieren wir auch gewerbliche Anlagen mit und ohne Batteriespeicher mit Leistungen auch über 300 KWp." />
 
                 <div id="first_section" className={`w-full flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 py-20 px-2 sm:px-10 text-justify text-lg items-center max-w-screen-2xl`}>
 
