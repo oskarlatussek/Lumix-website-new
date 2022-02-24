@@ -15,18 +15,18 @@ const Gewerbe: NextPage = () => {
                 <div id="first_section" className={`w-full flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 py-20 px-2 sm:px-10 text-justify text-lg items-center max-w-screen-2xl`}>
 
                     <p className='w-full lg:w-1/2 px-5'>
-                        Mit einer PV Anlage auf Ihren gewerblich Bauten können Sie Ihren selbst produzierten Strom direkt nutzen und können somit erhebliche Stromkosten sparen. Sie sollten keine geeignete Dachfläche ungenutzte lassen, denn diese bieten Ihnen jeden Tag das Potenzial, Stromkosten zu sparen in einem Umfeld immer weiter steigender Preise. Die durchschnittlichen Stromkosten für Gewerbetreibende liegen bei deutlich über 23 Cent pro KWh, mit einer stark steigenden Tendenz. Mit einer größeren Photovoltaikanlage können Sie Strom bereits für 4-9 Cent pro KWh produzieren. Dieser kurze Vergleich macht deutlich, dass bis weit über die Hälfte der immer weiter steigenden Stromkosten durch eine PV Anlage eingespart werden können.<br />
-                        <br />Der Eigenverbrauch von Solarstrom wird in der Kombination einem Batteriespeicher immer interessanter, da hier deutlich höhere Autarkiegrade erreicht werden können, was bedeutet, dass weniger des teuren Netzstroms bezogen werden muss.
+                        Mit einer PV Anlage auf Ihren gewerblich Bauten können Sie Ihren selbst produzierten Strom direkt nutzen, womit erhebliche Stromkostenersparnisse einhergehen. Aus diesem Grunde sollten Sie keine potenzielle Dachflächen ungenutzt lassen und sich unabhängig von steigenden Strompreisen machen. Die durchschnittlichen Stromkosten für Gewerbetreibende liegen bei deutlich über 23 Cent pro KWh, mit einer stark steigenden Tendenz. Mit einer größeren Photovoltaikanlage können Sie Strom bereits für 4-9 Cent pro KWh produzieren. Dieser Vergleich macht deutlich, dass weit über die Hälfte der Stromkosten durch eine moderne Solaranlage eingespart werden können.<br />
+                        <br />Ein intelligenter Batteriespeicher macht für die allermeisten gewerblichen Kunden zusätzlich Sinn, da dadurch natürliche Über- und Unterkapazitäten von Sonnenstrom ausgeglichen werden können und der Bezug von teurem Netzstrom um ein Vielfaches minimiert wird.
                     </p>
                     <p className='p-5 bg-gray-100 rounded-xl w-full lg:w-1/2'>
-                        <b>Bei uns erhalten Sie die volle Unterstützung bei Ihrem Solarprojekt! Jede gewerbliche Anlage ist individuell und folgende Punkte werden wir zusammen mit Ihnen ausarbeiten:</b><br />
+                        <b>Lumix bietet Ihrem Unternehmen eine kompetente und ganzheitliche Planung und Umsetzung für Ihr Solarprojekt! Dabei betrachten wir folgende Punkte, um Ihnen ein wirtschaftlich sinnvolles Produkt entsprechend Ihrer individuellen gewerblichen Situation anzubieten:</b><br />
 
-                        <br /><b>Ihre tatsächlichen Stromkosten:</b>
-                        <br />Mit dieser Angabe können wir feststellen, wie hoch der Eigenversorgungsgrad bei Ihnen bestenfalls sein kann.<br />
-                        <br /><b>Ihr Lastprofil:</b>
-                        <br />Wir analysieren, wann Ihre Hauptverbrauchszeiten sind und erstellen eine Lastenkurve.<br />
-                        <br /><b>Anlagengröße und Ausrichtung:</b>
-                        <br />Wir legen zusammen mit Ihnen fest, wie groß die Solaranlage werden sollte und wählen den besten Montageort für die Solarmodule, Wechelrichtereinheiten und Speicher aus. Je nach Lastprofil ist zu überlegen, ob eine reine Südausrichtung oder eine Ost-West-Ausrichtung sinnvoller ist, z.B. wenn sie vor allem morgens und abends einen hohen Verbrauch haben.<br />
+                        <br /><b>Tatsächliche Stromkosten</b>
+                        <br />Mit dieser Angabe können wir einen bestmöglichen Eigenversorgungsanteil durch Ihre neue Solaranlage berechnen.<br />
+                        <br /><b>Lastprofil</b>
+                        <br />Wir analysieren, wann Ihre Hauptverbrauchszeiten sind und erstellen auf Grundlage dessen eine Lastenkurve.<br />
+                        <br /><b>Anlagengröße und Ausrichtung</b>
+                        <br />Wir treffen gemeinsam mit Ihnen die Entscheidung über eine ideale Anlagengröße für größtmögliche Wirtschaftlichkeit und Benutzerfreundlichkeit für Wechselrichtereinheiten und Batteriespeicher. Außerdem empfehlen wir Ihnen die sinnvollste Ausrichtung Ihrer Anlage, um eine größtmögliche Auslastung entsprechend Ihrer Hauptverbrauchszeiten Rechnung zu tragen.<br />
                     </p>
 
                 </div>
@@ -39,7 +39,7 @@ const Gewerbe: NextPage = () => {
 
                         <p className='text-justify'>
                             <b>Parkplätze bieten einen erstklassigen Standort für Photovoltaikanlagen, da so eine ohnehin schon versiegelte Fläche zur nachhaltigen Stromerzeugung genutzt werden kann.</b><br />
-                            <br />Eine Photovoltaikanlage über einem Parkplatz bietet gleich mehrere Vorteile, die durch die gleiche Lösungen erreicht werden. Zunächst kann die durch den Parkplatz versiegelte Fläche genutzt werden, um nachhaltig Strom mit der Photovoltaikanlage zu produzieren. Durch die steigende Nachfrage an Ladestationen für Elektrofahrzeuge, kann der somit erzeugte Storm direkt für das Laden von E-Fahrzeugen genutzt werden. Zusätzlich bietet eine Anlage weiteren Schutz vor Regen und Sonne, für die darunter abgestellten Fahrzeuge.<br />
+                            <br />Eine Photovoltaikanlage über einem Parkplatz bietet gleich mehrere Vorteile. Zunächst kann die durch den Parkplatz versiegelte Fläche genutzt werden, um nachhaltig Strom mit der Solaranlage zu produzieren. Durch die steigende Nachfrage an Ladestationen für Elektrofahrzeuge, kann der somit erzeugte Storm direkt für das Laden von E-Fahrzeugen genutzt werden. Ein weiterer praktischer Nebeneffekt ist der Schutz vor Sonne und Regen für darunter abgestellte Fahrzeuge.<br />
                             <br /><b>Besondere Regelung in Baden-Württemberg: </b>
                             <br />Im §8b des Klimaschutzgesetzes wurde eine PV-Pflicht für neue Parkplätze ab 2022 geregelt.
                             In Baden-Württemberg ist somit seit dem 1. Januar 2022 jeder der einen neuen offenen Parkplatz baut, dazu verpflichtet, eine Photovoltaik-Anlage zu installieren.<br />
@@ -57,10 +57,10 @@ const Gewerbe: NextPage = () => {
 
                             <br />Photovoltaikanlagen auf Freiflächen und auf landwirtschaftlich genutzten Flächen haben das Potenzial, der Energiewende ein neues Stromerzeugungsprofil hinzufügen. Durch die neue Regelungen die für das  EEG-Förderung ab Ostern in Kraft treten sollen, werden PV-Anlagen auf landwirtschaftlichen Flächen durch das EEG gefördert werden.<br />
 
-                            <br />Agri-PV bietet vielseitige Vorteile und ermöglicht die Nutzung von Ackerflächen für die Energiegewinnung. Dabei werden durch eine senkrechte Ost-West-Ausrichtung der Modulreihen die Lastspritzen in den Morgen- und Abendstunden erreicht. Dabei werden bifaciale PV-Module senkrecht in Reihen auf Stahlgestelle montiert. Diese bestehen, ähnlich wie bei einer herkömmlichen Zaunanlage, aus Pfosten und Riegeln.
+                            <br />Agri-PV bietet vielseitige Vorteile und ermöglicht die Nutzung von Ackerflächen für die Energiegewinnung. Dabei werden durch eine senkrechte Ost-West-Ausrichtung der Modulreihen die Lastspritzen in den Morgen- und Abendstunden erreicht. Dabei werden bifaciale Solarmodule senkrecht in Reihen auf Stahlgestelle montiert. Diese bestehen, ähnlich wie bei einer herkömmlichen Zaunanlage, aus Pfosten und Riegeln.
                             Die Reihenzwischenräume sind variabel mit mindestens 8 Meter Abstand, um Verschattungen vorzubeugen. Dies ermöglicht vielfältige landwirtschaftliche Nutzungskonzepte, mit bis zu 90% der Solarparkfläche, die weiterhin durch die Landwirtschaft genutzt werden kann. Es bieten sich unterschiedlichste Nutzungsmodelle der Grünlandfläche an, z.B.  als Mähwiesen, für die Weidewirtschaft oder als Ackerflächen.<br />
 
-                            <br /><b>Wir unterstützen Sie gerne in der Gestaltung und Umsetzung einer Freiland-Photovoltaikanlage! Wir planen Ihre Anlage nach Ihren Bedürfnissen und kümmern uns um Material, Montage und Inbetriebnahme.</b>
+                            <br /><b>Wir unterstützen Sie gerne in der Gestaltung und Umsetzung einer Freiland-Photovoltaikanlage! Dafür bieten wir Ihnen den kompletten Service entsprechend Ihrer Bedürfnisse von Planung, Montage bis hin zur Inbetriebnahme.</b>
                         </p>
                     </div>
 

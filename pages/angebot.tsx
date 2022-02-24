@@ -10,7 +10,7 @@ const Angebot: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Images/markus-spiske-pwFr_1SUXRo-unsplash.jpg' title='Unser Angebot' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
+                <Hero image='/Images/solar-1.jpg' title='Unser Angebot' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
 
                 <div id="first_section" className={`image-section-left`}>
                     <ImageSection image='/Images/solar-3.jpg' />
@@ -19,7 +19,7 @@ const Angebot: NextPage = () => {
                         <h2>Solarmodule</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Die Solarmodule sind eine der entscheidenden Komponenten für den Ertrag Ihrer Anlage. Deshalb arbeiten wir ausschließlich mit namhaften Herstellern zusammen. Welches Modul für Ihre Gegebenheiten am besten geeignet ist, wägen wir sorgfältig ab und bieten es Ihnen entsprechend an.
+                            Effiziente und verlässliche Solarmodule sind essentiell für den maximalen Ertrag Ihrer Solaranlage. Deshalb arbeiten wir ausschließlich mit namhaften Herstellern zusammen. Welches Modul für Ihre Gegebenheiten am besten geeignet ist, bietet die Grundlage jeder unserer individuellen Kaufempfehlungen.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
@@ -40,7 +40,7 @@ const Angebot: NextPage = () => {
                         <h2>Wechselrichter</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich hochwertige Produkte ein. Mit Ihrer Solarstromanlage erhalten Sie einen optimal dimensionierten Wechselrichter, der ausgezeichnete Wirkungsgrade erreicht. Aber wir achten auch ganz besonders auf die bestmögliche Abstimmung zwischen den Modulen und Wechselrichtern jeder Anlage. Denn davon hängen Wirtschaftlichkeit und Effizienz entscheidend ab.
+                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich auf hochwertige Produkte. Mit Ihrer Solarstromanlage erhalten Sie einen optimal dimensionierten Wechselrichter, der ausgezeichnete Wirkungsgrade erreicht. Zusätzlich ist es unser Anspruch Ihnen einen optimal dimensionierten Wechselrichter anzubieten, denn davon hängen Wirtschaftlichkeit und Effizienz jeder Anlage entscheidend ab. 
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
@@ -82,7 +82,7 @@ const Angebot: NextPage = () => {
                         <h2>Batteriesysteme</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Der Batteriespeicher erhöht den Eigenverbrauch Ihres Anlagesystems enorm und wird mit zunehmend ansteigendes Strompreisen immer rentabler. Da das Batteriesystem einer größten Investitionspunkte eines Anlagesystems ist, ist das Preisleistungsverhältnis besonders wichtig. Wir arbeiten mit namenhaften Herstellern zusammen, die für Qualität und lange Haltedauer stehen.
+                            Der Batteriespeicher erhöht den Eigenverbrauch Ihres Anlagesystems enorm und wird mit zunehmend steigenden Strompreisen immer rentabler. Da das Batteriesystem einer größten Investitionspunkte eines Anlagesystems ist, ist das Preis-Leistungsverhältnis besonders wichtig. Daher arbeiten wir ausschließlich mit Namen haften Herstellern zusammen, die für Qualität und lange Haltedauer stehen.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
@@ -103,7 +103,7 @@ const Angebot: NextPage = () => {
                         <h2>Montagegestelle</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Das Montagegestell dient zur Befestigung der Module. Bei Anlagenlaufzeiten von 30 Jahren und mehr ist nur beste Qualität aus korrosionsfestem Material und eine hochwertige Konstruktion geeignet, um die Sicherheit der Anlage über die komplette Lebensdauer zu gewährleisten - allen Witterungsbedingungen zum Trotz. Um Dach und Anlage optimal aufeinander abzustimmen, arbeiten wir mit mehreren Herstellern zusammen, die unterschiedliche Systemformate anbieten. Dank unserer Partner im Bereich Metallbau und unsere internen Kompetenzen können wir auch Sonderlösungen realisieren.
+                            Das Montagegestell dient zur Befestigung der Module. Bei Anlagenlaufzeiten von 30 Jahren und mehr ist nur beste Qualität aus korrosionsfestem Material und eine hochwertige Konstruktion geeignet, um die Sicherheit der Anlage über die komplette Lebensdauer zu gewährleisten. Um Dach und Anlage optimal aufeinander abzustimmen, arbeiten wir mit mehreren Herstellern zusammen, die unterschiedliche Systemformate anbieten. Dank unserer Partner im Bereich Metallbau und unsere internen Kompetenzen können wir auch Sonderlösungen realisieren.
                         </p>
 
                     </div>

@@ -15,7 +15,7 @@ const Rendite: NextPage = () => {
                 <div className='flex flex-col justify-center space-y-10 py-20 px-2 sm:px-10 w-full max-w-screen-2xl'>
 
                     <div className={`w-full flex flex-col space-y-5 sm:space-y-10 max-w-4xl bg-gray-100 rounded-xl p-2 sm:p-5`}>
-                        <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Die Rendite hängt von vielen Faktoren ab</p>
+                        <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Von welchen Faktoren hängt die Rendite ab?</p>
                         <p className='text-justify text-sm sm:text-base'>
                             Eine Photovoltaikanlage lohnt sich fast immer. Allerdings gibt es mehrere Stellschrauben, welche die Rendite einer Anlage maßgeblich beeinflussen. Zunächst sind Grundvoraussetzungen wie verfügbare Dachflächen, der durchschnittliche Energiebedarf des Gebäudes und natürlich auch das zur Verfügung stehende Budget zu berücksichtigen. Hierbei gibt es oftmals nur wenige Anpassungsmöglichkeiten. Bei der Anlage wiederum gibt es eine Vielzahl von Möglichkeiten, um den finanziellen Ertrag bzw. die Ersparnis zu maximieren.
                         </p>
@@ -49,8 +49,7 @@ const Rendite: NextPage = () => {
                 <div className={`w-full flex flex-col items-center text-center space-y-5 py-20 px-5 sm:px-10`}>
                     <p className='text-3xl sm:text-4xl lg:text-5xl leading-tight sm:leading-tight lg:leading-tight text-[#215250]'>Die PV bei Steuern und Finanzamt</p>
                     <p className='max-w-4xl'>
-                        Viele unserer Kunden sind durch die verschiedenen steuerlichen Regelungen etwas verunsichert. Wobei es in Grunde nicht viel zu beachten gibt:
-                        In der Realität gibt Gerne helfen wir Ihnen einen klaren Blick auf die Thematik zu erlangen und zeigen, warum PV-Anlagen sogar helfen können, Steuern zu sparen!
+                        Viele unserer Kunden sind durch die verschiedenen steuerlichen Regelungen etwas verunsichert, wobei es in Grunde nicht viel zu beachten gibt. Gerne helfen wir Ihnen einen klaren Blick auf die Thematik zu erlangen und zeigen, warum PV-Anlagen sogar helfen können, Steuern zu sparen!
                     </p>
                 </div>
 
