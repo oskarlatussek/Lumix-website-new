@@ -11,8 +11,9 @@ const ImpressumPage: NextPage = () => {
             <div className="flex flex-col p-5 sm:p-10 w-full 2xl:max-w-screen-2xl mt-44">
                 <h1 className="mb-10 sm:mb-20 font-normal">Impressum</h1>
 
-                <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GmbH i.G.</h4>
+                <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GmbH</h4>
                 <p>Strahlenburgstraße 27<br /> 68219 Mannheim <br /> Deutschland</p>
+                <p className="pt-2">HRB 743111<br />Amtsgericht Mannheim</p>
 
                 <h5 className="text-xl font-medium mb-1 mt-3">Geschäftsführung</h5>
                 <p>Johannes Gerstlauer <br />Maximilian Mühlhause <br />Oskar Latussek</p>
