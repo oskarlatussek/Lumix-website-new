@@ -10,7 +10,7 @@ const Gewerbe: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image="/Images/nuno-marques-0GbrjL3vZF4-unsplash.jpg" title="Gewerbliche Anlagen" text="Neben privaten Anlagen planen und montieren wir auch gewerbliche Anlagen mit und ohne Batteriespeicher mit Leistungen auch über 300 KWp." />
+                <Hero image="/Images/gewerbe.webp" title="Gewerbliche Anlagen" text="Neben privaten Anlagen planen und montieren wir auch gewerbliche Anlagen mit und ohne Batteriespeicher mit Leistungen auch über 300 KWp." />
 
                 <div id="first_section" className={`w-full flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-10 lg:space-y-0 py-20 px-2 sm:px-10 text-justify text-lg items-center max-w-screen-2xl`}>
 
@@ -32,7 +32,7 @@ const Gewerbe: NextPage = () => {
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Images/pexels-kindel-media-9799756 Kopie.jpg' />
+                    <ImageSection image='/Images/parkplatz.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Solar für Parkplätze und Carports</h2>
@@ -64,7 +64,7 @@ const Gewerbe: NextPage = () => {
                         </p>
                     </div>
 
-                    <ImageSection image='/Images/thomas-coker-Vza4joUQGgY-unsplash.jpg' />
+                    <ImageSection image='/Images/agri.webp' />
                 </div>
 
                 <Contact />

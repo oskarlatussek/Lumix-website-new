@@ -10,10 +10,10 @@ const Angebot: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Images/solar-1.jpg' title='Unser Angebot' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
+                <Hero image='/Images/angebot.webp' title='Unser Angebot' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
 
                 <div id="first_section" className={`image-section-left`}>
-                    <ImageSection image='/Images/solar-3.jpg' />
+                    <ImageSection image='/Images/module.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Solarmodule</h2>
@@ -53,11 +53,11 @@ const Angebot: NextPage = () => {
                         </div>
                     </div>
 
-                    <ImageSection image='/Fotos/compressed/DSCF6764 Kopie.jpg' />
+                    <ImageSection image='/Images/Wechselrichter.webp' />
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Images/chuttersnap-xJLsHl0hIik-unsplash.jpg' />
+                    <ImageSection image='/Images/wallbox.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Wallboxen</h2>
@@ -93,11 +93,11 @@ const Angebot: NextPage = () => {
                         </div>
                     </div>
 
-                    <ImageSection image='/Fotos/compressed/DSCF7235.jpg' />
+                    <ImageSection image='/Images/batterie.webp' />
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Fotos/compressed/DSCF6730.jpg' />
+                    <ImageSection image='/Images/montage.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Montagegestelle</h2>

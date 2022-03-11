@@ -15,9 +15,9 @@ const Team: NextPage = () => {
                 </div>
 
                 <div className={`w-full flex flex-col lg:flex-row items-center justify-center space-x-0 lg:space-x-10 xl:space-x-16 space-y-10 lg:space-y-0 py-20 px-5 sm:px-10`}>
-                    <TeamCard name='Johannes Gerstlauer' text='Lumix steht für vorausschauende Beratung für Ihr Erfolgsprojekt.' img_src="/Fotos/compressed/DSCF6984 Kopie.jpg" />
-                    <TeamCard name='Maximilian Mühlhause' text='Lumix liefert Qualitätsprodukte die für Verlässlichkeit stehen.' img_src="/Fotos/compressed/DSCF6942.jpg" />
-                    <TeamCard name='Oskar Latussek' text='Lumix bietet zuverlässigen Service für jedes Ihrer Anliegen.' img_src="/Fotos/compressed/DSCF6902 Kopie.jpg" />
+                    <TeamCard name='Johannes Gerstlauer' text='Lumix steht für vorausschauende Beratung für Ihr Erfolgsprojekt.' img_src="/Images/johannes.webp" />
+                    <TeamCard name='Maximilian Mühlhause' text='Lumix liefert Qualitätsprodukte die für Verlässlichkeit stehen.' img_src="/Images/max.webp" />
+                    <TeamCard name='Oskar Latussek' text='Lumix bietet zuverlässigen Service für jedes Ihrer Anliegen.' img_src="/Images/oskar.webp" />
                 </div>
 
                 <div className="flex items-center w-full justify-center py-10 pb-32 max-w-screen-2xl">

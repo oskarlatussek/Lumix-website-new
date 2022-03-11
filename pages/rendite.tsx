@@ -10,7 +10,7 @@ const Rendite: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image='/Fotos/compressed/DSCF6789.jpg' title='Lohnt sich PV?' text='Die Solartechnologie fasziniert durch Ihre Wirtschaftlichkeit und Umweltverträglichkeit.' />
+                <Hero image='/Images/rendite.webp' title='Lohnt sich PV?' text='Die Solartechnologie fasziniert durch Ihre Wirtschaftlichkeit und Umweltverträglichkeit.' />
 
                 <div className='flex flex-col justify-center space-y-10 py-20 px-2 sm:px-10 w-full max-w-screen-2xl'>
 
@@ -21,7 +21,7 @@ const Rendite: NextPage = () => {
                         </p>
                     </div>
 
-                    <img src="/Graphiken Website/Strompreisentwicklung.svg" className='self-end w-full max-w-4xl' />
+                    <img src="/Graphiken/Strompreisentwicklung.svg" className='self-end w-full max-w-4xl' />
 
                     <div className={`w-full flex flex-col space-y-5 sm:space-y-10 max-w-4xl bg-gray-100 rounded-xl p-2 sm:p-5`}>
                         <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Wie trägt die EEG-Einspeisevergütung zur Rendite einer Anlage bei?</p>
@@ -32,7 +32,7 @@ const Rendite: NextPage = () => {
                         </p>
                     </div>
 
-                    <img src="/Graphiken Website/Eigenverbrauchsanteil.svg" className='self-end w-full max-w-4xl' />
+                    <img src="/Graphiken/Eigenverbrauchsanteil.svg" className='self-end w-full max-w-4xl' />
                 </div>
 
 

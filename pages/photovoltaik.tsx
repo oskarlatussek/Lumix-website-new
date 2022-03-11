@@ -9,13 +9,13 @@ const Privat: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center max-w-full">
-                <Hero image='/Fotos/compressed/DSCF6857.jpg' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig die Flexibilität seinen eigenen Energieverbrauch zu managen.' />
+                <Hero image='/Images/privat.webp' title='Solar für Zuhause' text='Eigentümer einer Solaranlage zu sein bedeutet zusätzliche Unabhängigkeit von Energieversorgern und gleichzeitig die Flexibilität seinen eigenen Energieverbrauch zu managen.' />
 
 
                 <div id="first_section" className={`w-full flex flex-col items-center space-y-44 pt-44 px-2 sm:px-10 max-w-screen-2xl`}>
 
                     <div className='flex flex-col lg:flex-row items-center justify-center space-x-0 lg:space-x-20 xl:space-x-32 space-y-5 lg:space-y-0 w-full'>
-                        <img src='/Graphiken Website/Haus nur PV.svg' className='max-w-sm xl:max-w-md' />
+                        <img src='/Graphiken/Haus nur PV.svg' className='max-w-sm xl:max-w-md' />
 
                         <div className='flex flex-col space-y-10 lg:space-y-20 justify-center lg:justify-between items-center grow bg-gray-100 rounded-xl p-2 pt-5 sm:p-5 sm:pt-10'>
 
@@ -26,12 +26,12 @@ const Privat: NextPage = () => {
                                 </p>
                             </div>
 
-                            <img src="/Graphiken Website/Lastkurve 2.svg" className='bg-white max-w-2xl rounded-lg w-full hover:scale-[1.03] transition duration-200 ease-linear' />
+                            <img src="/Graphiken/Lastkurve 2.svg" className='bg-white max-w-2xl rounded-lg w-full hover:scale-[1.03] transition duration-200 ease-linear' />
                         </div>
                     </div>
 
                     <div className='flex flex-col lg:flex-row items-center justify-center space-x-0 lg:space-x-20 xl:space-x-32 space-y-5 lg:space-y-0 w-full'>
-                        <img src='/Graphiken Website/Haus mit Batterie.svg' className='max-w-sm xl:max-w-md' />
+                        <img src='/Graphiken/Haus mit Batterie.svg' className='max-w-sm xl:max-w-md' />
 
                         <div className='flex flex-col space-y-10 lg:space-y-20 justify-center lg:justify-between items-center grow bg-gray-100 rounded-xl p-2 pt-5 sm:p-5 sm:pt-10'>
 
@@ -42,7 +42,7 @@ const Privat: NextPage = () => {
                                 </p>
                             </div>
 
-                            <img src="/Graphiken Website/Lastkurve 3.svg" className='bg-white max-w-2xl rounded-lg w-full hover:scale-[1.03] transition duration-200 ease-linear' />
+                            <img src="/Graphiken/Lastkurve 3.svg" className='bg-white max-w-2xl rounded-lg w-full hover:scale-[1.03] transition duration-200 ease-linear' />
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ const Privat: NextPage = () => {
                             </div>
                         </div>
 
-                        <img src='/Graphiken Website/Haus mit Auto.svg' className='max-w-lg xl:max-w-2xl pb-5 lg:pb-0' />
+                        <img src='/Graphiken/Haus mit Auto.svg' className='max-w-lg xl:max-w-2xl pb-5 lg:pb-0' />
 
                     </div>
 
@@ -76,7 +76,7 @@ const Privat: NextPage = () => {
                         </p>
                     </div>
 
-                    <img src="/Graphiken Website/Autarkiegrade.svg" className='self-end w-full max-w-4xl' />
+                    <img src="/Graphiken/Autarkiegrade.svg" className='self-end w-full max-w-4xl' />
 
                     <div className={`w-full flex flex-col space-y-5 sm:space-y-10 max-w-4xl bg-gray-100 rounded-xl p-2 sm:p-5`}>
                         <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Autarkie und Notstromversorgung</p>

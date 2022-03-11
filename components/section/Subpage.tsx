@@ -15,7 +15,7 @@ const Subpage = ({ title, text, image, link, left }: SubpageProps) => {
             <div className="min-h-screen w-full p-2 sm:p-5">
 
                 <div className="h-screen w-full sticky top-0 flex items-center">
-                    <div className="absolute w-full h-[95%] bg-white/10 left-0 top-[2.5%] rounded-xl"/>
+                    {/* <div className="absolute w-full h-[95%] bg-white/10 left-0 top-[2.5%] rounded-xl"/> */}
                     <img src={image} className="object-cover h-[95%] w-full rounded-xl" />
                 </div>
 
