@@ -53,7 +53,7 @@ const Angebot: NextPage = () => {
                         </div>
                     </div>
 
-                    <ImageSection image='/Images/Wechselrichter.webp' />
+                    <ImageSection image='/Images/wechselrichter.webp' />
                 </div>
 
                 <div className={`image-section-left`}>
