@@ -14,6 +14,7 @@ const ImpressumPage: NextPage = () => {
                 <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GmbH</h4>
                 <p>Strahlenburgstraße 27<br /> 68219 Mannheim <br /> Deutschland</p>
                 <p className="pt-2">HRB 743111<br />Amtsgericht Mannheim</p>
+                <p className="pt-2">USt-IdNr: DE351644554</p>
 
                 <h5 className="text-xl font-medium mb-1 mt-3">Geschäftsführung</h5>
                 <p>Johannes Gerstlauer <br />Maximilian Mühlhause <br />Oskar Latussek</p>
