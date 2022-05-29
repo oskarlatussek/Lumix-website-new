@@ -19,18 +19,16 @@ const Angebot: NextPage = () => {
                         <h2>Solarmodule</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Effiziente und verlässliche Solarmodule sind essentiell für den maximalen Ertrag Ihrer Solaranlage. Deshalb arbeiten wir ausschließlich mit namhaften Herstellern zusammen. Welches Modul für Ihre Gegebenheiten am besten geeignet ist, bietet die Grundlage jeder unserer individuellen Kaufempfehlungen.
+                            Effiziente und verlässliche Solarmodule sind essentiell für den maximalen Ertrag Ihrer Solaranlage. Deshalb arbeiten wir ausschließlich mit namhaften Herstellern zusammen. Welches Modul für Ihre Gegebenheiten am besten geeignet ist, bietet die Grundlage jeder unserer individuellen Kaufempfehlungen. Unser Angebot umfasst selbstverständlich auch hochqualitative Glas/Glas Module für besonders lange Haltbarkeit.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
-                            <img src="/Logos/Module/Download.png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (1).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (2).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (3).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (4).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (5).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (6).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/Download (7).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Module/solarfabrik.png" className='w-16 xl:w-28 mx-5 my-2' />
+                            <img src="/Logos/Module/meyerburger.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Module/jinko.svg" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Module/jolywood.webp" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Module/longi.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Module/jasolar.png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
                     </div>
                 </div>
@@ -40,16 +38,16 @@ const Angebot: NextPage = () => {
                         <h2>Wechselrichter</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich auf hochwertige Produkte. Mit Ihrer Solarstromanlage erhalten Sie einen optimal dimensionierten Wechselrichter, der ausgezeichnete Wirkungsgrade erreicht. Zusätzlich ist es unser Anspruch Ihnen einen optimal dimensionierten Wechselrichter anzubieten, denn davon hängen Wirtschaftlichkeit und Effizienz jeder Anlage entscheidend ab. 
+                            Auch bei dieser wichtigen Komponente setzen wir ausschließlich auf hochwertige Produkte. Es unser Anspruch Ihnen einen optimal dimensionierten Wechselrichter anzubieten, denn davon hängen Wirtschaftlichkeit und Effizienz jeder Anlage entscheidend ab. In Kombination mit Batteriespeichern bieten wir auch Hybridwechselrichter an.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
-                            <img src="/Logos/Wechselrichter/Download (8).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (9).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (10).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (11).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (12).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (13).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/sma.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/fronius.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/solaredge.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/fox.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/kaco.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/fenecon.png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
                     </div>
 
@@ -63,15 +61,14 @@ const Angebot: NextPage = () => {
                         <h2>Wallboxen</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Neben den Hauptanlagekomponenten, wie den Modulen, Wechselrichtern und Batteriespeichern haben wir eine große Palette an Bauteilen und Einheiten rund um die Elektrifizierung Ihres Eigenheims oder Ihrer Betriebsstätte. Die KfW440 Förderung „Ladestationen für Elektroautos – Wohngebäude“ wurde ab dem 27.10.2021 ausgesetzt, allerdings sind durch die Förderungen KfW 439 und KfW 441 gewerbliche sowie der kommunale Ladeinfrastruktur weiterhin förderfähig. Wir bieten eine große Palette an förderfähigen Wallboxen für gewerbliche und kommunale Dimensionen und natürlich weiterhin Einheiten für den privaten Gebrauch in Wohngebäuden.
+                            Passend zu Ihrer Solaranlage bieten wir Ihnen auch gerne E-Ladestationen für Ihr Eigenheim oder Gewerbe an. Dabei achten wir stets auf eine einfache und intuitive Bedienbarkeit, sowie die passende Monitoring- und Abrechnungssoftware. Selbstverständlich kann eine Wallbox auch ohne Photovoltaikanlage verbaut werden.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
-                            <img src="/Logos/Wallboxen/Download (18).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wallboxen/Download (19).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wallboxen/Download (20).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (8).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/Download (9).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wallboxen/abl.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wallboxen/keba.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wallboxen/myenergi.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/sma.png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
 
                     </div>
@@ -82,14 +79,16 @@ const Angebot: NextPage = () => {
                         <h2>Batteriesysteme</h2>
 
                         <p className='text-justify text-base lg:text-lg'>
-                            Der Batteriespeicher erhöht den Eigenverbrauch Ihres Anlagesystems enorm und wird mit zunehmend steigenden Strompreisen immer rentabler. Da das Batteriesystem einer größten Investitionspunkte eines Anlagesystems ist, ist das Preis-Leistungsverhältnis besonders wichtig. Daher arbeiten wir ausschließlich mit Namen haften Herstellern zusammen, die für Qualität und lange Haltedauer stehen.
+                            Der Batteriespeicher erhöht den Eigenverbrauch Ihres Anlagesystems enorm und wird mit zunehmend steigenden Strompreisen immer rentabler. Da das Batteriesystem einer der größten Investitionspunkte eines Anlagesystems ist, ist das Preis-Leistungsverhältnis besonders wichtig. Daher arbeiten wir ausschließlich mit namenhaften Herstellern zusammen, die für Qualität und lange Haltedauer stehen.
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
-                            <img src="/Logos/Batteriespeicher/Download (14).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Batteriespeicher/Download (15).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Batteriespeicher/Download (16).png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Batteriespeicher/Download (17).png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/sonnen.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/e3dc.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/fox.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/fenecon.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/lg.png" className='w-20 xl:w-32 mx-5 my-2' />
+
                         </div>
                     </div>
 
@@ -105,6 +104,15 @@ const Angebot: NextPage = () => {
                         <p className='text-justify text-base lg:text-lg'>
                             Das Montagegestell dient zur Befestigung der Module. Bei Anlagenlaufzeiten von 30 Jahren und mehr ist nur beste Qualität aus korrosionsfestem Material und eine hochwertige Konstruktion geeignet, um die Sicherheit der Anlage über die komplette Lebensdauer zu gewährleisten. Um Dach und Anlage optimal aufeinander abzustimmen, arbeiten wir mit mehreren Herstellern zusammen, die unterschiedliche Systemformate anbieten. Dank unserer Partner im Bereich Metallbau und unsere internen Kompetenzen können wir auch Sonderlösungen realisieren.
                         </p>
+
+                        <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
+                            <img src="/Logos/Montagegestell/k2.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Montagegestell/tritec.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Montagegestell/viessmann.svg.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Montagegestell/altec.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Montagegestell/venturama.png" className='w-20 xl:w-32 mx-5 my-2' />
+
+                        </div>
 
                     </div>
                 </div>
