@@ -12,7 +12,7 @@ const Rendite: NextPage = () => {
             <div className="flex flex-col items-center justify-center max-w-full">
                 <Hero image='/Images/rendite.webp' title='Lohnt sich PV?' text='Die Solartechnologie fasziniert durch Ihre Wirtschaftlichkeit und Umweltverträglichkeit.' />
 
-                <div className='flex flex-col justify-center space-y-10 py-20 px-2 sm:px-10 w-full max-w-screen-2xl'>
+                <div id="first_section" className='flex flex-col justify-center space-y-10 py-20 px-2 sm:px-10 w-full max-w-screen-2xl'>
 
                     <div className={`w-full flex flex-col space-y-5 sm:space-y-10 max-w-4xl bg-gray-100 rounded-xl p-2 sm:p-5`}>
                         <p className='text-3xl sm:text-4xl xl:text-5xl text-[#215250]'>Von welchen Faktoren hängt die Rendite ab?</p>
