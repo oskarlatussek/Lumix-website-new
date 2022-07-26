@@ -20,7 +20,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
 
                     <div className="flex flex-grow space-x-8 items-center justify-start">
                         <a href="/" className="hidden lg:block mr-5 transform hover:scale-105 transition-all duration-500 ease-in-out">
-                            <img src={`${dark ? "/Logos/lumix-logo_gr_FDE047 dunkel.svg" : "/Logos/lumix-logo.svg"}`} className={`w-44`} />
+                            <img src={`${dark ? "/Logos/lumix-logo-weiß.png" : "/Logos/lumix-logo-schwarz.png"}`} className={`w-44`} />
                         </a>
                     </div>
 
@@ -47,7 +47,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                 </nav>
 
                 <a href="/" className="block lg:hidden transform hover:scale-110 transition-all duration-500 ease-in-out">
-                    <img src={`${dark ? "/Logos/lumix-logo_gr_FDE047 dunkel.svg" : "/Logos/lumix-logo.svg"}`} className={`w-32`} />
+                    <img src={`${dark ? "/Logos/lumix-logo-weiß.png" : "/Logos/lumix-logo-schwarz.png"}`} className={`w-32`} />
                 </a>
 
                 <button className={`block float-right lg:hidden transform hover:scale-110 transition duration-300 ease-in-out`} onClick={() => setOpen(!open)}>

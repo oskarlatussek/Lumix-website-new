@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
                 <a href="/" className="w-full sm:w-1/2 mb-10 sm:mb-0 max-w-sm">
-                    <img src="/Logos/lumix-logo.svg" className="h-full" />
+                    <img src="/Logos/lumix-logo-schwarz.png" className="h-full" />
                 </a>
             </div>
 
