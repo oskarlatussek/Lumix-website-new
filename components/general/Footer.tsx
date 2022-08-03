@@ -12,8 +12,8 @@ const Footer = () => {
                 <Link href={`/photovoltaik`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Photovoltaik</a>
                 </Link>
-                <Link href={`/gewerbe`}>
-                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Gewerbliche Anlagen</a>
+                <Link href={`/konfigurator`}>
+                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Angebot einholen</a>
                 </Link>
                 <Link href={`/produkte`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Unsere Produkte</a>
@@ -21,15 +21,19 @@ const Footer = () => {
                 <Link href={`/team`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Das Team</a>
                 </Link>
+                <Link href={`/gewerbe`}>
+                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Gewerbliche Anlagen</a>
+                </Link>
+                <Link href={`/karriere`}>
+                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Karriere</a>
+                </Link>
                 <Link href={`/rendite`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Lohnt sich PV?</a>
                 </Link>
                 <Link href={`/`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Startseite</a>
                 </Link>
-                <Link href={`/konfigurator`}>
-                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Angebot einholen</a>
-                </Link>
+
             </div>
 
             <div className="flex flex-col-reverse sm:flex-row space-x-0 sm:space-x-14 w-full xl:w-1/2 h-full justify-center items-start sm:items-center">
