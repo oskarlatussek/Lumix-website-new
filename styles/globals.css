@@ -128,6 +128,16 @@ body {
   scroll-behavior: smooth;
 }
 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -145,6 +155,10 @@ h2 {
   @apply text-4xl lg:text-5xl xl:text-6xl text-[#215250] font-medium leading-tight
 }
 
+h3 {
+  @apply text-yellow-400 text-3xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-bold
+}
+
 
 .image-section-left {
   @apply relative w-full flex flex-col lg:flex-row items-center lg:items-stretch justify-center space-x-0 lg:space-x-10 py-20 lg:py-32 px-5 sm:px-10 min-h-full max-w-screen-2xl
@@ -153,3 +167,10 @@ h2 {
 .image-section-right {
   @apply w-full flex flex-col-reverse lg:flex-row items-center lg:items-stretch justify-center space-x-0 lg:space-x-10 py-20 lg:py-32 px-5 sm:px-10 min-h-full max-w-screen-2xl
 }
+
+.pac-container {
+  @apply shadow-sm rounded border-none
+}
+
+
+

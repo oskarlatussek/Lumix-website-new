@@ -5,12 +5,12 @@ import Contact from '../components/general/Contact';
 import ImageSection from '../components/section/ImageSection';
 
 
-const Angebot: NextPage = () => {
+const Produkte: NextPage = () => {
 
     return (
         <>
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Images/angebot.webp' title='Unser Angebot' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
+                <Hero image='/Images/produkte.webp' title='Unsere Produkte' text='Individuelle Komplettlösungen, maßgeschneidert auf Ihre Bedürfnisse.' />
 
                 <div id="first_section" className={`image-section-left`}>
                     <ImageSection image='/Images/module.webp' />
@@ -125,4 +125,4 @@ const Angebot: NextPage = () => {
 }
 
 
-export default Angebot
+export default Produkte

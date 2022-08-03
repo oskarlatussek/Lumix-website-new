@@ -19,9 +19,7 @@ async function main(name, email, phone, message) {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "mail.privateemail.com",
-    port: 465,
-    secure: true, // true for 465, false for other ports
+    service: "Gmail",
     auth: {
       user: process.env.MAIL_USER, // generated ethereal user
       pass: process.env.MAIL_PWD, // generated ethereal password

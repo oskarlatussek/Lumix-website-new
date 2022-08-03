@@ -15,8 +15,8 @@ const Footer = () => {
                 <Link href={`/gewerbe`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Gewerbliche Anlagen</a>
                 </Link>
-                <Link href={`/angebot`}>
-                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Unser Angebot</a>
+                <Link href={`/produkte`}>
+                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Unsere Produkte</a>
                 </Link>
                 <Link href={`/team`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Das Team</a>
@@ -26,6 +26,9 @@ const Footer = () => {
                 </Link>
                 <Link href={`/`}>
                     <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Startseite</a>
+                </Link>
+                <Link href={`/konfigurator`}>
+                    <a className="text-gray-400 hover:text-black transition duration-200 ease-linear">Angebot einholen</a>
                 </Link>
             </div>
 

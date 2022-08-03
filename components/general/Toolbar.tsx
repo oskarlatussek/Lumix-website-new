@@ -2,6 +2,7 @@ import { useState } from "react"
 import Link from 'next/link'
 import { HiMenuAlt4 } from "react-icons/hi"
 import { MdClose } from "react-icons/md"
+import { BsArrowRightShort } from "react-icons/bs";
 
 
 interface ToolbarProps {
@@ -12,7 +13,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
     const [open, setOpen] = useState(false)
 
     return (
-        <div className={`text-2xl absolute top-0 left-0 justify-center text-center w-full p-0 lg:p-3 flex z-50 backdrop-blur-md ${dark ? "text-white" : "text-black"}`}>
+        <div className={`text-xl absolute top-0 left-0 justify-center text-center w-full p-0 lg:p-3 flex z-50 backdrop-blur-md ${dark ? "text-white" : "text-black"}`}>
 
             <div className="z-20 p-5 pr-5 lg:pr-0 xl:pr-5 w-full flex justify-between items-center font-medium">
 
@@ -24,12 +25,12 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                         </a>
                     </div>
 
-                    <div className="flex flex-grow space-x-10 items-center justify-end mr-5">
+                    <div className="flex flex-grow space-x-7 xl:space-x-10 items-center justify-end mr-5">
                         <Link href={`/photovoltaik`}>
                             <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Photovoltaik</a>
                         </Link>
-                        <Link href={`/angebot`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Angebot</a>
+                        <Link href={`/produkte`}>
+                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Produkte</a>
                         </Link>
                         <Link href={`/gewerbe`}>
                             <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Gewerbe</a>
@@ -40,8 +41,14 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                         <Link href={`/team`}>
                             <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Team</a>
                         </Link>
-                        <Link href={`#contact`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Kontakt</a>
+                        <Link href={`/karriere`}>
+                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Karriere</a>
+                        </Link>
+                        <Link href={`/konfigurator`}>
+                            <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
+                                <p className="">Angebot</p>
+                                <BsArrowRightShort className="text-3xl" />
+                            </a>
                         </Link>
                     </div>
                 </nav>
@@ -59,8 +66,8 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                 <Link href={`/photovoltaik`}>
                     <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Photovoltaik</a>
                 </Link>
-                <Link href={`/angebot`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Angebot</a>
+                <Link href={`/produkte`}>
+                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Produkte</a>
                 </Link>
                 <Link href={`/gewerbe`}>
                     <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Gewerbe</a>
@@ -71,8 +78,14 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                 <Link href={`/team`}>
                     <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Team</a>
                 </Link>
-                <Link href={`#contact`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Kontakt</a>
+                <Link href={`/karriere`}>
+                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Karriere</a>
+                </Link>
+                <Link href={`/konfigurator`}>
+                    <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
+                        <p className="">Angebot</p>
+                        <BsArrowRightShort className="text-3xl" />
+                    </a>
                 </Link>
             </nav>
 
