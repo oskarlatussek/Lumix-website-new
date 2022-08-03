@@ -101,7 +101,7 @@ const Konfigurator: NextPage = () => {
 
                         <div className='flex w-full justify-between px-5 sm:px-10 absolute bottom-7'>
                             <button type='button' disabled={step < 1} onClick={step > 1 ? () => setStep(step => step - 1) : () => router.back()} className="border border-black rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">Zurück</button>
-                            <button disabled={!address || step === 2 && isEmpty(pickBy(products) || step > 3)} onClick={() => setStep(step => step + 1)} className="bg-yellow-400 disabled:bg-gray-300 disabled:opacity-50 disabled:hover:scale-100 rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">Weiter</button>
+                            <button disabled={!address || step === 2 && isEmpty(pickBy(products) || step > 3)} onClick={() => setStep(step => step + 1)} className="bg-yellow-400 disabled:bg-gray-300 disabled:cursor-auto disabled:opacity-50 disabled:hover:scale-100 rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">Weiter</button>
                         </div>
 
                     </div>}
@@ -110,7 +110,7 @@ const Konfigurator: NextPage = () => {
 
                         <p className='font-bold text-xl md:text-4xl text-center pb-5 sm:pb-10'>Ihre Kontaktdaten</p>
 
-                        <form onInput={() => setResponse({ message: "", error: false })} className="relative flex flex-col space-y-2 sm:space-y-5 justify-between w-full max-w-lg">
+                        <form onSubmit={handleSubmit} onInput={() => setResponse({ message: "", error: false })} className="relative flex flex-col space-y-2 sm:space-y-5 justify-between w-full max-w-lg">
                             <input required id="name" value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name*" className={`w-full p-2 sm:p-4 focus:outline-none border border-black border-opacity-30 hover:border-opacity-100 focus:border-opacity-100 transition duration-300 ease-in-out rounded-lg`} />
 
                             <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-5 space-y-2 sm:space-y-0">
@@ -118,12 +118,16 @@ const Konfigurator: NextPage = () => {
                                 <input id="email" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="E-Mail Adresse" className={`w-full p-2 sm:p-4 focus:outline-none border border-black border-opacity-30 hover:border-opacity-100 focus:border-opacity-100 transition duration-300 ease-in-out rounded-lg`} />
                             </div>
 
-                            <textarea required id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Anmerkungen" className={`w-full p-2 sm:p-4 h-24 md:h-36 focus:outline-none border border-black border-opacity-30 hover:border-opacity-100 focus:border-opacity-100 transition duration-300 ease-in-out rounded-lg`} />
+                            <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Anmerkungen" className={`w-full p-2 sm:p-4 h-24 md:h-36 focus:outline-none border border-black border-opacity-30 hover:border-opacity-100 focus:border-opacity-100 transition duration-300 ease-in-out rounded-lg`} />
 
                             {response.message && <p className={`${response.error ? "text-red-500" : "text-green-500"} pl-1`}>{response.message}</p>}
 
-                            <button disabled={step > 4 || !name || !phone} onClick={handleSubmit} className="bg-yellow-400 self-center disabled:bg-gray-300 disabled:opacity-50 disabled:hover:scale-100 rounded-full font-medium text-lg max-w-max px-3 sm:px-6 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">Abschließen</button>
+                            {/* <button disabled={step > 4 || !name || !phone} onClick={handleSubmit} className="bg-yellow-400 self-center disabled:bg-gray-300 disabled:opacity-50 disabled:hover:scale-100 rounded-full font-medium text-lg max-w-max px-3 sm:px-6 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">Abschließen</button> */}
 
+                            <button disabled={step > 4 || !name || !phone} type="submit" className="flex space-x-2 items-center justify-around group max-w-min bg-yellow-400 self-center disabled:bg-gray-300 disabled:cursor-auto disabled:opacity-50 disabled:hover:scale-100 disabled:cursor-auto rounded-full px-3 sm:px-6 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
+                                {processing && <svg className={`animate-spin-slow h-6 w-6 min-w-[1.5rem] border-4 border-t-gray-300 border-l-gray-300 border-gray-800 rounded-full`} />}
+                                <span className="font-medium text-lg">Absenden</span>
+                            </button>
                         </form>
 
                         <div className='flex w-full justify-between px-5 sm:px-10 absolute bottom-7'>
