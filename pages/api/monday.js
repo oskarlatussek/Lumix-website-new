@@ -19,7 +19,9 @@ export default async function handler (req, res) {
           "phone": {phone: phone, countryShortName: "DE"},
           "zahlen": consumption,
           "drop_down": Object.keys(products).join(", "),
-          "langer_text": message
+          "langer_text": message,
+          "status": "Neuer Lead",
+          "datum": new Date().toISOString().substring(0, 10)
         })
       };
 
@@ -37,5 +39,6 @@ export default async function handler (req, res) {
     });
 
     const mrf = await mr.json()
+    console.log(mrf)
     res.json({message: mrf})
 }
