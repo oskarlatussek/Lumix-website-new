@@ -1,39 +1,38 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const nodemailer = require("nodemailer");
-
-export default async function handler(req, res) {
-
-  try {
-    await main(req.body.name, req.body.email, req.body.phone, req.body.message)
-    res.status(200).json({message: "success"})
-
-  } catch(err) {
-      res.status(400).json(err)
-  }
-
-}
 
 
-// async..await is not allowed in global scope, must use a wrapper
-async function main(name, email, phone, message) {
+export default async function handler (req, res) {
+    const email = req.body.email
+    const phone = req.body.phone
+    const name = req.body.name
+    const message = req.body.message
 
-  // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    service: "Gmail",
-    auth: {
-      user: process.env.MAIL_USER, // generated ethereal user
-      pass: process.env.MAIL_PWD, // generated ethereal password
-    },
-  });
+    let addNewContact = 'mutation ($myItemName: String!, $columnVals: JSON!) { create_item (board_id:2945892503, group_id:neue_gruppe82377, item_name:$myItemName, column_values:$columnVals) { id } }';
 
-  // send mail with defined transport object
-  let info = await transporter.sendMail({
-    from: '"Lumix Kontaktformular" <info@lumix.solar>', // sender address
-    to: "info@lumix.solar", // list of receivers
-    subject: "Kontakformular Website", // Subject line
-    html: `Name: ${name}<br/>E-Mail: ${email}<br/>Telefon: ${phone}<br/>Nachricht: ${message}`, // plain text body
-  });
+    let newContact = {
+        "myItemName" : name,
+        "columnVals" : JSON.stringify({
+          "e_mail": {email: email, text: email},
+          "telefon_1": {phone: phone, countryShortName: "DE"},
+          "langer_text": message,
+          "status": "Neuer Lead",
+          "datum": new Date().toISOString().substring(0, 10)
+        })
+      };
 
-  console.log("Message sent: %s", info.messageId);
-  // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+    const mr = await fetch("https://api.monday.com/v2", {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': process.env.MONDAY_API_KEY
+        },
+        body: JSON.stringify({
+            'query': addNewContact,
+            'variables': JSON.stringify(newContact)
+        })
+    });
+
+    const mrf = await mr.json()
+    console.log(mrf)
+    res.json({message: mrf})
 }
