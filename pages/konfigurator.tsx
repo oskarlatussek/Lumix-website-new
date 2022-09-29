@@ -28,7 +28,7 @@ const Konfigurator: NextPage = () => {
     const [step, setStep] = useState(addressObject ? 2 : 1)
     const [address, setAdress] = useState(addressObject)
     const [products, setProducts] = useState({ "Solaranlage": true, "Batteriespeicher": false, "Wallbox": false })
-    const [consumption, setConsumption] = useState(4000)
+    const [consumption, setConsumption] = useState(3800)
     const [name, setName] = useState<string>("")
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState<string>("")
@@ -88,7 +88,7 @@ const Konfigurator: NextPage = () => {
 
 
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/title.jpg)`, backgroundSize: "cover" }} className="w-full min-h-screen group relative h-full flex justify-center items-center">
+                <div style={{ backgroundImage: `url(/Images/lumix-title.jpeg)`, backgroundSize: "cover" }} className="w-full min-h-screen group relative h-full flex justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50" />
 
                     {step <= 3 && <div className='relative rounded-xl bg-white/100 backdrop-blur-md h-[70vh] w-[95vw] lg:w-[80vw] max-w-screen-xl z-10 mt-32 flex flex-col items-center justify-start p-10 pt-32 md:pt-44'>

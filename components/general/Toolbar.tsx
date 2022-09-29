@@ -27,22 +27,22 @@ const Toolbar = ({ dark }: ToolbarProps) => {
 
                     <div className="flex flex-grow space-x-7 xl:space-x-10 items-center justify-end mr-5">
                         <Link href={`/photovoltaik`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Photovoltaik</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik</a>
                         </Link>
                         <Link href={`/produkte`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Produkte</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Produkte</a>
                         </Link>
                         <Link href={`/gewerbe`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Gewerbe</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Gewerbe</a>
                         </Link>
                         <Link href={`/rendite`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Rendite</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Rendite</a>
                         </Link>
                         <Link href={`/team`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Team</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Team</a>
                         </Link>
                         <Link href={`/karriere`}>
-                            <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Karriere</a>
+                            <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Karriere</a>
                         </Link>
                         <Link href={`/konfigurator`}>
                             <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
@@ -64,22 +64,22 @@ const Toolbar = ({ dark }: ToolbarProps) => {
 
             <nav onClick={() => setOpen(!open)} className={`${!open && "hidden"} p-5 top-0 fixed w-full backdrop-filter backdrop-blur-xl flex flex-col space-y-5 items-center pt-20`} >
                 <Link href={`/photovoltaik`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Photovoltaik</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik</a>
                 </Link>
                 <Link href={`/produkte`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Produkte</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Produkte</a>
                 </Link>
                 <Link href={`/gewerbe`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Gewerbe</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Gewerbe</a>
                 </Link>
                 <Link href={`/rendite`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Rendite</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Rendite</a>
                 </Link>
                 <Link href={`/team`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Team</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Team</a>
                 </Link>
                 <Link href={`/karriere`}>
-                    <a className="hover:text-yellow-500 transition duration-300 ease-in-out">Karriere</a>
+                    <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Karriere</a>
                 </Link>
                 <Link href={`/konfigurator`}>
                     <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">

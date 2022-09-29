@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     return (
         <>
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/title.jpg)`, backgroundSize: "cover" }} className="w-full min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(/Images/lumix-title.jpeg)`, backgroundSize: "cover" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">

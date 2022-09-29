@@ -39,7 +39,7 @@ const SearchLocationInput = ({ address, setAddress }) => {
         // onChange={event => setQuery(event.target.value)}
         placeholder="Straße, Hausnummer, Stadt"
         defaultValue={address ? address.formatted_address : undefined}
-        className="px-4 py-2 rounded-full w-full max-w-xs sm:max-w-full bg-white/50 border border-black/20 outline-none autocomplete-style"
+        className="px-4 py-2 rounded-full w-full sm:max-w-full bg-white/50 border border-black/20 outline-none autocomplete-style"
       />
     </div>
   );
