@@ -51,7 +51,7 @@ const Contact = () => {
                     <div className="flex items-center space-x-3 text-xl">
                         <FiPhone className="text-yellow-400 text-3xl" />
                         {/* <a href="tel:+491627656187" className="text-gray-600 hover:text-black transition duration-200 ease-linear">+49 162 7656 187</a> */}
-                        <a href="tel:+4915783651735" className="text-gray-600 hover:text-black transition duration-200 ease-linear">+49 1578 36 517 35</a>
+                        <a href="tel:+4962143771242" className="text-gray-600 hover:text-black transition duration-200 ease-linear">+49 621 4377 1242</a>
 
                     </div>
                 </div>
