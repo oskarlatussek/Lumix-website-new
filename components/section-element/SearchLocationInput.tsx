@@ -26,7 +26,7 @@ const SearchLocationInput = ({ address, setAddress }) => {
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: 'AIzaSyAFmOqbv_RrM6AmsEuEw940mlsrTEX2QnI',
+      apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
       libraries: ["places"]
     });
     loader.load().then(() => { handleScriptLoad(setAddress, autoCompleteRef) });

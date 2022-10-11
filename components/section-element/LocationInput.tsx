@@ -5,7 +5,7 @@ function HomePage() {
     const googlemap = useRef(null);
     useEffect(() => {
         const loader = new Loader({
-            apiKey: 'AIzaSyAFmOqbv_RrM6AmsEuEw940mlsrTEX2QnI'
+            apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY
         });
         let map;
         loader.load().then(() => {

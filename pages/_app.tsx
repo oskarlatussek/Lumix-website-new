@@ -71,7 +71,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       {/* <Script
         async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFmOqbv_RrM6AmsEuEw940mlsrTEX2QnI&libraries=places"
+        src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"
         onLoad={() => handleScriptLoad()}
       /> */}
       {/* <Script

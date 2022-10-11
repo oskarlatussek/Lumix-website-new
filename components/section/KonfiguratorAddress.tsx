@@ -22,7 +22,7 @@ const KonfiguratorAddress = () => {
                     <SearchLocationInput address={address} setAddress={setAddress} />
 
                     {/* <GooglePlacesAutocomplete
-                        apiKey="AIzaSyAFmOqbv_RrM6AmsEuEw940mlsrTEX2QnI"
+                        apiKey=""
                         apiOptions={{ language: 'de', region: 'de' }}
 
                         selectProps={{
