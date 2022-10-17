@@ -15,7 +15,8 @@ export default async function handler (req, res) {
           "telefon_1": {phone: phone, countryShortName: "DE"},
           "langer_text": message,
           "status": "Neuer Lead",
-          "datum": new Date().toISOString().substring(0, 10)
+          "datum": new Date().toISOString().substring(0, 10),
+          "status_1": "Kontaktformular"
         })
       };
 

@@ -21,7 +21,8 @@ export default async function handler (req, res) {
           "drop_down": Object.keys(products).join(", "),
           "langer_text": message,
           "status": "Neuer Lead",
-          "datum": new Date().toISOString().substring(0, 10)
+          "datum": new Date().toISOString().substring(0, 10),
+          "status_1": "Ads"
         })
       };
 
