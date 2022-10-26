@@ -40,7 +40,7 @@ const DatenschutzPage: NextPage = () => {
                     Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer
                     sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.
                     <br /><br /><h5 className="text-xl font-medium mb-1 mt-3">2. Verantwortlicher und Datenschutzbeauftragter</h5>
-                    Verantwortlicher für die Verarbeitung personenbezogener Daten gemäß Art. 4 Nr. 7 DSGVO ist: Lumix Solar GmbH, Strahlenburgstraße 27, 68219 Mannheim, Deutschland, info@lumix.solar
+                    Verantwortlicher für die Verarbeitung personenbezogener Daten gemäß Art. 4 Nr. 7 DSGVO ist: Lumix Solar GmbH, Jungbuschstraße 28, 68159 Mannheim, Deutschland, info@lumix.solar
                     Ist nachfolgend von "wir", "uns" oder "Lumix" die Rede, ist dieses Unternehmen gemeint. Datenschutzrechtliche Fragen können postalisch oder per E-Mail gestellt werden. Verwenden Sie bitte folgende E-Mail-Adresse: info@lumix.solar
                     <br /><br /><h5 className="text-xl font-medium mb-1 mt-3">3. Verarbeitung personenbezogener Daten sowie Art und Zweck von deren Verwendung</h5>
                     Wir verarbeiten personenbezogene Daten ausschließlich im rechtmäßigen Rahmen der einschlägigen Rechtsnormen und ggfs. Ihrer Einwilligung. Personenbezogene Daten sind all jene Informationen, die sich auf eine natürliche Person beziehen oder zumindest beziehbar sind und so Rückschlüsse auf deren Persönlichkeit erlauben.
