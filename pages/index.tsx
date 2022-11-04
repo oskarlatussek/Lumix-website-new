@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                     <p className="text-2xl sm:text-4xl lg:text-5xl leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">Vertrieb und Montage von modernsten <span className="text-yellow-400 font-semibold">Solarmodulen</span> und <span className="text-yellow-400 font-semibold">Energiespeichersystemen</span>, durch kundennahe, individuelle und ganzheitliche Projektplanung zugute der Energiewende.</p>
                 </div>
 
-                <Subpage title='Unsere Produkte' text='Zu unserer Philosophie gehört es, unseren Kunden ein bestmöglichstes Portfolio an hochwertigen Produkten anzubieten. Daher arbeiten wir mit einer Vielzahl an namenhaften Herstellern zusammen, deren Produkte wir für Sie zu einer optimalen Lösung kombinieren.' image='/Images/produkte.webp' link='/angebot' />
+                <Subpage title='Unsere Produkte' text='Zu unserer Philosophie gehört es, unseren Kunden ein bestmöglichstes Portfolio an hochwertigen Produkten anzubieten. Daher arbeiten wir mit einer Vielzahl an namenhaften Herstellern zusammen, deren Produkte wir für Sie zu einer optimalen Lösung kombinieren.' image='/Images/produkte.webp' link='/produkte' />
 
                 <div className="flex items-center w-full justify-center py-10">
                     {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
