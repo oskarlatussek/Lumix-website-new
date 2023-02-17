@@ -11,7 +11,7 @@ const KonfiguratorAddress = () => {
     return (
         <div className="flex flex-col items-center absolute bottom-2 sm:bottom-5">
             <div className="bg-yellow-400 rounded-t-xl p-2 px-2 sm:px-5 max-w-[90vw]">
-                <p className=" text-black font-medium text-xs xs:text-base">Bereits über 100 Projekte erfolgreich umgesetzt!</p>
+                <p className=" text-black font-medium text-xs xs:text-base">Bereits über 250 Projekte erfolgreich umgesetzt!</p>
             </div>
             <div className="bg-white/100 h-fit rounded-xl backdrop-blur-lg flex flex-col md:flex-row items-center p-2 sm:p-5 divide-y md:divide-y-0 divide-x-0 md:divide-x divide-gray-300 mx-2">
                 <p className="text-left text-md xs:text-lg sm:text-xl pr-0 md:pr-5 pb-2 sm:pb-5 md:pb-0">Jetzt <b>unverbindlich</b> Angebot für Ihr Solarprojekt <b>konfigurieren</b>.</p>
