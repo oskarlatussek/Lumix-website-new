@@ -3,25 +3,16 @@ import "animate.css"
 
 interface TeamCardProps {
     name: string;
-    text: string;
     img_src: string;
 }
 
-const TeamCard = ({ name, text, img_src }: TeamCardProps) => {
+const TeamCard = ({ name, img_src }: TeamCardProps) => {
 
     return (
-        <div className='group w-full lg:w-1/3 relative max-w-sm animate__animated animate__fadeInUp animate__delay-1s animate__slow'>
-            <div className='bg-black/10 absolute z-20 inset-0 w-full h-full group-hover:opacity-0 opacity-100 transition duration-500 ease-linear' />
-
-            <div className='min-w-xs h-full overflow-hidden relative rounded-xl z-10'>
-                <img src={img_src} className='group-hover:scale-105 transition duration-300 ease-linear rounded-xl w-full h-full' />
-            </div>
-
-            <div className='absolute z-20 bottom-0 left-0 w-full flex text-center flex-col space-y-1 items-center justify-center py-3 px-2 backdrop-blur bg-black/50 rounded-b-xl'>
-                <p className='text-2xl sm:text-3xl lg:text-2xl xl:text-3xl text-yellow-400 font-medium'>{name}</p>
-                <p className="text-gray-300 px-4 text-sm sm:text-lg lg:text-sm xl:text-lg">{text}</p>
-            </div>
-        </div>
+        <div className='min-w-xl self-start relative max-w-2xl overflow-hidden rounded-xl z-20 group'>
+        <img src={img_src} className='group-hover:scale-105 max-w-xs transition duration-300 ease-linear rounded-xl w-full h-full' />
+        <p className='absolute w-full bottom-0 text-xs xs:text-base text-center backdrop-blur-lg bg-black/60 p-1 xs:p-2 text-yellow-400 font-medium'>{name}</p>
+    </div>
     )
 
 }
