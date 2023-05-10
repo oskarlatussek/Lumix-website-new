@@ -24,10 +24,11 @@ const Produkte: NextPage = () => {
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
                             <img src="/Logos/Module/solarfabrik.png" className='w-16 xl:w-28 mx-5 my-2' />
+                            <img src="/Logos/Module/ibc.jpg" className='w-16 xl:w-28 mx-5 my-2' />
                             <img src="/Logos/Module/meyerburger.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Module/jinko.svg" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Module/jolywood.webp" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Module/longi.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            {/* <img src="/Logos/Module/longi.png" className='w-20 xl:w-32 mx-5 my-2' /> */}
                             <img src="/Logos/Module/jasolar.png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
                     </div>
@@ -43,9 +44,10 @@ const Produkte: NextPage = () => {
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
                             <img src="/Logos/Wechselrichter/sma.png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Wechselrichter/fronius.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            {/* <img src="/Logos/Wechselrichter/fronius.png" className='w-20 xl:w-32 mx-5 my-2' /> */}
                             <img src="/Logos/Wechselrichter/solaredge.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Wechselrichter/fox.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Wechselrichter/sofar.jpg" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Wechselrichter/kaco.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Wechselrichter/fenecon.png" className='w-20 xl:w-32 mx-5 my-2' />
                         </div>
@@ -83,11 +85,12 @@ const Produkte: NextPage = () => {
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
+                            <img src="/Logos/Batteriespeicher/byd.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Batteriespeicher/sonnen.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Batteriespeicher/e3dc.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Batteriespeicher/fox.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Batteriespeicher/fenecon.png" className='w-20 xl:w-32 mx-5 my-2' />
-                            <img src="/Logos/Batteriespeicher/lg.png" className='w-20 xl:w-32 mx-5 my-2' />
+                            <img src="/Logos/Batteriespeicher/sofar.jpg" className='w-20 xl:w-32 mx-5 my-2' />
 
                         </div>
                     </div>
@@ -106,6 +109,7 @@ const Produkte: NextPage = () => {
                         </p>
 
                         <div className='flex flex-wrap items-center justify-center pt-0 lg:pt-10'>
+                            <img src="/Logos/Montagegestell/corab.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Montagegestell/k2.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Montagegestell/tritec.png" className='w-20 xl:w-32 mx-5 my-2' />
                             <img src="/Logos/Montagegestell/viessmann.svg.png" className='w-20 xl:w-32 mx-5 my-2' />
