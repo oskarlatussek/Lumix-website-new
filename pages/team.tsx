@@ -75,7 +75,7 @@ const Team: NextPage = () => {
                         <div className='grid grid-cols-2 md:grid-cols-3 max-w-full md:max-w-1/2 gap-5 min-w-[50%] ml-0 lg:-ml-44'>
                             <TeamCard name="Johannes Gerstlauer" img_src='/Images/Team/DSC02307.jpg' />
                             <TeamCard name="Lux Hildebrandt" img_src='/Images/Team/DSC02209.jpg' />
-                            <TeamCard name="Mario Giacone" img_src='/Images/Team/DSC02160.jpg' />
+                            {/* <TeamCard name="Mario Giacone" img_src='/Images/Team/DSC02160.jpg' /> */}
                             <div className='hidden lg:block'></div>
                             <TeamCard name="Kevin Langer" img_src='/Images/Team/DSC02224.jpg' />
                             <TeamCard name="David Bantschow" img_src='/Images/Team/DSC02186.jpg' />
