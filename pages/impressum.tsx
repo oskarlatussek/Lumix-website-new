@@ -12,7 +12,7 @@ const ImpressumPage: NextPage = () => {
                 <h1 className="mb-10 sm:mb-20 font-normal">Impressum</h1>
 
                 <h4 className="text-3xl font-semibold mb-1 mt-3">Lumix Solar GmbH</h4>
-                <p>Jungbuschstraße 28<br /> 68159 Mannheim <br /> Deutschland</p>
+                <p>Industriestraße 35<br /> 68169 Mannheim <br /> Deutschland</p>
                 <p className="pt-2">HRB 743111<br />Amtsgericht Mannheim</p>
                 <p className="pt-2">USt-IdNr: DE351644554</p>
 
