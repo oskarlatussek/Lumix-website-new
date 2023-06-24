@@ -77,7 +77,7 @@ const Danke: NextPage = () => {
                                     <p className='text-justify'>
                                         Wir sind Ihr zuverlässiger Partner für Solarprodukte in der Region. Ob Solaranlagen, Stromspeicher, Wallboxen oder eine Ladestation für Ihr e-Auto, wir begleiten Sie von der <b>Planung bis zur Projektierung Ihres Photovoltaik Vorhabens</b>.<br /><br />
                                         Dabei setzen wir auf <b>flexible und qualitativ hochwertige Lösungen</b> in Zusammenarbeit mit namhaften Partnern wie Solar Fabrik oder SMA.<br /><br />
-                                        Durch die enge Vernetzung mit sowohl Fachhändlern als auch Monteuren, garantieren wir Ihnen eine <b>zeitnahe Realisierung Ihres Projekts</b>. So konnten wir bereits über 300 Projekte in der Region erfolgreich umsetzen.
+                                        Durch die enge Vernetzung mit sowohl Fachhändlern als auch Monteuren, garantieren wir Ihnen eine <b>zeitnahe Realisierung Ihres Projekts</b>. So konnten wir bereits über 500 Projekte in der Region erfolgreich umsetzen.
                                     </p>
                                 </div>
                             </div>

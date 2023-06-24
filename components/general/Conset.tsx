@@ -5,19 +5,19 @@ import { setCookie, hasCookie, deleteCookie } from 'cookies-next';
 function Consent() {
     const [consent, setConsent] = useState(true);
     useEffect(() => {
-        console.log(hasCookie('localConsent'))
+        // console.log(hasCookie('localConsent'))
         setConsent(hasCookie('localConsent'));
     }, []);
 
     const acceptCookie = () => {
         setConsent(true);
         setCookie('localConsent', 'true', { maxAge: 60 * 60 * 24 * 365 });
-        console.log('accepting cookies');
+        // console.log('accepting cookies');
     };
     const denyCookie = () => {
         setConsent(true);
         deleteCookie('localConsent', { maxAge: 60 * 60 * 24 * 365 });
-        console.log('denying cookie');
+        // console.log('denying cookie');
     };
     if (consent === true) {
         return null;

@@ -73,6 +73,7 @@ const Team: NextPage = () => {
                         <p className='text-yellow-400 ml-0 lg:-ml-44 font-bold text-4xl xs:text-6xl lg:text-6xl xl:text-8xl bg-black/40 z-50 self-center lg:self-end p-3 pb-3 lg:pb-6 backdrop-blur-xl px-8 rounded-tl-xl min-w-max'>Sales</p>
 
                         <div className='grid grid-cols-2 md:grid-cols-3 max-w-full md:max-w-1/2 gap-5 min-w-[50%] ml-0 lg:-ml-44'>
+                            <div className='hidden lg:block'></div>
                             <TeamCard name="Johannes Gerstlauer" img_src='/Images/Team/DSC02307.jpg' />
                             <TeamCard name="Lux Hildebrandt" img_src='/Images/Team/DSC02209.jpg' />
                             {/* <TeamCard name="Mario Giacone" img_src='/Images/Team/DSC02160.jpg' /> */}
