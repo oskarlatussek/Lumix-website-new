@@ -9,9 +9,12 @@ interface ToolbarProps {
     dark?: boolean;
 }
 
-const Toolbar = ({ dark }: ToolbarProps) => {
-    const [open, setOpen] = useState(false)
 
+
+const Toolbar = ({ dark }: ToolbarProps) => {
+  const [open, setOpen] = useState(false);
+  
+  const [isShown, setIsShown] = useState(false);
     return (
         <div className={`text-xl absolute top-0 left-0 justify-center text-center w-full p-0 lg:p-3 flex z-50 backdrop-blur-md ${dark ? "text-white" : "text-black"}`}>
 
@@ -29,9 +32,46 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                         <Link href={`/photovoltaik`}>
                             <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik</a>
                         </Link>
-                        <Link href={`/produkte`}>
+
+
+                        <button className="dropdown-toggle z-50	"
+                          onMouseEnter={() => setIsShown(true)}
+                          onMouseLeave={() => setIsShown(false)}>
+                         <Link href={`/produkte`}>
                             <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Produkte</a>
                         </Link>
+                         
+                        </button>
+                        {isShown && (
+                          <div className="z-50" style={{margin: '0px'}}>
+                        <nav
+                          onMouseEnter={() => setIsShown(true)}
+                          onMouseLeave={() => setIsShown(false)} 
+                        className={` -translate-x-2/3  grid absolute z-10 bg-white rounded-lg shadow dark:bg-gray-700`} style={{ top: '80%' }} >
+                        <Link href={`/solaranlage`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage</a>
+                        </Link>
+                        <Link href={`/solarmodule`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solarmodule</a>
+                        </Link>
+                        <Link href={`/stromspeicher`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Stromspeicher</a>
+                        </Link>
+                        <Link href={`/photovoltaik-mannheim`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Mannheim</a>
+                        </Link>
+                        <Link href={`/photovoltaik-beratung`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Beratung</a>
+                        </Link>
+                        <Link href={`/photovoltaik-planung`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Planung</a>
+                        </Link>
+                        <Link href={`/photovoltaik-montage`}>
+                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Montage</a>
+                        </Link>
+                        </nav>
+                        </div>
+      )}
                         <Link href={`/gewerbe`}>
                             <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Gewerbe</a>
                         </Link>

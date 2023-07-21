@@ -5,19 +5,28 @@ import Contact from '../components/general/Contact';
 import ImageSection from '../components/section/ImageSection';
 import { FiCheck } from "react-icons/fi";
 
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 
 const Solaranlage: NextPage = () => {
 
     return (
         <>
+          <HelmetProvider>
+            <Helmet>
+            <title>Solaranlage in Mannheim │ Lumix Solar GmbH</title>
+            <meta
+            name="description"
+            content="Solaranlagen Mannheim: innovative Solartechnik 🌞 Regionaler Anbieter ✔️ Individuelle Projektierung ✔️ Liefergarantie ➡️ Informieren❕"/>
+            </Helmet>
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Images/produkte.webp' title='Solaranlage vom regionalen Anbieter aus Mannheim' text='Profitieren Sie von den Vorteilen einer Solaranlage von Lumix Solar, Ihrem regionalen Partner in Mannheim. Wir liefern hochwertige Anlagen und unterstützen unsere Kunden zusätzlich mit einem hervorragenden und umfangreichen Service.' />
+                <Hero image='/Images/produkte.webp' title='Solaranlagen von Lumix Solar' text='Profitieren Sie von den Vorteilen einer Solaranlage von Lumix Solar, Ihrem regionalen Partner in Mannheim. Wir liefern hochwertige Anlagen und unterstützen unsere Kunden zusätzlich mit einem hervorragenden und umfangreichen Service.' />
 
                 <div id="first_section" className={`image-section-left`}>
                     <ImageSection image='/Images/module.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
-                        <h2>Solaranlagen von Lumix Solar</h2>
+                        <h2>Solaranlage vom regionalen Anbieter aus Mannheim</h2>
 
                         <div className='text-justify text-base lg:text-lg'>
                             <div className="flex items-center space-x-3 text-xl">
@@ -45,7 +54,8 @@ const Solaranlage: NextPage = () => {
                                 <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Persönliche Ansprechpartner</span>
                             </div>                        
                         </div>
-                        <p>
+                        <p className='text-justify text-base lg:text-lg'>
+
                             Mit einer modernen Solaranlage aus dem Hause Lumix Solar werden Sie in Mannheim endlich unabhängig von den Versorgungsunternehmen, die ihre Preise teilweise willkürlich und nicht nachvollziehbar erhöhen. Darüber hinaus steigt mit zunehmender Belastung des Stromnetzes die Gefahr von Stromausfällen. Auch dagegen können Sie sich mit einer Solaranlage auf Ihrem Dach in Mannheim effektiv wappnen. Möchten Sie Ihren ökologischen Fußabdruck verkleinern, ohne auf den Komfort zu verzichten, der mit elektrischen Geräten einhergeht? Wir liefern Ihnen die passenden Solarmodule für Ihre Solaranlage und sorgen mit umfassenden Serviceleistungen dafür, dass Sie optimal von Ihrer persönlichen Energiewende in Mannheim profitieren. Wünschen Sie weitere Informationen zu den Solaranlagen für Privatkunden und Gewerbebetriebe? Unser Team steht Ihnen jederzeit für eine ausführliche Beratung und die Erstellung eines Angebots zur Verfügung. 
                         </p>    
                     </div>
@@ -62,7 +72,7 @@ const Solaranlage: NextPage = () => {
                         
                     </div>
 
-                    <ImageSection image='/Images/wechselrichter.webp' />
+                    <ImageSection image='https://as1.ftcdn.net/v2/jpg/03/57/20/80/1000_F_357208029_wP5Qtrs1MuqRbiJIuYg3BQtiw4WfROZD.jpg' />
                 </div>
 
                 <div className={`image-section-left`}>
@@ -98,6 +108,8 @@ const Solaranlage: NextPage = () => {
                 <Contact />
 
             </div>
+            </HelmetProvider>
+
         </>
     )
 }
