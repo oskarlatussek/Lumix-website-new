@@ -12,11 +12,12 @@ interface SubpageLandingpageProps {
     bullet6?: string;
     bullet7?: string;
     bullet8?: string;
+    text?: string; 
     image: string;
     left?: boolean;
 }
 
-const SubpageLandingpages = ({ title, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, image, left }: SubpageLandingpageProps) => {
+const SubpageLandingpages = ({ title, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, image, left }: SubpageLandingpageProps) => {
     return (
         <>
             <div className="min-h-screen w-full p-2 sm:p-5">
@@ -73,6 +74,9 @@ const SubpageLandingpages = ({ title, bullet1, bullet2, bullet3, bullet4, bullet
                                 <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet8}</span>
                             </div>
                         )}        
+                            <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-lg text-zinc-800">
+                                {text}
+                            </p>
                     </div>
                 </div>
 
