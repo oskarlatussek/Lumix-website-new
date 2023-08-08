@@ -26,11 +26,13 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 content="Photovoltaik Heidelberg: renommierter Anbieter 🌞 Regionaler Partner ✔️ Individuelle Lösungen ✔️ Liefergarantie ➡️ Jetzt informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
+								{/*
 								<div style={{ backgroundImage: 'url(https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4)' , backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
-								{/*<div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">*/}
 								<video autoPlay muted loop id="myVideo">
   								<source src="https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4" type="video/mp4" />
 								</video>
+							*/}
+								<div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -74,21 +76,21 @@ const PhotovoltaikHeidelberg: NextPage = () => {
 										<div className="flex items-center w-full justify-center py-4">
 												<div className="flex flex-col items-center w-full justify-center">
 												<FaSolarPanel className=" text-yellow-400 text-7xl" />
-												<CountUp prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
+												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Installationen
 												</p>
 											</div>
 											<div className="flex flex-col  items-center w-full justify-center">
 												<FaHandHoldingDollar className="text-yellow-400 text-7xl" />
-												<CountUp suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
+												<CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Kundenersparnis (€)
 												</p>
 											</div>
 											<div className="flex flex-col  items-center w-full justify-center">
 												<FaEarthAmericas className="text-yellow-400 text-7xl" />
-												<CountUp separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
+												<CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Co2 Einsparungen
 												</p>

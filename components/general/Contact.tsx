@@ -40,14 +40,16 @@ const Contact = () => {
 
     return (
 
-        <div className="w-full lg:flex-row bg-black/50 backdrop-blur-s items-center justify-between">
-            <video autoPlay muted loop id="myVideo2">
+        <div className="w-full lg:flex-row  items-center justify-between">
+           {/*
+					 <video autoPlay muted loop id="myVideo2">
           	  <source src="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4" type="video/mp4" />
             </video>
+					*/} 
                 <h3 className="p-5 py-20 sm:p-10 sm:pt-16 text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-7xl text-center leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
                     Kontaktieren Sie uns!
                 </h3>
-            <div id="contact" className="w-full flex flex-col lg:flex-row space-x-0 lg:space-x-32 space-y-8 lg:space-y-0 items-center justify-between p-5  sm:p-5 sm:pt-16 max-w-screen-2xl">
+            <div id="contact" className="w-full flex flex-col lg:flex-row space-x-0 lg:space-x-32 space-y-8 lg:space-y-0 items-center justify-evenly p-5  sm:p-5 sm:pt-16 ">
 
                 <div className="flex flex-col items-center space-y-10 sm:space-y-16 max-w-full lg:max-w-[50%]">
                     <p className="text-4xl text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-7xl font-medium text-center leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
