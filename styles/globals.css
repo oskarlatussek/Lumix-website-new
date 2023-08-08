@@ -187,3 +187,21 @@ ul{
   bottom: -80px;
   z-index: -9999;
 }
+
+#myVideo {
+  position: absolute;
+  object-fit: fill;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#myVideo2 {
+  position: absolute;
+  object-fit: fill;
+  z-index: -10;
+  right: 0;
+  min-width: 100%;
+  min-height: 99%;
+}

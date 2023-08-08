@@ -101,7 +101,7 @@ const Stromspeicher: NextPage = () => {
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Images/wallbox.webp' />
+                    <ImageSection image='/Images/batterie.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Lumix Solar – unser umfangreiches Portfolio:</h2>

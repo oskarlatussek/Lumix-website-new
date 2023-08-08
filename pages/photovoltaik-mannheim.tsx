@@ -84,7 +84,7 @@ const PhotovoltaikMannheim: NextPage = () => {
                 </div>
 
                 <div className={`image-section-left`}>
-                    <ImageSection image='/Images/wallbox.webp' />
+                    <ImageSection image='/Images/gewerbe.webp' />
 
                     <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                         <h2>Photovoltaik-Anlage kaufen bei Ihrem vertrauensvollen Partner in Mannheim</h2>
