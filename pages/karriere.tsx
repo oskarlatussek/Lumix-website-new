@@ -1,10 +1,30 @@
 import type { NextPage } from 'next'
 import { IoIosRocket } from 'react-icons/io';
-import {BsQuestionLg} from "react-icons/bs"
+import { BsQuestionLg } from "react-icons/bs"
 
 import Contact from '../components/general/Contact';
 import TeamCard from '../components/section-element/TeamCard';
 import ImageSection from '../components/section/ImageSection';
+import Stelle from '../components/section-element/Stelle';
+import Link from 'next/link';
+
+const tasksHeizungsbauer = [
+    "Bereichsverantwortlichkeit für den neuen Geschäftszweig „Wärmepumpen“",
+    "Aufbau deines neuen Verantwortlichkeitsbereiches",
+    "Installation und Inbetriebnahme von Wärmepumpen in Privathaushalten und Gewerbegebäuden",
+    "Wartung und Reparatur bestehender Anlagen",
+    "Kundenberatung und - betreuung rund um das Thema Wärmepumpen",
+    "Zusammenarbeit mit unserem engagierten Team, um Projekte erfolgreich umzusetzen"
+]
+
+const qualificationsHeizungsbauer = [
+    "Bereichsverantwortlichkeit für den neuen Geschäftszweig „Wärmepumpen“",
+    "Aufbau deines neuen Verantwortlichkeitsbereiches",
+    "Installation und Inbetriebnahme von Wärmepumpen in Privathaushalten und Gewerbegebäuden",
+    "Wartung und Reparatur bestehender Anlagen",
+    "Kundenberatung und - betreuung rund um das Thema Wärmepumpen",
+    "Zusammenarbeit mit unserem engagierten Team, um Projekte erfolgreich umzusetzen"
+]
 
 
 const Team: NextPage = () => {
@@ -15,10 +35,12 @@ const Team: NextPage = () => {
                 <div className="w-full h-full flex flex-col space-y-10 justify-center items-center text-center pt-56 sm:pt-56 pb-20 sm:pb-20 p-5 sm:p-10">
                     <h3 className="animate__animated animate__fadeIn">Entdecke deine berufliche Energie und starte jetzt deine Karriere bei Lumix Solar</h3>
                     <p className="pb-10 text-lg sm:text-xl lg:text-3xl leading-tight sm:leading-tight lg:leading-tight text-gray-300 font-medium max-w-5xl animate__animated animate__fadeIn animate__delay-1s">Bist auch du elektrisiert von der Sonne? Dann werde Sonnenheld:in und unterstütze uns dabei, unsere Kunden mit erneuerbaren Energien eine unabhängige und nachhaltige Stromerzeugung zu ermöglichen.</p>
-                    <a href='https://join.com/companies/lumix' target="_blank" className="rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
-                        <span>Offene Stellen</span>
-                        <IoIosRocket />
-                    </a>
+                    <Link href="#stellen">
+                        <a className="mb-20 lg:mb-0 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                            <span>Offene Stellen</span>
+                            <IoIosRocket />
+                        </a>
+                    </Link>
                 </div>
 
                 <div className='w-full z-10 flex flex-col items-center p-0 sm:p-10 pt-24 sm:pt-24 md:pt-44'>
@@ -33,7 +55,8 @@ const Team: NextPage = () => {
                                 Wir sind ein dynamisches und leidenschaftliches Team von engagierten Expert:innen, die sich für nachhaltige Energie einsetzen. Mit Stolz können wir auf über 500 erfolgreich abgeschlossene Projekte und zahlreiche zufriedene Kund:innen zurückblicken.<br /><br />
                                 Bei Lumix Solar dreht sich alles um Teamwork und Zusammenarbeit. Mit unseren vielfältigen Fähigkeiten und unserem geballten Know-how in den Bereichen Photovoltaik, erneuerbare Energien und nachhaltige Technologien arbeiten wir daran, die Grenzen der Solarenergie zu erweitern und innovative Lösungen zu entwickeln.<br /><br />
                                 Wir legen großen Wert auf eine inspirierende und freundliche Arbeitsatmosphäre, in der sich jeder Einzelne entfalten und wachsen kann. Wenn du die Welt nachhaltiger gestalten und Teil eines Teams sein möchtest, das mit Begeisterung an einer grünen Zukunft arbeitet, dann bist du bei uns genau richtig. Wir suchen engagierte Talente, die unsere Leidenschaft für erneuerbare Energien teilen und die Chance ergreifen möchten, gemeinsam mit uns Großes zu bewirken.<br /><br />
-                                Bist du schon elektrisiert? Wir wollend ich als Held:in der Energiewende ganz weit nach oben bringen.<br /><br />
+                                Unsere modernen Büroräume im Herzen des Mannheimer Hafengebiets bieten nicht nur einen inspirierenden Arbeitsplatz, sondern auch eine offene Startup-Kultur, in der Innovation und Teamgeist großgeschrieben werden.<br /><br />
+                                Bist du schon elektrisiert? Wir wollen dich als Held:in der Energiewende ganz weit nach oben bringen.<br /><br />
                                 Entdecke spannende Möglichkeiten, um bei Lumix Solar durchzustarten. Wir können es kaum erwarten, dich kennen zu lernen!<br /><br />
                             </p>
                         </div>
@@ -41,10 +64,12 @@ const Team: NextPage = () => {
 
                 </div>
 
-                <a href='https://join.com/companies/lumix' target="_blank" className="mb-20 lg:mb-0 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
-                    <span>Offene Stellen</span>
-                    <IoIosRocket />
-                </a>
+                <Link href="#stellen">
+                    <a className="mb-20 lg:mb-0 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                        <span>Offene Stellen</span>
+                        <IoIosRocket />
+                    </a>
+                </Link>
 
                 <div className='w-full z-10 flex flex-col items-center p-0 sm:p-10 pt-24 sm:pt-24 md:pt-44'>
 
@@ -80,12 +105,22 @@ const Team: NextPage = () => {
 
                 </div>
 
-                <a href='https://join.com/companies/lumix' target="_blank" className="mb-40 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                {/* <a href='https://join.com/companies/lumix' target="_blank" className="mb-40 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
                     <span>Offene Stellen</span>
                     <IoIosRocket />
-                </a>
+                </a> */}
+                <div className='flex flex-col items-center px-5 sm:px-10 w-full my-10' id="stellen">
+                    <h3 className='text-4xl xl:text-5xl pb-5'>Offene Stellen</h3>
+                    <p className='text-white text-center max-w-2xl p-5 text-base md:text-xl pb-20'>Hier findest du unsere offenen Stellen. Bitte schick uns deine Bewerbung an <a href='mailto:bewerbung@lumix.solar' className='text-yellow-400'>bewerbung@lumix.solar</a>. Wenn aktuell keine passende Stelle für dich ausgeschrieben ist, kannst du uns auch gerne eine Initiativbewerbung schicken.</p>
 
-                <div className='flex flex-col space-y-16 max-w-4xl self-center px-5 sm:px-10'>
+                    <div className='flex flex-wrap justify-center gap-5'>
+                        <Stelle title="Heizungsbauer (m/w/d) für Wärmepumpen" tasks={tasksHeizungsbauer} qualifications={qualificationsHeizungsbauer} />
+                        {/* <Stelle title="Heizungsbauer (m/w/d) für Wärmepumpen" tasks={tasksHeizungsbauer} qualifications={qualificationsHeizungsbauer} /> */}
+
+                    </div>
+                </div>
+
+                <div className='flex flex-col space-y-16 max-w-4xl self-center px-5 sm:px-10 mt-10 lg:mt-20'>
                     <h3 className='text-4xl xl:text-5xl'>Häufig gestelle Fragen</h3>
                     {/* <p className='text-white text-2xl font-bold'><span className='text-5xl'>Willkommen bei Lumix Solar</span><br /><br /> - dem Ort, an dem wir die Welt ein bisschen grüner machen!</p> */}
 
@@ -96,7 +131,7 @@ const Team: NextPage = () => {
 
                     <div className='flex space-x-5 items-center'>
                         <BsQuestionLg className='text-yellow-400 text-2xl flex-none' />
-                        <p className='text-white text-base'><b className='text-xl'>Kann ich mich auch initiativ bewerben?<br /> </b>Ja, wir freuen uns über Initiativbewerbungen. Sende uns deine Bewerbungsunterlagen an <span className='text-yellow-500'>bewerbung@lumix.solar</span> und lass uns wissen, für welche Art von Position du dich interessierst. Wir prüfen dann, ob es passende Möglichkeiten für dich gibt.</p>
+                        <p className='text-white text-base'><b className='text-xl'>Kann ich mich auch initiativ bewerben?<br /> </b>Ja, wir freuen uns über Initiativbewerbungen. Sende uns deine Bewerbungsunterlagen an <a href='mailto:bewerbung@lumix.solar' className='text-yellow-400'>bewerbung@lumix.solar</a> und lass uns wissen, für welche Art von Position du dich interessierst. Wir prüfen dann, ob es passende Möglichkeiten für dich gibt.</p>
                     </div>
 
                     <div className='flex space-x-5 items-center'>
@@ -106,10 +141,12 @@ const Team: NextPage = () => {
 
                 </div>
 
-                <a href='https://join.com/companies/lumix' target="_blank" className="my-40 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
-                    <span>Offene Stellen</span>
-                    <IoIosRocket />
-                </a>
+                <Link href="#stellen">
+                    <a className="my-20 rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 flex items-center space-x-2 bg-yellow-400 text-black text-base sm:text-xl font-medium max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                        <span>Offene Stellen</span>
+                        <IoIosRocket />
+                    </a>
+                </Link>
 
                 <div className='w-full flex justify-center h-full bg-white'>
                     <Contact />
