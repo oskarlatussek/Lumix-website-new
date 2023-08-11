@@ -1,8 +1,6 @@
 import type { NextPage } from 'next'
 
-import Hero from "../components/general/Hero";
 import Process from "../components/section/Process";
-import Subpage from "../components/section/Subpage";
 import SubpageLandingpages from "../components/section/SubpageLandingpages";
 import Contact from '../components/general/Contact';
 import Service from '../components/section/Service';
@@ -12,7 +10,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { HiOutlineArrowSmRight } from "react-icons/hi"
-
 
 const PhotovoltaikHeidelberg: NextPage = () => {
 
@@ -26,19 +23,15 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 content="Photovoltaik Heidelberg: renommierter Anbieter 🌞 Regionaler Partner ✔️ Individuelle Lösungen ✔️ Liefergarantie ➡️ Jetzt informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-								{/*
-								<div style={{ backgroundImage: 'url(https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4)' , backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
-								<video autoPlay muted loop id="myVideo">
-  								<source src="https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4" type="video/mp4" />
-								</video>
-							*/}
-								<div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+								<div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Photovoltaik-Anlage in Heidelberg – Lumix Solar</h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">Moderne Photovoltaik-Anlagen ermöglichen Privat- und Geschäftskunden in Heidelberg, einen Großteil der Stromkosten zu sparen und endlich unabhängig von gängigen Stromanbietern zu werden. Unser Team hilft Ihnen, den Umstieg auf Photovoltaik in Heidelberg zu bewältigen.</p>
+                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                          Moderne Photovoltaik-Anlagen ermöglichen Privat- und Geschäftskunden in Heidelberg, einen Großteil der Stromkosten zu sparen und endlich unabhängig von gängigen Stromanbietern zu werden. Unser Team hilft Ihnen, den Umstieg auf Photovoltaik in Heidelberg zu bewältigen.
+                        </p>
 
                         {/* <Link href="#first_section">
                             <a className="rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 border border-gray-300 text-gray-300 text-base sm:text-xl max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
@@ -63,12 +56,14 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                     bullet6='Zuverlässiger regionaler Ansprechpartner'
                     bullet7='Kompetente Wirtschaftlichkeitsberechnung'
                     bullet8='Liefergarantie und vorbildlicher Service'
-                    image='/Images/privat.webp' 
+                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    link='/konfigurator'
+                    linkText='Heute noch Termin vereinbaren!' 
                     left />
 
                 <div className="items-center w-full justify-center pt-10">   
-								<p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
-                      Ihre Vorteile wenn Sie mit uns zusammenarbeiten
+                  <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
+                    <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
                     <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Die Photovoltaik-Technologie trägt entscheidend zur Lösung des Energieproblems bei, denn damit wird es Privathaushalten und Gewerbebetrieben in Heidelberg ermöglicht, klimaneutral eigenen Strom zu erzeugen. Wenn Sie sich für die Installation einer Photovoltaik-Anlage entscheiden, machen Sie sich unabhängig von den ständigen Erhöhungen des Strompreises und senken Ihre Stromkosten erheblich. Die Entwicklung neuer Stromspeicher und die günstigere Herstellung dieser Komponenten führen dazu, dass Sie das Potenzial Ihrer Photovoltaik-Anlage in Heidelberg wesentlich besser nutzen können, denn es werden nun Eigenverbrauchsquoten von bis zu 80 Prozent erreicht. Möchten Sie mehr über die Möglichkeiten der Photovoltaik erfahren und sich in Heidelberg individuell beraten lassen oder direkt ein Angebot anfordern?
@@ -111,7 +106,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
 								yellowTitle='PV-Anlage mit Speicher'
 								title=' in Heidelberg installieren'
                 text='Wenn Sie sich für eine PV-Anlage mit Speicher entscheiden, erstellen wir für Ihr Gebäude in Heidelberg eine maßgeschneiderte Energielösung. Unsere PV-Anlagen werden bedarfsgerecht dimensioniert und aus hochwertigen Produkten namhafter Hersteller konfiguriert. Sowohl die Solarmodule als auch die Stromspeicher überzeugen mit optimaler Energieeffizienz und langer Haltbarkeit.'
-                image='/Images/produkte.webp'
+                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
                 link='/konfigurator' 
 								linkText='Mehr erfahren'/>
 
@@ -124,9 +119,9 @@ const PhotovoltaikHeidelberg: NextPage = () => {
 								yellowTitle ='Ganzheitliche Lösungen'
 								title=' – effeketiver Nutzen'
                 text='Als erfahrener Anbieter für Photovoltaik-Anlagen bieten wir unseren Kunden aus Heidelberg einen vorbildlichen Service, der die kompetente Beratung, die detaillierte Planung, die fachgerechte Montage ebenso wie die Betreuung nach dem Kauf einschließt. Photovoltaik-Anlagen aus dem Hause Lumix Solar bilden einen effektiven Beitrag zur Energiewende und schützen Sie gleichzeitig vor Stromausfällen aufgrund von Netzüberlastungen. Falls Sie eine PV-Anlage kaufen, verliert der vieldiskutierte Blackout in Heidelberg endlich seinen Schrecken.'
-                image='/Images/gewerbe.webp'
+                image='https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg'
 								linkText='Hier Angebot anfordern!'
-                link='/gewerbe'
+                link='/konfigurator'
                 left />
 
                 <SubpageLandingpages 
@@ -138,7 +133,9 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 bullet4='Montage der PV-Anlage'
                 bullet5='Prüfung und Inbetriebnahme'
                 bullet6='Wartung und Reparatur'
-                image='/Images/gewerbe.webp'
+                image='https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg'
+                link='/konfigurator'
+                linkText='Noch Fragen? Dann schreiben Sie uns'
                  />
 
                 <Service />
@@ -146,13 +143,12 @@ const PhotovoltaikHeidelberg: NextPage = () => {
 								yellowTitle='Lumix Solar -'
 								title='  Photovoltaik-Anbieter nahe Heidelberg'
                 text='Sie möchten klimafreundlichen Sonnenstrom selbst produzieren und suchen nach einem kompetenten Photovoltaik-Anbieter, der Ihnen einen überzeugenden Service bietet? Das Team von Lumix Solar kennt sich bestens mit der Konfiguration und Installation von Photovoltaik Anlagen aus und betreut Ihr Projekt in Heidelberg bereits im Planungsstadium. Anhand von realistischen Wirtschaftlichkeitsberechnungen können wir Ihnen sogar die Frage: Lohnt sich PV?, ganz genau beantworten. Darüber hinaus informieren wir über aktuelle Förderprogramme und unterstützen Sie bei der Beantragung der Photovoltaik-Förderung in Heidelberg.'
-                image='/Images/gewerbe.webp'
-								linkText='Über Angebot informieren!'
+                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+								linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
                  />
 
                 {/* <FAQ /> */}
-                <Contact />
             </div>
             </HelmetProvider>
 
