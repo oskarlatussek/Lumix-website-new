@@ -1,14 +1,14 @@
 import type { NextPage } from 'next'
 
-import Hero from "../components/general/Hero";
 import Process from "../components/section/Process";
-import Subpage from "../components/section/Subpage";
 import SubpageLandingpages from "../components/section/SubpageLandingpages";
-import Contact from '../components/general/Contact';
 import Service from '../components/section/Service';
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 import Link from 'next/link';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
+import CountUp from "react-countup";
+import { HiOutlineArrowSmRight } from "react-icons/hi"
 
 
 const PhotovoltaikMainz: NextPage = () => {
@@ -47,7 +47,9 @@ const PhotovoltaikMainz: NextPage = () => {
                 </div>
                 <Process />
 
-                <SubpageLandingpages title='Solarstrom – individuelle Energielösungen:'
+                <SubpageLandingpages
+                		yellowTitle='Solarstrom – '
+                    title='individuelle Energielösungen:'
                     bullet1='Solarstrom auf dem Dach selbst herstellen'
                     bullet2='Steigende Strompreise ausbremsen'
                     bullet3='Eigenverbrauchsquote von maximal 80 Prozent' 
@@ -56,59 +58,110 @@ const PhotovoltaikMainz: NextPage = () => {
                     bullet6='Erfahrener regionaler Anbieter bei Mainz'
                     bullet7='Exakte Wirtschaftlichkeitsberechnung'
                     bullet8='Rundum-sorglos-Service und Termintreue'
-                    image='/Images/privat.webp' 
-                    left />
+                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+										link='/konfigurator'
+                    linkText='Heute noch Termin vereinbaren!' 
+										left />
 
-                <div className="flex items-center w-full justify-center py-10">
-                    <p className="text-2xl sm:text-4xl lg:text-5xl leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
-                        Immer mehr Privathaushalte und Gewerbebetriebe entscheiden sich für eine innovative Photovoltaik-Anlage in Mainz. Insbesondere die Tatsache, dass sich der Wirkungsgrad von Photovoltaik-Anlagen stark erhöht hat und dadurch die Wirtschaftlichkeit enorm verbessert wurde, trägt zur steigenden Attraktivität von PV-Anlagen bei. Dank einer durchschnittlichen Amortisationsdauer der Photovoltaik-Anlage von unter zehn Jahren und einer Lebensdauer von mehr als 25 Jahren kann die Frage: Lohnt sich PV?, mittlerweile mit einem eindeutigen „Ja“ beantwortet werden. Gerne unterbreiten wir Ihnen für den Raum Mainz ein individuelles Angebot.
-                    </p>
+								<div className="items-center w-full justify-center pt-10">   
+										<p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
+											<span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
+										</p>
+										<p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+													Immer mehr Privathaushalte und Gewerbebetriebe entscheiden sich für eine innovative Photovoltaik-Anlage in Mainz. Insbesondere die Tatsache, dass sich der Wirkungsgrad von Photovoltaik-Anlagen stark erhöht hat und dadurch die Wirtschaftlichkeit enorm verbessert wurde, trägt zur steigenden Attraktivität von PV-Anlagen bei. Dank einer durchschnittlichen Amortisationsdauer der Photovoltaik-Anlage von unter zehn Jahren und einer Lebensdauer von mehr als 25 Jahren kann die Frage: Lohnt sich PV?, mittlerweile mit einem eindeutigen „Ja“ beantwortet werden. Gerne unterbreiten wir Ihnen für den Raum Mainz ein individuelles Angebot.
+										</p>
+										<div className="flex items-center w-full justify-center py-4">
+												<div className="flex flex-col items-center w-full justify-center">
+												<FaSolarPanel className=" text-yellow-400 text-7xl" />
+												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
+												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+												Installationen
+												</p>
+											</div>
+											<div className="flex flex-col  items-center w-full justify-center">
+												<FaHandHoldingDollar className="text-yellow-400 text-7xl" />
+												<CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
+												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+												Kundenersparnis (€)
+												</p>
+											</div>
+											<div className="flex flex-col  items-center w-full justify-center">
+												<FaEarthAmericas className="text-yellow-400 text-7xl" />
+												<CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
+												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+												Co2 Einsparungen
+												</p>
+											</div>
+										</div>
+										<div className="flex items-center w-full justify-center py-10">   
+											<Link href={{ pathname: '/konfigurator' }}>
+												<a className="self-center flex text-xl items-center space-x-2 md:self-start bg-yellow-400 rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
+													<span>Hier Angebot anfordern!</span>
+													<HiOutlineArrowSmRight className="text-xl"/>
+												</a>
+											</Link>
+										</div>
                 </div>
 
-                <Subpage title='Photovoltaik-Anlage mit Speicher unweit von Mainz kaufen'
+                <SubpageLandingpages
+								yellowTitle='Photovoltaik-Anlage '
+								title='mit Speicher unweit von Mainz kaufen'
                 text='Es ist empfehlenswert, sich für eine Photovoltaik-Anlage mit Speicher zu entscheiden, denn dadurch sind in Mainz Eigenverbrauchsquoten von bis zu 80 Prozent erreichbar, wodurch sich die Wirtschaftlichkeit erheblich verbessert. Stromspeicher wurden in den vergangenen Jahren erstens immer leistungsstärker und zweitens kostengünstiger, sodass es sich lohnt, eine Photovoltaik-Anlage mit einem Speicher auszustatten – auf diese Weise profitieren Sie auch dann von günstigem Solarstrom, wenn die Sonne in Mainz nicht scheint.'
-                image='/Images/produkte.webp'
-                link='/produkte' />
+                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
+                link='/konfigurator' 
+								linkText='Mehr erfahren'/>
 
                 <div className="flex items-center w-full justify-center py-10">
                     {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
                     <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full"><span className="drop-shadow-none">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-none"> für alle!</span></p>
                 </div>
 
-                <Subpage title='PV-Anlage mit Speicher – zukunftsfähige Technologie'
+                <SubpageLandingpages
+								yellowTitle ='PV-Anlage '
+								title='mit Speicher – zukunftsfähige Technologie'
                 text='Das erfahrene Team von Lumix Solar dimensioniert Photovoltaik-Anlagen mit Speicher bedarfsorientiert und berät Sie hinsichtlich einer zukunftssicheren Ausstattung der PV-Anlage. Die Energieeffizienz Ihres Hauses lässt sich weiter steigern, wenn Sie die Anlage mit einer Wärmepumpe koppeln und auch für die Heizung umweltfreundlichen Solarstrom nutzen. Eine weitere Option zur Verbesserung des eigenen Beitrags zum Klimaschutz ist die Verwendung des Sonnenstroms zum Aufladen Ihres Elektroautos. Zu diesem Zweck koppeln wir die Photovoltaik-Anlage mit Speicher zusätzlich mit einer Wallbox. Gerne informieren wir Sie über die vielfältigen Möglichkeiten, Photovoltaik in Mainz wirtschaftlich einzusetzen.'
-                image='/Images/gewerbe.webp'
-                link='/gewerbe'
+                image='https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg'
+								linkText='Hier Angebot anfordern!'
+                link='/konfigurator'
                 left />
 
-                <Subpage title='PV-Anlage kaufen in Mainz: Ihr Partner Lumix Solar'
+                <SubpageLandingpages
+								yellowTitle ='PV-Anlage'
+								title=' kaufen in Mainz: Ihr Partner Lumix Solar'
                 text='Sie möchten eine PV-Anlage kaufen, um künftig in Mainz unabhängig von Stromanbietern zu werden? Lumix Solar ist Ihr kompetenter Ansprechpartner und bietet Ihnen als regionaler Anbieter die Sicherheit einer perfekten Betreuung. Sie können sich jederzeit an unsere Photovoltaik-Experten wenden, wenn Sie eine Beratung vor dem Kauf benötigen oder später Fragen zum Betrieb der PV-Anlage haben.'
-                image='/Images/gewerbe.webp'
-                link='/gewerbe'
-                />
+                image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
+								linkText='Jetzt Solarcheck starten!'
+                link='/konfigurator'
+								/>
 
                 
-                <Subpage title='Komplett-Service von Ihrem Spezialisten für PV-Anlagen'
+                <SubpageLandingpages
+								yellowTitle='Komplett-Service'
+								title=' von Ihrem Spezialisten für PV-Anlagen'
                 text='Falls Sie sich dafür entscheiden, Ihre PV-Anlage bei Lumix Solar zu kaufen, profitieren Sie in Mainz von unserem vollumfänglichen Service, der von den Beratung bis zur Montage und Wartung reicht. Wir erstellen ein maßgeschneidertes Konzept und konfigurieren die Photovoltaik-Anlage in Mainz passend zu Ihren Anforderungen und örtlichen Gegebenheiten aus hochwertigen Produkten renommierter Hersteller und verwenden ausschließlich modernste Solarmodule und Stromspeicher.'
                 image='/Images/gewerbe.webp'
-                link='/gewerbe'
+								linkText='Jetzt informieren!'
+                link='/konfigurator'
                 left />
 
-                <SubpageLandingpages title='Photovoltaik-Anlage von Lumix Solar – wir bieten Ihnen in Mainz:'
+                <SubpageLandingpages
+								yellowTitle='Photovoltaik-Anlage'
+								title=' von Lumix Solar – wir bieten Ihnen in Mainz:'
                 bullet1='Persönliche & umfassende Beratung'
                 bullet2='Individuelle Planung der PV-Anlage'
                 bullet3='Berechnung der Wirtschaftlichkeit'
                 bullet4='Fachgerechte Montage der Anlage'
                 bullet5='Prüfung und Inbetriebnahme'
                 bullet6='Wartung und Reparatur'
-                image='/Images/gewerbe.webp'
-                />
+								video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+                link='/konfigurator'
+                linkText='Noch Fragen? Dann schreiben Sie uns'
+                 />
 
                 <Service />
                 
 
                 {/* <FAQ /> */}
-                <Contact />
             </div>
             </HelmetProvider>
 

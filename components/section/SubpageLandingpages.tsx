@@ -14,20 +14,30 @@ interface SubpageLandingpageProps {
     bullet7?: string;
     bullet8?: string;
     text?: string; 
-    image: string;
+    video?: string; // Add the video field
+    image?: string;
     link?: string;
     linkText?: string;
     left?: boolean;
 }
 
-const SubpageLandingpages = ({ title, yellowTitle, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, image, linkText, link, left }: SubpageLandingpageProps) => {
+const SubpageLandingpages = ({ title, yellowTitle, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
     return (
         <>
             <div className="min-h-screen w-full p-2 sm:p-5">
 
                 <div className="h-screen w-full sticky top-0 flex items-center">
                     {/* <div className="absolute w-full h-[95%] bg-white/10 left-0 top-[2.5%] rounded-xl"/> */}
+                    {video && (
+                    <video className="object-cover h-[95%] w-full rounded-xl background-video" autoPlay loop muted>
+                        <source src={video} type="video/mp4" />
+                        {/* You can add additional source elements for other video formats */}
+                        Your browser does not support the video tag.
+                    </video>
+                    )}
+                    {image && (
                     <img src={image} className="object-cover h-[95%] w-full rounded-xl" />
+                    )}
                 </div>
 
                 <div className={`h-screen w-full sticky top-0 flex items-center ${left ? "justify-start" : "justify-end"}`}>
