@@ -94,7 +94,7 @@ const qualificationsAssociate = [
 ]
 
 const tasksExpansion = [
-    "Du hilfst dabei, unser Geschäftsmodell in neuen Märkten und Regionen zu skalieren",
+    "Du hilfst dabei unser Geschäftsmodell in neuen Märkten und Regionen zu skalieren",
     "Du identifizierst spannende Märkte und potenzielle Wachstumsregionen",
     "Du entwickelst Strategien zum Markteintritt und planst Vertriebsaktivitäten",
     "Du arbeitest auf Augenhöhe mit unseren Gründern zusammen"
@@ -211,7 +211,7 @@ const Team: NextPage = () => {
                     <h3 className='text-4xl xl:text-5xl pb-5'>Offene Stellen</h3>
                     <p className='text-white text-center max-w-2xl p-5 text-base md:text-xl pb-20'>Hier findest du unsere offenen Stellen. Bitte schick uns deine Bewerbung an <a href='mailto:karriere@lumix.solar' className='text-yellow-400'>karriere@lumix.solar</a>. Wenn aktuell keine passende Stelle für dich ausgeschrieben ist, kannst du uns auch gerne eine Initiativbewerbung schicken.</p>
 
-                    <div className='flex flex-wrap justify-center gap-5'>
+                    <div className='flex flex-wrap justify-center gap-5 max-w-screen-xl'>
                         <Stelle title="Heizungsbauer (m/w/d) für Wärmepumpen" type="Vollzeit" tasks={tasksHeizungsbauer} qualifications={qualificationsHeizungsbauer} />
                         <Stelle title="Elektromeister (m/w/d)" type="Vollzeit" tasks={tasksElektromeister} qualifications={qualificationsElektromeister} />
                         <Stelle title="Solar Operations Specialist (m/w/d)" type="Vollzeit | Teilzeit" tasks={tasksSachbearbeiter} qualifications={qualificationsSachbearbeiter} />
