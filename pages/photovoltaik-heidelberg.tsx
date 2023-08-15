@@ -68,7 +68,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                     <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Die Photovoltaik-Technologie trägt entscheidend zur Lösung des Energieproblems bei, denn damit wird es Privathaushalten und Gewerbebetrieben in Heidelberg ermöglicht, klimaneutral eigenen Strom zu erzeugen. Wenn Sie sich für die Installation einer Photovoltaik-Anlage entscheiden, machen Sie sich unabhängig von den ständigen Erhöhungen des Strompreises und senken Ihre Stromkosten erheblich. Die Entwicklung neuer Stromspeicher und die günstigere Herstellung dieser Komponenten führen dazu, dass Sie das Potenzial Ihrer Photovoltaik-Anlage in Heidelberg wesentlich besser nutzen können, denn es werden nun Eigenverbrauchsquoten von bis zu 80 Prozent erreicht. Möchten Sie mehr über die Möglichkeiten der Photovoltaik erfahren und sich in Heidelberg individuell beraten lassen oder direkt ein Angebot anfordern?
                     </p>
-										<div className="flex items-center w-full justify-center py-4">
+										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
 												<div className="flex flex-col items-center w-full justify-center">
 												<FaSolarPanel className=" text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
@@ -141,7 +141,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 <Service />
                 <SubpageLandingpages
 								yellowTitle='Lumix Solar -'
-								title='  Photovoltaik-Anbieter nahe Heidelberg'
+								title=' Photovoltaik-Anbieter nahe Heidelberg'
                 text='Sie möchten klimafreundlichen Sonnenstrom selbst produzieren und suchen nach einem kompetenten Photovoltaik-Anbieter, der Ihnen einen überzeugenden Service bietet? Das Team von Lumix Solar kennt sich bestens mit der Konfiguration und Installation von Photovoltaik Anlagen aus und betreut Ihr Projekt in Heidelberg bereits im Planungsstadium. Anhand von realistischen Wirtschaftlichkeitsberechnungen können wir Ihnen sogar die Frage: Lohnt sich PV?, ganz genau beantworten. Darüber hinaus informieren wir über aktuelle Förderprogramme und unterstützen Sie bei der Beantragung der Photovoltaik-Förderung in Heidelberg.'
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
 								linkText='Jetzt Solarcheck starten!'

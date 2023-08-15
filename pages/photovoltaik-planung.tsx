@@ -1,10 +1,15 @@
 import type { NextPage } from 'next'
 
-import Hero from "../components/general/Hero";
-import Contact from '../components/general/Contact';
-import ImageSection from '../components/section/ImageSection';
-import { FiCheck } from "react-icons/fi";
+import Process from "../components/section/Process";
+import SubpageLandingpages from "../components/section/SubpageLandingpages";
+import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
+import Link from 'next/link';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
+import CountUp from "react-countup";
+import { HiOutlineArrowSmRight } from "react-icons/hi"
+
+
 
 
 
@@ -21,81 +26,109 @@ const PhotovoltaikPlanung: NextPage = () => {
             </Helmet>
 
             <div className="flex flex-col items-center max-w-full">
-                <Hero image='/Images/produkte.webp' title='Exakte Planung Ihrer Photovoltaik-Anlage in Mannheim' text='Die professionelle Planung einer Photovoltaik-Anlage legt in Mannheim den Grundstein für eine optimale Investitionsentscheidung. Unsere Experten unterstützen Sie dabei, eine bedarfsgerechte PV-Anlage zu planen und entwickeln individuelle Lösungen für Privathaushalte und Unternehmen.' />
+								<div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                    <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
-                <div id="first_section" className={`image-section-left`}>
-                    <ImageSection image='/Images/module.webp' />
+                    <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
+                        <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
+                        Exakte Planung Ihrer Photovoltaik-Anlage in Mannheim
+                        </h3>
+                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        Die professionelle Planung einer Photovoltaik-Anlage legt in Mannheim den Grundstein für eine optimale Investitionsentscheidung. Unsere Experten unterstützen Sie dabei, eine bedarfsgerechte PV-Anlage zu planen und entwickeln individuelle Lösungen für Privathaushalte und Unternehmen.
+												</p>
 
-                    <div className='flex flex-col space-y-5 max-w-3xl self-center'>
-                        <h2>Planung von Photovoltaik-Anlagen – eine Aufgabe für unsere Experten in Mannheim:</h2>
+                        {/* <Link href="#first_section">
+                            <a className="rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 border border-gray-300 text-gray-300 text-base sm:text-xl max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
+                                Mehr Erfahren
+                            </a>
+                        </Link> */}
 
-                        <div className='text-justify text-base lg:text-lg'>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Herstellerunabhängige Beratung</span>
-                            </div>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Bedarfsgerechte Dimensionierung</span>
-                            </div>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Wirtschaftlichkeitsberechnungen</span>
-                            </div>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Generierung individueller Konfigurationen</span>
-                            </div>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Rundum-Service inkl. Montage & Wartung</span>
-                            </div>
-                            <div className="flex items-center space-x-3 text-xl">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">Garantierte Einhaltung von Lieferzusagen</span>
-                            </div>                                    
+                    </div>
+                    <KonfiguratorAddress />
+
+                </div>
+                <Process />
+
+								<SubpageLandingpages
+                    yellowTitle ='Planung von Photovoltaik-Anlagen –'
+                    title=' eine Aufgabe für unsere Experten in Mannheim:'
+                    bullet1='Herstellerunabhängige Beratung'
+                    bullet2='Bedarfsgerechte Dimensionierung'
+                    bullet3='Wirtschaftlichkeitsberechnungen'
+                    bullet4='Generierung individueller Konfigurationen'
+                    bullet5='Rundum-Service inkl. Montage & Wartung'
+                    bullet6='Garantierte Einhaltung von Lieferzusagen'
+                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    link='/konfigurator'
+                    linkText='Heute noch Termin vereinbaren!' 
+                    left />
+
+
+
+<div className="items-center w-full justify-center pt-10">   
+                  <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
+                    <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
+                  </p>                 
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    Bevor die Entscheidung für eine Photovoltaik-Anlage getroffen wird, sollte eine differenzierte Planung der Anlage durch erfahrene Experten erfolgen. Unser zuverlässiges Team unterstützt Sie dabei, die Solaranlage zu planen und berücksichtigt in Mannheim die örtlichen Gegebenheiten, Ihren individuellen Strombedarf sowie Fördermöglichkeiten. Ziel der durchdachten Planung von Photovoltaik-Anlagen ist die Erstellung eines zukunftsfähigen Energiekonzepts für Ihren Privathaushalt oder Ihren Gewerbebetrieb in Mannheim. Basierend auf dem Planungskonzept wird die Photovoltaik-Anlage zusammengestellt und von unseren Fachkräften installiert. Sie erhalten von uns alle Leistungen aus einer Hand – von der kompetenten Beratung und der Planung der Photovoltaik-Anlage über die Montage in Mannheim bis zur Reinigung, Wartung und Reparatur. Sie sind an unserem Rundum-Service interessiert und möchten die Solaranlage mit unseren Experten planen? Hier können Sie direkt mit uns Kontakt aufnehmen sich und einfach und bequem ein Online-Angebot erstellen lassen.
+                    </p>
+                    <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
+                            <div className="flex flex-col items-center w-full justify-center">
+                            <FaSolarPanel className=" text-yellow-400 text-7xl" />
+                            <CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
+                            <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+                            Installationen
+                            </p>
                         </div>
-                        <p className='text-justify text-base lg:text-lg'>
-
-                        Bevor die Entscheidung für eine Photovoltaik-Anlage getroffen wird, sollte eine differenzierte Planung der Anlage durch erfahrene Experten erfolgen. Unser zuverlässiges Team unterstützt Sie dabei, die Solaranlage zu planen und berücksichtigt in Mannheim die örtlichen Gegebenheiten, Ihren individuellen Strombedarf sowie Fördermöglichkeiten. Ziel der durchdachten Planung von Photovoltaik-Anlagen ist die Erstellung eines zukunftsfähigen Energiekonzepts für Ihren Privathaushalt oder Ihren Gewerbebetrieb in Mannheim. Basierend auf dem Planungskonzept wird die Photovoltaik-Anlage zusammengestellt und von unseren Fachkräften installiert. Sie erhalten von uns alle Leistungen aus einer Hand – von der kompetenten Beratung und der Planung der Photovoltaik-Anlage über die Montage in Mannheim bis zur Reinigung, Wartung und Reparatur. Sie sind an unserem Rundum-Service interessiert und möchten die Solaranlage mit unseren Experten planen? Hier können Sie direkt mit uns Kontakt aufnehmen sich und einfach und bequem ein Online-Angebot erstellen lassen.
-                        </p>
-                        <a className="rounded-full z-10 border-2 font-medium border-black max-w-max px-3 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
-                        Angebot online anfordern!
-                        </a>    
+                        <div className="flex flex-col  items-center w-full justify-center">
+                            <FaHandHoldingDollar className="text-yellow-400 text-7xl" />
+                            <CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
+                            <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+                            Kundenersparnis (€)
+                            </p>
+                        </div>
+                        <div className="flex flex-col  items-center w-full justify-center">
+                            <FaEarthAmericas className="text-yellow-400 text-7xl" />
+                            <CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
+                            <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
+                            Co2 Einsparungen
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex items-center w-full justify-center py-10">   
+                        <Link href={{ pathname: '/konfigurator' }}>
+                            <a className="self-center flex text-xl items-center space-x-2 md:self-start bg-yellow-400 rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
+                                <span>Hier Angebot anfordern!</span>
+                                <HiOutlineArrowSmRight className="text-xl"/>
+                            </a>
+                        </Link>
                     </div>
                 </div>
+								<SubpageLandingpages
+				yellowTitle='Dimensionierung '
+                title='von PV-Anlagen in Mannheim'
+                text='Ziel der Installation einer Photovoltaik-Anlage ist zum einen, umweltfreundlich Strom selbst zu produzieren und sich unabhängig von Stromausfällen zu machen. Andererseits ist die Planung einer Photovoltaik-Anlage in Mannheim auch mit dem Wunsch verbunden, die Stromkosten dauerhaft zu senken. Deshalb ist es wichtig, Wirtschaftlichkeitsberechnungen durchzuführen und zu überprüfen, unter welchen Bedingungen Sie die größten Einsparpotenziale realisieren. Wir checken die Bedingungen bei Ihnen vor Ort. Manchmal ist es sinnvoll, zunächst eine Dachsanierung durchzuführen, wenn Sie eine Solaranlage planen, denn die PV-Anlagen überzeugen mit langer Nutzungsdauer, sodass Ihr Dach in Mannheim vor der Montage eventuell erneuert werden sollte. Bei der Dimensionierung der PV-Anlage wird Ihr Stromverbrauch zugrunde gelegt. Es ist jedoch empfehlenswert, bei der Planung der Photovoltaik-Anlage zukünftige Entwicklungen zu antizipieren und die Anlage in Mannheim eher etwas großzügiger zu konfigurieren, wenn es das Budget erlaubt. Dann können Sie künftig günstigen Solarstrom für ein Elektroauto oder eine Wärmepumpe nutzen. Um die Eigenverbrauchsquote und damit die Effizienz der PV-Anlage zu erhöhen, sollten Sie außerdem einen entsprechend großen Stromspeicher auswählen. Mit einer differenzierten Wirtschaftlichkeitsberechnung können wir Ihnen im Rahmen der Planung Ihrer Photovoltaik-Anlage in Mannheim die Frage: Lohnt sich PV? genau beantworten. Für unsere PV-Anlagen verwenden wir ausschließlich hochwertige Produkte und innovative Solarmodule renommierter Hersteller und sorgen mit umfassenden Serviceleistungen dafür, dass die Anlagen einen maximalen Ertrag erwirtschaften.'
+                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
+                link='/konfigurator' 
+				        linkText='Jetzt Solarcheck starten!'/>
+                
+                <div className="flex items-center w-full justify-center py-10">
+                    {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+                    <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full"><span className="drop-shadow-none">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-none"> für alle!</span></p>
+                </div>    
 
-                <div className={`image-section-right`}>
-                    <div className='flex flex-col space-y-5 max-w-3xl text-left lg:text-right self-center'>
-                        <h2>Dimensionierung von PV-Anlagen in Mannheim</h2>
 
-                        <p className='text-justify text-base lg:text-lg'>
-                          Ziel der Installation einer Photovoltaik-Anlage ist zum einen, umweltfreundlich Strom selbst zu produzieren und sich unabhängig von Stromausfällen zu machen. Andererseits ist die Planung einer Photovoltaik-Anlage in Mannheim auch mit dem Wunsch verbunden, die Stromkosten dauerhaft zu senken. Deshalb ist es wichtig, Wirtschaftlichkeitsberechnungen durchzuführen und zu überprüfen, unter welchen Bedingungen Sie die größten Einsparpotenziale realisieren. Wir checken die Bedingungen bei Ihnen vor Ort. Manchmal ist es sinnvoll, zunächst eine Dachsanierung durchzuführen, wenn Sie eine Solaranlage planen, denn die PV-Anlagen überzeugen mit langer Nutzungsdauer, sodass Ihr Dach in Mannheim vor der Montage eventuell erneuert werden sollte.
-                        </p>
-                        <p className='text-justify text-base lg:text-lg'>
-                          Bei der Dimensionierung der PV-Anlage wird Ihr Stromverbrauch zugrunde gelegt. Es ist jedoch empfehlenswert, bei der Planung der Photovoltaik-Anlage zukünftige Entwicklungen zu antizipieren und die Anlage in Mannheim eher etwas großzügiger zu konfigurieren, wenn es das Budget erlaubt. Dann können Sie künftig günstigen Solarstrom für ein Elektroauto oder eine Wärmepumpe nutzen. Um die Eigenverbrauchsquote und damit die Effizienz der PV-Anlage zu erhöhen, sollten Sie außerdem einen entsprechend großen Stromspeicher auswählen.
-                        </p>
-                        <p className='text-justify text-base lg:text-lg'>
-                         Mit einer differenzierten Wirtschaftlichkeitsberechnung können wir Ihnen im Rahmen der Planung Ihrer Photovoltaik-Anlage in Mannheim die Frage: Lohnt sich PV? genau beantworten. Für unsere PV-Anlagen verwenden wir ausschließlich hochwertige Produkte und innovative Solarmodule renommierter Hersteller und sorgen mit umfassenden Serviceleistungen dafür, dass die Anlagen einen maximalen Ertrag erwirtschaften.
-                        </p>
-                        <a className="rounded-full z-10 border-2 font-medium border-black max-w-max px-3 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
-                          Angebot konfigurieren lassen!
-                        </a>
-
-                        
-                    </div>
-
-                    <ImageSection image='https://as1.ftcdn.net/v2/jpg/03/57/20/80/1000_F_357208029_wP5Qtrs1MuqRbiJIuYg3BQtiw4WfROZD.jpg' />
-                </div>
-
-                <div className={`image-section-left`}>
-                    <ImageSection image='/Images/batterie.webp' />
-
-                    <div className='flex flex-col space-y-5 max-w-3xl self-center'>
-                        <h2>Lumix Solar – Ihr regionaler Ansprechpartner für:</h2>
-                        <ul className="text-justify text-base lg:text-lg">
-                          <li>Solarmodule</li>
-                          <li>Stromspeicher</li>
-                          <li>Wechselrichter</li>
-                          <li>Backup- & Wallboxen</li>
-                        </ul>  
-                      </div>
-                </div>
-                <Contact />
+								<SubpageLandingpages
+								yellowTitle ='Lumix Solar – '
+                title='Ihr regionaler Ansprechpartner für:'
+                bullet1='Solarmodule'
+                bullet2='Stromspeicher'
+                bullet3='Wechselrichter'
+                bullet4='Backup- & Wallboxen'
+                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+								linkText='Hier Angebot anfordern!'
+                link='/konfigurator'
+                left />
 
             </div>
             </HelmetProvider>

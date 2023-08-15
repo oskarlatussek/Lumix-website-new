@@ -73,7 +73,7 @@ const Contact = () => {
 
                 </div>
 
-                <form onSubmit={handleSumbmit} onInput={() => setResponse({ message: "", error: false })} className="pb-16 max-w-none	relative flex flex-col space-y-5 justify-between w-full max-w-lg">
+                <form onSubmit={handleSumbmit} onInput={() => setResponse({ message: "", error: false })} className="pb-16relative flex flex-col space-y-5 justify-between w-full md:max-w-[50%]">
                     <input required id="name" value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Name" className={`w-full p-4 focus:outline-none border border-black border-opacity-30 hover:border-opacity-100 focus:border-opacity-100 transition duration-300 ease-in-out rounded-lg`} />
                     
                     <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-5 space-y-5 sm:space-y-0">

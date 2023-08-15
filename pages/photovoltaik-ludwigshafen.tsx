@@ -68,7 +68,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
 											<p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
 											Die Photovoltaik-Technologie, insbesondere die Entwicklung moderner Speicher, hat in den letzten Jahren erhebliche Fortschritte gemacht – Photovoltaik-Anlagen von Lumix Solar ermöglichen die Steigerung der Eigenverbrauchsquote von 30 auf maximal 80 Prozent, sodass sich die Effizienz der PV-Anlage in Ludwigshafen drastisch erhöht. Dank einer modernen Photovoltaik-Anlage mit Stromspeicher werden Sie fast vollständig unabhängig von den öffentlichen Stromanbietern und schützen sich zudem effektiv vor Stromausfällen aufgrund überlasteter Stromnetze.
                 	    </p>
-										<div className="flex items-center w-full justify-center py-4">
+										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
 												<div className="flex flex-col items-center w-full justify-center">
 												<FaSolarPanel className=" text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />

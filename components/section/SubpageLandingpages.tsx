@@ -5,6 +5,7 @@ import { FiCheck } from "react-icons/fi";
 interface SubpageLandingpageProps {
     title: string;
     yellowTitle?: string;
+    pretext?: string;
     bullet1?: string;
     bullet2?: string;
     bullet3?: string;
@@ -14,14 +15,14 @@ interface SubpageLandingpageProps {
     bullet7?: string;
     bullet8?: string;
     text?: string; 
-    video?: string; // Add the video field
+    video?: string;
     image?: string;
     link?: string;
     linkText?: string;
     left?: boolean;
 }
 
-const SubpageLandingpages = ({ title, yellowTitle, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
+const SubpageLandingpages = ({ title, yellowTitle, pretext, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
     return (
         <>
             <div className="min-h-screen w-full p-2 sm:p-5">
@@ -46,6 +47,9 @@ const SubpageLandingpages = ({ title, yellowTitle, bullet1, bullet2, bullet3, bu
                         <span className="text-yellow-400 drop-shadow-none font-bold">{yellowTitle}</span>{title}
                         </p>
                         <div className="flex flex-col">
+                        <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                                {pretext}
+                        </p>
                         {bullet1 && (
 
                             <div className="flex items-center space-x-3 text-xl py-3">
@@ -89,7 +93,7 @@ const SubpageLandingpages = ({ title, yellowTitle, bullet1, bullet2, bullet3, bu
                             </div>
                         )}     
                         </div>   
-                            <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-lg text-zinc-800">
+                            <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
                                 {text}
                             </p>
                         {link && (

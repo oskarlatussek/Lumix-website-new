@@ -7,13 +7,13 @@ const Footer = () => {
 
 
     return (
-        <footer style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} id="contact" className="bg-black/50 backdrop-blur-s 2xl:p-20 flex relative flex-col-reverse justify-between items-center space-x-0 xl:space-x-10">
-           <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
+        <footer style={{ top: 0, backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} id="contact" className="bg-black/50 backdrop-blur-s 2xl:p-20 flex relative flex-col-reverse justify-between items-center space-x-0 xl:space-x-10">
+           <div style={{ top: 0 }} className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 				
-					 <div className="flex flex-col pb-16 relative ">
+					 <div className="w-full flex flex-col pb-16 relative ">
 
 						<Contact />
-						<div className="flex flex-row justify-around">
+						<div className="p-5 sm:p-5 sm:pt-16 flex flex-col md:flex-row justify-between">
 						<a href="/" className="w-full sm:w-1/2 mb-10 sm:mb-0 max-w-sm">
 								<img src="/Logos/lumix-logo-weiß.png" />
 						</a>
@@ -22,7 +22,7 @@ const Footer = () => {
 										Wichtige Links
 									</span>
 									<Link href={`/`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik</a>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Startseite</a>
 									</Link>
 									<Link href={`/photovoltaik`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik</a>
@@ -32,6 +32,27 @@ const Footer = () => {
 									</Link>
 									<Link href={`/produkte`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Unsere Produkte</a>
+									</Link>
+									<Link href={`/solaranlage`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage</a>
+									</Link>
+									<Link href={`/solarmodule`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solarmodule</a>
+									</Link>
+									<Link href={`/stromspeicher`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Stromspeicher</a>
+									</Link>
+									<Link href={`/photovoltaik-mannheim`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Mannheim</a>
+									</Link>
+									<Link href={`/photovoltaik-beratung`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Beratung</a>
+									</Link>
+									<Link href={`/photovoltaik-planung`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Planung</a>
+									</Link>
+									<Link href={`/photovoltaik-montage`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Montage</a>
 									</Link>
 									<Link href={`/team`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Das Team</a>
