@@ -24,7 +24,7 @@ const PhotovoltaikWorms: NextPage = () => {
                 content="Photovoltaik in Worms: kompetenter Anbieter 🌞 aktiver Umweltschutz ✔️ Stromkosten reduzieren 💶 Liefergarantie ➡️ Hier informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -32,7 +32,8 @@ const PhotovoltaikWorms: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                             Experte für Photovoltaik in Worms – Lumix Solar
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                             Als leistungsstarker Anbieter für Photovoltaik-Anlagen bieten wir unseren Kunden aus Worms einen vorbildlichen Service, der von der Planung bis zur Wartung der PV-Anlage reicht – werden Sie Ihr eigener Stromproduzent und nutzen Sie klimafreundlichen Sonnenstrom.
                         </p>
 
@@ -68,7 +69,7 @@ const PhotovoltaikWorms: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Sie wollen aktiv zum Klimaschutz beitragen, vermehrt regenerative Energien nutzen und gleichzeitig in zukunftsfähige, kostensenkende Technologien investieren? Dann sollten Sie sich näher über die Möglichkeiten der Photovoltaik informieren. Mit modernen Photovoltaik-Anlagen decken Sie in Worms Ihren Stromverbrauch weitgehend selbst und müssen sich keine Gedanken über Strompreiserhöhungen oder Blackouts im öffentlichen Stromnetz machen. Gleichzeitig genießen Sie das gute Gefühl, den Stromverbrauch mit Ihrer PV-Anlage vom renommierten Hersteller Lumix Solar klimaneutral zu decken.
                     </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -160,7 +161,7 @@ const PhotovoltaikWorms: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
 								linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
-                 />
+                icons />
 
                 <Service />
                 

@@ -31,7 +31,8 @@ const PhotovoltaikMontage: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Experten für Photovoltaik-Montage in Mannheim
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Wir bieten Ihnen verschiedene Optionen der Photovoltaik-Montage an, sodass die Solarmodule in Mannheim an fast jedem Gebäude einsetzbar sind. Gerne informieren wir Sie über Alternativen zur bekannten Dachmontage von PV-Anlagen.
 												 </p>
 
@@ -66,7 +67,7 @@ const PhotovoltaikMontage: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                      Das Team von Lumix Solar begleitet Sie auf Ihrem Weg zur klimaneutralen Stromerzeugung mit einem ganzheitlichen Service. Unsere zuverlässigen Experten werden Ihnen im Rahmen der Photovoltaik-Beratung die Vorteile einer Photovoltaik-Anlage erläutern und dann eine bedarfsorientierte Planung vornehmen. Anschließend sorgen wir mit der fachgerechten Photovoltaik-Montage dafür, dass die PV-Anlage in Mannheim einen maximalen Ertrag erwirtschaftet. Es ist wichtig, die Solaranlage professionell montieren zu lassen, damit eine lange Lebensdauer erreicht wird und sich die Anlage zudem optimal in das Erscheinungsbild des Hauses einfügt. Beauftragen Sie deshalb mit der Photovoltaik-Montage unsere zuverlässige Firma in Mannheim – wir betreuen Ihr Projekt von der Planung bis zur Inbetriebnahme und stehen Ihnen auch danach mit umfassendem Service zur Verfügung.
                      </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -125,7 +126,7 @@ const PhotovoltaikMontage: NextPage = () => {
                 video='https://v.ftcdn.net/06/05/71/29/700_F_605712905_Zdo4J0LjhuytJITJiUSEzxO4JBMuoEOl_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                />
+                icons/>
 
           
 

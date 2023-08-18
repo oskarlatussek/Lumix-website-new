@@ -32,7 +32,8 @@ const SolaranlageWorms: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Solaranlage für klimaneutralen Strom in Worms
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Wenn Sie eine Solaranlage von Lumix Solar installieren lassen, produzieren Sie in Worms Ihren eigenen Strom – klimaneutral aus sauberer Sonnenenergie. Gleichzeitig machen Sie sich unabhängig von Stromkonzernen, Stromausfällen und ständig steigenden Stromrechnungen.
                         </p>
 
@@ -68,7 +69,7 @@ const SolaranlageWorms: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Sie möchten unabhängig von den großen Stromkonzernen werden, die Ihre Strompreise teilweise willkürlich erhöhen? Sie fürchten Blackouts aufgrund wachsender Überlastung der öffentlichen Stromnetze? Sie wollen aktiv zum Klimaschutz beitragen, anstatt zu warten, dass endlich politische Entscheidungen getroffen werden? Das sind gute Gründe, um eine Solaranlage in Worms installieren zu lassen und künftig den Strombedarf mit klimaneutralem Sonnenstrom zu decken. Wenn Sie erwägen, eine PV-Anlage zu kaufen, sind Sie bei Lumix Solar genau richtig, denn wir bieten unseren Kunden einen ausgezeichneten ganzheitlichen Service.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -157,7 +158,7 @@ const SolaranlageWorms: NextPage = () => {
                 image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
                 linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
-                />
+                icons />
 
                 <Service />
                 

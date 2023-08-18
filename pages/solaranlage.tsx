@@ -31,7 +31,8 @@ const Solaranlage: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Solaranlagen von Lumix Solar
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Profitieren Sie von den Vorteilen einer Solaranlage von Lumix Solar, Ihrem regionalen Partner in Mannheim. Wir liefern hochwertige Anlagen und unterstützen unsere Kunden zusätzlich mit einem hervorragenden und umfangreichen Service.                        </p>
 
                         {/* <Link href="#first_section">
@@ -66,7 +67,7 @@ const Solaranlage: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                  <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Mit einer modernen Solaranlage aus dem Hause Lumix Solar werden Sie in Mannheim endlich unabhängig von den Versorgungsunternehmen, die ihre Preise teilweise willkürlich und nicht nachvollziehbar erhöhen. Darüber hinaus steigt mit zunehmender Belastung des Stromnetzes die Gefahr von Stromausfällen. Auch dagegen können Sie sich mit einer Solaranlage auf Ihrem Dach in Mannheim effektiv wappnen. Möchten Sie Ihren ökologischen Fußabdruck verkleinern, ohne auf den Komfort zu verzichten, der mit elektrischen Geräten einhergeht? Wir liefern Ihnen die passenden Solarmodule für Ihre Solaranlage und sorgen mit umfassenden Serviceleistungen dafür, dass Sie optimal von Ihrer persönlichen Energiewende in Mannheim profitieren. Wünschen Sie weitere Informationen zu den Solaranlagen für Privatkunden und Gewerbebetriebe? Unser Team steht Ihnen jederzeit für eine ausführliche Beratung und die Erstellung eines Angebots zur Verfügung. 
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -135,7 +136,7 @@ const Solaranlage: NextPage = () => {
                 video='https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                />
+                icons/>
 
 
 

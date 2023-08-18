@@ -30,7 +30,8 @@ const PhotovoltaikMannheim: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Photovoltaik in Mannheim – Ihr regionaler Partner
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Photovoltaik bietet Kunden in Mannheim die Möglichkeit, umweltfreundlich Strom selbst zu produzieren. Informieren Sie sich darüber, wie wir Sie beim Umstieg auf eine klimaneutrale Stromerzeugung unterstützen und Ihnen dabei helfen, Stromkosten nachweislich zu senken.
 												</p>
 
@@ -65,7 +66,7 @@ const PhotovoltaikMannheim: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Photovoltaik ist nicht weniger als eine optimale Lösung des drängenden Energieproblems und bietet Ihnen in Mannheim faszinierende Möglichkeiten. Mit einer innovativen Photovoltaik-Anlage der Firma Lumix Solar machen Sie sich endlich unabhängig von stetig steigenden Stromkosten, denn dank moderner Stromspeicher und hervorragender Effizienz können Sie 80 Prozent des Solarstroms für den eigenen Haushalt und das Aufladen Ihres E-Autos verwenden. Als leistungsstarker Photovoltaik-Anbieter stellen wir Ihnen ebenso ausgereifte wie innovative Lösungen zur Verfügung und konfigurieren Ihre PV-Anlage in Mannheim individuell. Wir bieten hochwertige Photovoltaik-Lösungen für Privathaushalte und Gewerbebetriebe in Mannheim. Unser engagiertes Team überzeugt mit vorbildlichem Service und steht Ihnen auch nach der Montage der Photovoltaik-Anlage jederzeit mit Rat und Tat zur Seite.
                     Sie wünschen eine persönliche Beratung und fragen sich: Lohnt sich PV?  Nutzen Sie unsere ausführliche Beratung, bei der wir Ihnen die Optionen der Photovoltaik-Technologie erläutern und Sie hinsichtlich der Konfiguration einer PV-Anlage in Mannheim informieren. Selbstverständlich können Sie auch direkt ein Angebot für Ihre Photovoltaik-Anlage anfordern.
 										</p>
@@ -136,6 +137,7 @@ const PhotovoltaikMannheim: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
+                icons
                 />
 
             </div>

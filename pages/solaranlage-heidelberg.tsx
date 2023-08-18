@@ -23,13 +23,14 @@ const SolaranlageHeidelberg: NextPage = () => {
                 content="Solaranlagen Heidelberg: moderne Solartechnik 🌞 Regionaler Anbieter ✔️ Individuelle Energielösungen ✔️ Liefergarantie ➡️ Informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Investieren Sie in eine moderne Solaranlage in Heidelberg </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelberg umweltfreundlichen Sonnenstrom auf dem Dach oder an der Fassade Ihres Hauses zu produzieren. Damit senken Sie die Stromkosten erheblich und tragen signifikant zum Klimaschutz bei.</p>
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelberg umweltfreundlichen Sonnenstrom auf dem Dach oder an der Fassade Ihres Hauses zu produzieren. Damit senken Sie die Stromkosten erheblich und tragen signifikant zum Klimaschutz bei.</p>
 
                         {/* <Link href="#first_section">
                             <a className="rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 border border-gray-300 text-gray-300 text-base sm:text-xl max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
@@ -63,7 +64,7 @@ const SolaranlageHeidelberg: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Dank einer innovativen Solaranlage von Lumix Solar werden Sie endlich unabhängig von willkürlichen Erhöhungen des Strompreises und schützen sich zudem in Heidelberg vor Stromausfällen aufgrund der immer stärkeren Überlastung der öffentlichen Stromnetze. Darüber hinaus verringern Sie Ihren ökologischen Fußabdruck erheblich, wenn Sie eine Solaranlage kaufen, und tragen damit in Heidelberg aktiv zur Bekämpfung des Klimawandels bei. Lumix Solar hat sich darauf spezialisiert, für Kunden bedarfsorientiert hochwertige Solaranlagen mit Speichern zu planen und in Heidelberg zu installieren.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -156,9 +157,9 @@ const SolaranlageHeidelberg: NextPage = () => {
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
                 image='/Images/gewerbe.webp'
-                link='/konfigurator'
+               link='/konfigurator'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
-                left />
+                icons/>
 
                 <Service />
                 

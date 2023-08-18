@@ -24,13 +24,14 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
                 content="Photovoltaik in Ludwigshafen: regionaler Anbieter 🌞 Kompetenter Partner ✔️ Aktiver Klimaschutz ✔️ Liefergarantie ➡️ Jetzt starten❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Photovoltaik in Ludwigshafen – aktiver Klimaschutz</h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">Mit einer modernen Photovoltaik-Anlage starten Sie in Ludwigshafen Ihre ganz persönliche Energiewende. Sparen Sie Stromkosten, schützen Sie sich vor Stromausfällen und beginnen Sie jetzt damit, klimaneutralen Strom selbst zu produzieren. </p>
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+Mit einer modernen Photovoltaik-Anlage starten Sie in Ludwigshafen Ihre ganz persönliche Energiewende. Sparen Sie Stromkosten, schützen Sie sich vor Stromausfällen und beginnen Sie jetzt damit, klimaneutralen Strom selbst zu produzieren. </p>
 
                         {/* <Link href="#first_section">
                             <a className="rounded-full animate__animated animate__fadeIn animate__delay-3s z-10 border border-gray-300 text-gray-300 text-base sm:text-xl max-w-max px-3 sm:px-5 py-2 sm:py-3 cursor-pointer hover:scale-105 transition duration-500 ease-in-out">
@@ -163,9 +164,9 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
                 bullet5='Prüfung und Inbetriebnahme'
                 bullet6='Wartung und Reparatur'
 								video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
-                link='/konfigurator'
+               link='/konfigurator'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
-                left />
+                icons/>
 
                 <Service />
                 

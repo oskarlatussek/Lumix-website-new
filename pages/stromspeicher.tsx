@@ -33,7 +33,8 @@ const Stromspeicher: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Stromspeicher für Photovoltaik-Anlagen in Mannheim
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Mit einem innovativen Stromspeicher steigern Sie die Eigenverbrauchsquote und damit die Effizienz Ihrer Photovoltaik-Anlage in Mannheim erheblich. Dank moderner Stromspeicher sparen Sie den Großteil der Stromkosten ein und werden unabhängig von Versorgungsunternehmen und Netzausfällen.
 												</p>
 
@@ -68,7 +69,7 @@ const Stromspeicher: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Die modernen Stromspeicher für Photovoltaik-Anlagen sorgen dafür, dass Sie das Potenzial Ihrer PV-Anlage in Mannheim optimal nutzen, denn damit steigern Sie Ihren Eigenverbrauch auf bis zu 80 Prozent und sparen somit einen Großteil der Stromkosten. Photovoltaik-Batteriespeicher schaffen die Voraussetzung dafür, dass die Unabhängigkeit vom Stromanbieter maximiert wird und Ihnen der umweltfreundliche Sonnenstrom auch dann zur Verfügung steht, wenn die Sonne nicht scheint. Wir liefern und montieren Stromspeicher für Photovoltaik, die mit Notstromsystemen ausgestattet sind und in Mannheim bestens vor Stromausfällen schützen.
                         Unser Team konfiguriert bedarfsgerechte Photovoltaik-Anlagen für Privatkunden und Gewerbebetriebe und überzeugt mit einem umfassendem Service, der von der Beratung über die Planung und Montage bis zur Wartung der PV-Anlagen alle Leistungen umfasst.  
                         Wünschen Sie eine kompetente Beratung zu den Möglichkeiten, die Photovoltaik-Batteriespeicher vom regionalen Experten Lumix Solar aus Mannheim bieten? Wir stehen Ihnen jederzeit für ein persönliches Beratungsgespräch zur Verfügung oder unterbreiten Ihnen direkt ein Angebot.
@@ -130,7 +131,8 @@ const Stromspeicher: NextPage = () => {
                 video='https://v.ftcdn.net/06/18/06/10/700_F_618061093_VFYEgaSImEuoG8JpvoKUXkwV2LZgI0VF_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                left />
+                left 
+                icons/>
 
 
             </div>

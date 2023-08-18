@@ -29,7 +29,8 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Photovoltaik-Anlage in Heidelberg – Lumix Solar</h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                           Moderne Photovoltaik-Anlagen ermöglichen Privat- und Geschäftskunden in Heidelberg, einen Großteil der Stromkosten zu sparen und endlich unabhängig von gängigen Stromanbietern zu werden. Unser Team hilft Ihnen, den Umstieg auf Photovoltaik in Heidelberg zu bewältigen.
                         </p>
 
@@ -65,7 +66,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Die Photovoltaik-Technologie trägt entscheidend zur Lösung des Energieproblems bei, denn damit wird es Privathaushalten und Gewerbebetrieben in Heidelberg ermöglicht, klimaneutral eigenen Strom zu erzeugen. Wenn Sie sich für die Installation einer Photovoltaik-Anlage entscheiden, machen Sie sich unabhängig von den ständigen Erhöhungen des Strompreises und senken Ihre Stromkosten erheblich. Die Entwicklung neuer Stromspeicher und die günstigere Herstellung dieser Komponenten führen dazu, dass Sie das Potenzial Ihrer Photovoltaik-Anlage in Heidelberg wesentlich besser nutzen können, denn es werden nun Eigenverbrauchsquoten von bis zu 80 Prozent erreicht. Möchten Sie mehr über die Möglichkeiten der Photovoltaik erfahren und sich in Heidelberg individuell beraten lassen oder direkt ein Angebot anfordern?
                     </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -134,9 +135,9 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 bullet5='Prüfung und Inbetriebnahme'
                 bullet6='Wartung und Reparatur'
                 image='https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg'
-                link='/konfigurator'
+               link='/konfigurator'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
-                 />
+                icons/>
 
                 <Service />
                 <SubpageLandingpages

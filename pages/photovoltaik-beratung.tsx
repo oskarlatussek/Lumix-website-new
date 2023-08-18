@@ -86,7 +86,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Wenn Sie erwägen, eine Photovoltaik-Anlage installieren zu lassen, sollten Sie zunächst eine fachkundige, herstellerunabhängige Beratung in Mannheim nutzen. Unser Team verfügt über langjährige Erfahrung in der Installation von PV-Anlagen für Privathaushalte sowie für Gewerbebetriebe und kann Ihnen somit eine kompetente Solaranlagen-Beratung in Mannheim bieten. Dabei verfolgen wir das Ziel, Ihnen durch die Photovoltaik-Beratung die Entscheidung zu erleichtern und gemeinsam mit Ihnen eine PV-Anlage zu konfigurieren, die perfekt zu Ihrem Haus und Ihren Anforderungen passt. Wenn Sie sich für unser Angebot entscheiden, übernehmen wir die konkrete Planung und die fachgerechte Montage Ihrer PV-Anlage.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">

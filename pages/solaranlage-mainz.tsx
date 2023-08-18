@@ -31,7 +31,8 @@ const SolaranlageMainz: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                             Solaranlage – Strom in Mainz selbst erzeugen
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                             Mit einer Solaranlage von Lumix Solar produzieren Sie Ihren Strom in Mainz auf dem eigenen Dach oder an der Fassade. Informieren Sie sich über die Möglichkeiten der modernen Solartechnik und reduzieren Sie dauerhaft Ihre Energiekosten.
                         </p>
 
@@ -67,7 +68,7 @@ const SolaranlageMainz: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Mit den hochwertigen Solaranlagen von Lumix Solar werden Sie in Mainz endlich unabhängig von den Stromkonzernen und deren mehr oder weniger willkürlichen Strompreiserhöhungen. Wenn Sie sich dafür entscheiden, eine Solaranlage zu kaufen, generieren wir eine individuelle Lösung, die sich an Ihrem Verbrauch und den örtlichen Gegebenheiten in Mainz orientiert. Unsere Solarexperten werden beispielsweise die Dachneigung und -ausrichtung berücksichtigen und Ihnen bei der Konfiguration der Anlage eine geeignete Montageoption vorschlagen.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -153,7 +154,7 @@ const SolaranlageMainz: NextPage = () => {
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
                 image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
-                />
+                icons />
 
                 <Service />
                 

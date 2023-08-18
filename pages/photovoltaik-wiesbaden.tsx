@@ -24,7 +24,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
                 content="Photovoltaik Wiesbaden: regionaler Anbieter 🌞 Aktiver Klimaschutz ✔️ Stromkosten minimieren 💶 Liefergarantie ➡️ Jetzt informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -32,7 +32,8 @@ const PhotovoltaikWiesbaden: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                             Mit Photovoltaik in Wiesbaden Stromkosten senken
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                             Photovoltaik bietet Ihnen die Möglichkeit, sich in Wiesbaden unabhängig von öffentlichen Stromanbietern zu machen und den Strom für Ihren Haushalt oder Ihren Betrieb ganz einfach auf dem Dach selbst zu produzieren.
                         </p>
 
@@ -158,7 +159,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                 />
+                icons />
 
                 <Service />
                 

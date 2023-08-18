@@ -29,7 +29,8 @@ const SolaranlageLudwigshafen: NextPage = () => {
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Solaranlage – klimaneutraler Strom in Ludwigshafen</h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                             Mit den innovativen Solaranlagen aus dem Hause Lumix Solar machen Sie sich in Ludwigshafen unabhängig von Strompreiserhöhungen und tragen aktiv zum Klimaschutz bei. Infomieren Sie sich über die Optionen moderner PV-Anlagen für die Stromerzeugung.
                         </p>
 
@@ -65,7 +66,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Mit einer leistungsstarken Solaranlage von Lumix Solar werden Sie in Ludwigshafen endlich unabhängig von den Stromversorgern und produzieren Ihren eigenen Strom. Dadurch schützen Sie sich optimal vor den gefürchteten Blackouts, die aufgrund einer zunehmenden Überlastung der öffentlichen Stromnetze immer wahrscheinlicher werden. Außerdem ist es aus Gründen des Klimaschutzes sinnvoll, eine Solaranlage zu kaufen, denn dadurch tragen Sie in Ludwigshafen aktiv dazu bei, dass die Energiewende gelingt. Als renommierter regionaler Anbieter konfigurieren wir maßgeschneiderte PV-Anlagen.
                     </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -152,7 +153,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
                 image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
                 linkText='Jetzt informieren!'
                 link='/konfigurator'
-                 />
+                icons />
 
                 <Service />
                 

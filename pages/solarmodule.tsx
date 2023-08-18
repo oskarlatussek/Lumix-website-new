@@ -31,7 +31,8 @@ const Solarmodule: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Solarmodule in höchster Qualität aus Mannheim
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Die Qualität der Solarmodule bestimmt die Effizienz Ihrer Photovoltaik-Anlage – entscheiden Sie sich deshalb für Module von Lumix Solar aus Mannheim. Wir verwenden ausschließlich Module renommierter Hersteller, die sowohl mit Energieeffizienz als auch mit langer Haltbarkeit überzeugen.
 												</p>
 
@@ -64,7 +65,7 @@ const Solarmodule: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Die Solarmodule bilden das Herzstück Ihrer PV-Anlage. Deshalb verwenden wir ausschließlich Module namhafter Hersteller, deren Qualität bereits in zahlreichen Photovoltaik-Anlagen unter Beweis gestellt wurde. 
                     In den Modulen wird das Sonnenlicht in elektrische Energie umgewandelt. Jedes Solarmodul besteht wiederum aus Solarzellen und die Module werden zu Strings (Gruppen) verschaltet und bilden als Gesamtheit den Solargenerator der PV-Anlage. Gerne konfigurieren wir in Mannheim eine individuell auf Ihre Bedürfnisse und die örtlichen Gegebenheiten abgestimmte Photovoltaik-Anlage. Unser erfahrenes Team installiert PV-Anlagen unter Verwendung hochwertiger Produkte, sowohl für Privatkunden als auch für Gewerbebetriebe, und bietet Ihnen einen vorbildlichen und umfangreichen Service. 
 										</p>
@@ -128,7 +129,7 @@ const Solarmodule: NextPage = () => {
                 video='https://v.ftcdn.net/06/18/06/10/700_F_618061093_VFYEgaSImEuoG8JpvoKUXkwV2LZgI0VF_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                />
+                icons/>
 
                 
 

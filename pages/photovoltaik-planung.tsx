@@ -33,7 +33,8 @@ const PhotovoltaikPlanung: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Exakte Planung Ihrer Photovoltaik-Anlage in Mannheim
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+
                         Die professionelle Planung einer Photovoltaik-Anlage legt in Mannheim den Grundstein für eine optimale Investitionsentscheidung. Unsere Experten unterstützen Sie dabei, eine bedarfsgerechte PV-Anlage zu planen und entwickeln individuelle Lösungen für Privathaushalte und Unternehmen.
 												</p>
 
@@ -69,7 +70,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
                     Bevor die Entscheidung für eine Photovoltaik-Anlage getroffen wird, sollte eine differenzierte Planung der Anlage durch erfahrene Experten erfolgen. Unser zuverlässiges Team unterstützt Sie dabei, die Solaranlage zu planen und berücksichtigt in Mannheim die örtlichen Gegebenheiten, Ihren individuellen Strombedarf sowie Fördermöglichkeiten. Ziel der durchdachten Planung von Photovoltaik-Anlagen ist die Erstellung eines zukunftsfähigen Energiekonzepts für Ihren Privathaushalt oder Ihren Gewerbebetrieb in Mannheim. Basierend auf dem Planungskonzept wird die Photovoltaik-Anlage zusammengestellt und von unseren Fachkräften installiert. Sie erhalten von uns alle Leistungen aus einer Hand – von der kompetenten Beratung und der Planung der Photovoltaik-Anlage über die Montage in Mannheim bis zur Reinigung, Wartung und Reparatur. Sie sind an unserem Rundum-Service interessiert und möchten die Solaranlage mit unseren Experten planen? Hier können Sie direkt mit uns Kontakt aufnehmen sich und einfach und bequem ein Online-Angebot erstellen lassen.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -128,7 +129,8 @@ const PhotovoltaikPlanung: NextPage = () => {
                 image='https://as2.ftcdn.net/v2/jpg/06/05/13/47/1000_F_605134761_38dguQbVgR4RZdm5lOuvUaJOVyCHxMPb.jpg'
 								linkText='Hier Angebot anfordern!'
                 link='/konfigurator'
-                left />
+                left 
+                icons/>
 
             </div>
             </HelmetProvider>
