@@ -1,5 +1,8 @@
 import Link from "next/link"
-import { FiCheck } from "react-icons/fi";
+import { FiCheck, FiPhone } from "react-icons/fi";
+import { PiHandHeartBold } from "react-icons/pi";
+import { HiOutlineCalculator } from "react-icons/hi";
+
 
 
 interface SubpageLandingpageProps {
@@ -20,9 +23,10 @@ interface SubpageLandingpageProps {
     link?: string;
     linkText?: string;
     left?: boolean;
+    icons?: boolean;
 }
 
-const SubpageLandingpages = ({ title, yellowTitle, pretext, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
+const SubpageLandingpages = ({ icons, title, yellowTitle, pretext, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
     return (
         <>
             <div className="min-h-screen w-full p-2 sm:p-5">
@@ -52,56 +56,83 @@ const SubpageLandingpages = ({ title, yellowTitle, pretext, bullet1, bullet2, bu
                         </p>
                         {bullet1 && (
 
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet1}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet1}</span>
                             </div>
                          )}
                         {bullet2 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet2}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet2}</span>
                             </div>
                         )}
                         {bullet3 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet3}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet3}</span>
                             </div>
                         )}
                         {bullet4 && (
 
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet4}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet4}</span>
                             </div>
                         )}
                         {bullet5 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet5}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet5}</span>
                             </div>
                         )}
                         {bullet6 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet6}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet6}</span>
                             </div>
                         )}
                         {bullet7 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet7}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet7}</span>
                             </div>
                         )}
                         {bullet8 && (
-                            <div className="flex items-center space-x-3 text-xl py-3">
-                                <FiCheck className="text-yellow-400 text-3xl" /><span className="space-x-3">{bullet8}</span>
+                            <div className="flex items-center space-x-3 text-lg py-1">
+                                <FiCheck className="text-yellow-400 text-3xl" /><span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">{bullet8}</span>
                             </div>
                         )}     
                         </div>   
                             <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
                                 {text}
                             </p>
+                            {icons && (
+                            <div className="font-bold flex w-full justify-around items-center space-x-3  py-3">
+                                <div className="flex flex-col items-center space-x-3 py-3">
+                                <PiHandHeartBold className="text-yellow-400 text-5xl" />
+                               <span className="text-lg">
+                                Zufriedenheitsgarantie
+                                </span>
+                                </div>
+                                <div className="flex flex-col items-center space-x-3 py-3">
+                            <HiOutlineCalculator className="text-yellow-400 text-5xl" />
+                            <span className="text-lg">
+                            Förderung sichern
+                                </span>
+                                </div>
+                        </div>                            
+                        )}
                         {link && (
+                            <div className="flex w-full sm:flex-row items-center flex-col justify-around" >
                             <Link href={link} className="pt-4">
                                 <a className="text-lg bg-yellow-400 rounded-full font-bold max-w-max px-5 py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
                                     {linkText}
                                 </a>
-                            </Link>
+                                </Link>
+                            {icons && (
+                                <div className="flex items-center space-x-3 text-lg sm:mt-0 mt-10">
+                                <FiPhone className="text-yellow-400 text-4xl " />
+                                <a href="tel:+49621150350" className="text-yellow-400 font-bold hover:scale-105 transition duration-200 ease-linear">
+                                <span className="text-lg">+49 621 150 350</span>
+                                </a>
+                                </div>
+                                 
+                                 )}
+                            </div>
                         )}     
                     </div>
                 </div>

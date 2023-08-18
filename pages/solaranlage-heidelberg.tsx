@@ -63,7 +63,7 @@ const SolaranlageHeidelberg: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                     Dank einer innovativen Solaranlage von Lumix Solar werden Sie endlich unabhängig von willkürlichen Erhöhungen des Strompreises und schützen sich zudem in Heidelberg vor Stromausfällen aufgrund der immer stärkeren Überlastung der öffentlichen Stromnetze. Darüber hinaus verringern Sie Ihren ökologischen Fußabdruck erheblich, wenn Sie eine Solaranlage kaufen, und tragen damit in Heidelberg aktiv zur Bekämpfung des Klimawandels bei. Lumix Solar hat sich darauf spezialisiert, für Kunden bedarfsorientiert hochwertige Solaranlagen mit Speichern zu planen und in Heidelberg zu installieren.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">

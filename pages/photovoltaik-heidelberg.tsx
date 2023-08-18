@@ -65,7 +65,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                     Die Photovoltaik-Technologie trägt entscheidend zur Lösung des Energieproblems bei, denn damit wird es Privathaushalten und Gewerbebetrieben in Heidelberg ermöglicht, klimaneutral eigenen Strom zu erzeugen. Wenn Sie sich für die Installation einer Photovoltaik-Anlage entscheiden, machen Sie sich unabhängig von den ständigen Erhöhungen des Strompreises und senken Ihre Stromkosten erheblich. Die Entwicklung neuer Stromspeicher und die günstigere Herstellung dieser Komponenten führen dazu, dass Sie das Potenzial Ihrer Photovoltaik-Anlage in Heidelberg wesentlich besser nutzen können, denn es werden nun Eigenverbrauchsquoten von bis zu 80 Prozent erreicht. Möchten Sie mehr über die Möglichkeiten der Photovoltaik erfahren und sich in Heidelberg individuell beraten lassen oder direkt ein Angebot anfordern?
                     </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">

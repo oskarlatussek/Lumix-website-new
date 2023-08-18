@@ -66,7 +66,7 @@ const SolaranlageDarmstadt: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                      Die innovativen Solaranlagen aus dem Haus Lumix Solar machen Sie in Darmstadt unabhängig von ständig steigenden Strompreisen der Versorgungsunternehmen und helfen Ihnen dabei, Ihre Energiekosten langfristig drastisch zu reduzieren. Ein weiterer Vorteil dieser Unabhängigkeit betrifft den Schutz vor Blackouts aufgrund immer stärker belasteter Stromnetze – wenn Sie eine Solaranlage kaufen, brauchen Sie sich darüber in Darmstadt keine Sorgen mehr zu machen, denn Sie decken Ihren Strombedarf zum größten Teil mit dem selbst produzierten Sonnenstrom ab. Neben dieser Sicherheit bietet eine Solaranlage mit integriertem Speicher Vorteile für den Klimaschutz. Sie tragen aktiv dazu bei, dass die Energiewende in Darmstadt erfolgreich umgesetzt wird.
 										 </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">

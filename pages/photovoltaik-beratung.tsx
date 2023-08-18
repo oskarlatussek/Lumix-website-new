@@ -46,14 +46,14 @@ const PhotovoltaikBeratung: NextPage = () => {
             </Helmet>
 
             <div className="flex flex-col items-center max-w-full">
-                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+                <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Kompetente Photovoltaik-Beratung in Mannheim
                         </h3>
-                        <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                         Profitieren Sie von einer fundierten Photovoltaik-Beratung, mit der wir Ihnen in Mannheim die Entscheidung erheblich erleichtern. Unsere Mitarbeiter beraten herstellerunabhängig über Solarmodule, Stromspeicher sowie Montageoptionen und orientieren sich dabei ausschließlich an Ihren Wünschen und Interessen.
                         </p>
 
@@ -77,7 +77,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                     bullet4='Generierung individueller Konfigurationen'
                     bullet5='Rundum-Service inkl. Montage & Wartung'
                     bullet6='Garantierte Einhaltung von Lieferzusagen'
-                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    image='https://as2.ftcdn.net/v2/jpg/05/91/00/61/1000_F_591006161_PS4BBA6OLtDs1eGk4RlDuEMmNMLosJtl.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
                     left />
@@ -86,7 +86,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                     Wenn Sie erwägen, eine Photovoltaik-Anlage installieren zu lassen, sollten Sie zunächst eine fachkundige, herstellerunabhängige Beratung in Mannheim nutzen. Unser Team verfügt über langjährige Erfahrung in der Installation von PV-Anlagen für Privathaushalte sowie für Gewerbebetriebe und kann Ihnen somit eine kompetente Solaranlagen-Beratung in Mannheim bieten. Dabei verfolgen wir das Ziel, Ihnen durch die Photovoltaik-Beratung die Entscheidung zu erleichtern und gemeinsam mit Ihnen eine PV-Anlage zu konfigurieren, die perfekt zu Ihrem Haus und Ihren Anforderungen passt. Wenn Sie sich für unser Angebot entscheiden, übernehmen wir die konkrete Planung und die fachgerechte Montage Ihrer PV-Anlage.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -134,7 +134,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                 bullet5='Möchten Sie den Solarstrom zum Großteil selbst nutzen?'
                 bullet6='Ist die Dachfläche überhaupt groß genug?'
                 text='Besonders lohnend ist die Installation einer PV-Anlage, wenn der Strom zum Großteil selbst verbraucht und nicht ins öffentliche Stromnetz eingespeist wird. Optimal ist somit die Kombination einer Photovoltaik-Anlage mit einer Wallbox zum Aufladen Ihres E-Autos sowie mit einer Wärmepumpe. Darüber hinaus sorgt ein leistungsstarker Stromspeicher dafür, dass Sie Ihren Sonnenstrom sogar nutzen können, wenn keine Sonne scheint. Die Photovoltaik-Beratung wird diese Effekte im Rahmen einer Wirtschaftlichkeitsberechnung in Mannheim quantifizieren und damit eindeutig die Frage beantworten: Lohnt sich PV? '
-                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
+                image='https://as1.ftcdn.net/v2/jpg/05/30/52/82/1000_F_530528267_LChGDs2uMNfZijiI2CYjjC2vHtzWyw5g.jpg'
                 link='/konfigurator' 
 				        linkText='Jetzt Solarcheck starten!'/>
                 
@@ -163,6 +163,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
+                icons
                 />
 
             </div>

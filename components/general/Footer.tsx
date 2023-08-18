@@ -7,7 +7,7 @@ const Footer = () => {
 
 
     return (
-        <footer style={{ top: 0, backgroundImage: `url(/Images/lumix-title.webp)`, backgroundSize: "cover", backgroundPosition: "center" }} id="contact" className="bg-black/50 backdrop-blur-s 2xl:p-20 flex relative flex-col-reverse justify-between items-center space-x-0 xl:space-x-10">
+        <footer style={{ top: 0, backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} id="contact" className="bg-black/50 backdrop-blur-s 2xl:p-20 flex relative flex-col-reverse justify-between items-center space-x-0 xl:space-x-10">
            <div style={{ top: 0 }} className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 				
 					 <div className="w-full flex flex-col pb-16 relative ">
@@ -17,7 +17,8 @@ const Footer = () => {
 						<a href="/" className="w-full sm:w-1/2 mb-10 sm:mb-0 max-w-sm">
 								<img src="/Logos/lumix-logo-weiß.png" />
 						</a>
-							<div className="flex flex-col gap-2 w-full max-w-full sm:max-w-max gap-x-10 text-2xl py-20 xl:py-0 min-w-max">
+							<div className="flex sm:flex-row flex-col sm:gap-2 gap-0 w-full max-w-full sm:max-w-max gap-x-10 text-lg py-20 xl:py-0 min-w-max">
+							<div  className="flex flex-col">
 									<span className="font-semibold text-white w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] ">
 										Wichtige Links
 									</span>
@@ -48,6 +49,8 @@ const Footer = () => {
 									<Link href={`/photovoltaik-beratung`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Beratung</a>
 									</Link>
+									</div>
+									<div  className="sm:mt-7 mt-0 flex flex-col">
 									<Link href={`/photovoltaik-planung`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Planung</a>
 									</Link>
@@ -69,10 +72,11 @@ const Footer = () => {
 									<Link href={`/`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Startseite</a>
 									</Link>
-
+									</div>
 							</div>
 
-							<div className="flex flex-col gap-2 w-full max-w-full sm:max-w-max gap-x-10 text-2xl py-20 xl:py-0 min-w-max">
+							<div className="flex sm:flex-row flex-col sm:gap-2 gap-0 w-full max-w-full sm:max-w-max gap-x-10 text-lg py-20 sm:py-0 xl:py-0 min-w-max">
+									<div  className="flex flex-col">
 									<span className="font-semibold text-white w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] ">
 										Regional
 									</span>
@@ -97,6 +101,8 @@ const Footer = () => {
 									<Link href={`/photovoltaik-mainz`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Mainz</a>
 									</Link>
+									</div>
+									<div  className="sm:mt-7 mt-0 flex flex-col">
 									<Link href={`/solaranlage-mainz`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage Mainz</a>
 									</Link>
@@ -112,7 +118,7 @@ const Footer = () => {
 									<Link href={`/solaranlage-worms`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage Worms</a>
 									</Link>
-
+									</div>
 							</div>
 						</div>
             {/*<div className="flex flex-col-reverse sm:flex-row space-x-0 sm:space-x-14 w-full xl:w-1/2 h-full justify-center items-start sm:items-center">

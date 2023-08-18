@@ -24,7 +24,7 @@ const Solaranlage: NextPage = () => {
             content="Solaranlagen Mannheim: innovative Solartechnik 🌞 Regionaler Anbieter ✔️ Individuelle Projektierung ✔️ Liefergarantie ➡️ Informieren❕"/>
             </Helmet>
             <div className="flex flex-col items-center max-w-full">
-            <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+            <div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/03/76/25/07/1000_F_376250785_CflXXEZfs1tCWm1b4nTBAVBTcA3eTNQW.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -57,7 +57,7 @@ const Solaranlage: NextPage = () => {
                     bullet6='Individuelle Konfiguration der Anlage'
                     bullet7='Verlässliche Liefergarantien'
                     bullet8='Persönliche Ansprechpartner'
-                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    image='https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
                     left />
@@ -66,7 +66,7 @@ const Solaranlage: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                     Mit einer modernen Solaranlage aus dem Hause Lumix Solar werden Sie in Mannheim endlich unabhängig von den Versorgungsunternehmen, die ihre Preise teilweise willkürlich und nicht nachvollziehbar erhöhen. Darüber hinaus steigt mit zunehmender Belastung des Stromnetzes die Gefahr von Stromausfällen. Auch dagegen können Sie sich mit einer Solaranlage auf Ihrem Dach in Mannheim effektiv wappnen. Möchten Sie Ihren ökologischen Fußabdruck verkleinern, ohne auf den Komfort zu verzichten, der mit elektrischen Geräten einhergeht? Wir liefern Ihnen die passenden Solarmodule für Ihre Solaranlage und sorgen mit umfassenden Serviceleistungen dafür, dass Sie optimal von Ihrer persönlichen Energiewende in Mannheim profitieren. Wünschen Sie weitere Informationen zu den Solaranlagen für Privatkunden und Gewerbebetriebe? Unser Team steht Ihnen jederzeit für eine ausführliche Beratung und die Erstellung eines Angebots zur Verfügung. 
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -119,7 +119,7 @@ const Solaranlage: NextPage = () => {
 				yellowTitle ='Die Vorteile '
                 title='der Solartechnik in Mannheim nutzen!'
                 text='Lohnt sich PV? Man kann ohne Übertreibung feststellen, dass sich die Solartechnik in den letzten Jahren rasant weiterentwickelt hat und deshalb Solaranlagen auch für Privatkunden in Mannheim eine lohnende Investition sind. Die Lebensdauer moderner Solaranlagen beträgt mehr als 25 Jahre und zudem verursacht Solartechnik auch nur geringe Wartungskosten. Außerdem erhalten Sie eine Einspeisevergütung für den in Ihrer Solaranlage erzeugten Strom, den Sie nicht selbst verbrauchen, sondern ins öffentliche Netz in Mannheim einspeisen. Wirtschaftlichkeitsberechnungen ergeben, dass die Amortisationsdauer einer Photovoltaik-Anlage nicht einmal zehn Jahre beträgt und Sie danach einen sehr hohen Kostenvorteil genießen. Wir bieten Ihnen einen leistungsstarken Service, der neben der Beratung auch die Planung und Montage sowie die Wartung Ihrer Solaranlage umfasst und sind außerdem als regionaler Anbieter von Solartechnik Ihr zuverlässiger Ansprechpartner in Mannheim. Wagen Sie jetzt den Schritt und profitieren Sie von Ihrer persönlichen Energiewende.'
-                image='https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg'
+                image='https://as2.ftcdn.net/v2/jpg/03/95/91/37/1000_F_395913763_AP4ghUg5Qzj5N7hZC5XmniPh9nHWYyKZ.jpg'
 				linkText='Hier Angebot anfordern!'
                 link='/konfigurator'
                 left />
@@ -132,7 +132,7 @@ const Solaranlage: NextPage = () => {
                 bullet2='Stromspeicher'
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
-                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+                video='https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
                 />

@@ -18,7 +18,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
   const [isShownL, setIsShownL] = useState(false);
 
     return (
-        <div className={`text-xl absolute top-0 left-0 justify-center text-center w-full p-0 lg:p-3 flex z-50 backdrop-blur-md ${dark ? "text-white" : "text-black"}`}>
+        <div className={`text-xl absolute top-0 left-0 justify-center text-center w-full p-0 lg:p-3 flex z-50 backdrop-blur-md ${dark ? "text-white" : "text-black hover:text-white"}`}>
 
             <div className="z-20 p-5 pr-5 lg:pr-0 xl:pr-5 w-full flex justify-between items-center font-medium">
 
@@ -49,27 +49,27 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                         <div
                           onMouseEnter={() => setIsShown(true)}
                           onMouseLeave={() => setIsShown(false)} 
-                        className={` -translate-x-2/3  grid absolute z-10 rounded-lg shadow `} style={{ top: '80%', backgroundColor: '#215250' }} >
+                        className={` -translate-x-2/3  grid absolute z-10 rounded-lg shadow `} style={{ top: '80%', backgroundColor: '#facc15' }} >
                         <Link href={`/solaranlage`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage</a>
                         </Link>
                         <Link href={`/solarmodule`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solarmodule</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solarmodule</a>
                         </Link>
                         <Link href={`/stromspeicher`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Stromspeicher</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Stromspeicher</a>
                         </Link>
                         <Link href={`/photovoltaik-mannheim`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Mannheim</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mannheim</a>
                         </Link>
                         <Link href={`/photovoltaik-beratung`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Beratung</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Beratung</a>
                         </Link>
                         <Link href={`/photovoltaik-planung`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Planung</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Planung</a>
                         </Link>
                         <Link href={`/photovoltaik-montage`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Montage</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Montage</a>
                         </Link>
                         </div>
                         </div>
@@ -90,42 +90,42 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                         <div
                           onMouseEnter={() => setIsShownL(true)}
                           onMouseLeave={() => setIsShownL(false)} 
-                        className={` -translate-x-2/3  grid absolute z-10 bg-white rounded-lg shadow dark:bg-gray-700`} style={{ top: '80%', backgroundColor: '#215250'  }} >
+                        className={` -translate-x-2/3  grid absolute z-10 bg-white rounded-lg shadow dark:bg-gray-700`} style={{ top: '80%', backgroundColor: '#facc15'  }} >
                         <Link href={`/photovoltaik-heidelberg`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Heidelberg</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Heidelberg</a>
                         </Link>
                         <Link href={`/solaranlage-heidelberg`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage  Heidelberg</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage  Heidelberg</a>
                         </Link>
                         <Link href={`/photovoltaik-ludwigshafen`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Ludwigshafen</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Ludwigshafen</a>
                         </Link>
                         <Link href={`/solaranlage-ludwigshafen`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage Ludwigshafen</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Ludwigshafen</a>
                         </Link>
                         <Link href={`/photovoltaik-darmstadt`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Darmstadt</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Darmstadt</a>
                         </Link>
                         <Link href={`/solaranlage-darmstadt`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage Darmstadt</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Darmstadt</a>
                         </Link>
                         <Link href={`/photovoltaik-mainz`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Mainz</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mainz</a>
                         </Link>
                         <Link href={`/solaranlage-mainz`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage Mainz</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Mainz</a>
                         </Link>
                         <Link href={`/photovoltaik-wiesbaden`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Wiesbaden</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Wiesbaden</a>
                         </Link>
                         <Link href={`/solaranlage-wiesbaden`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage Wiesbaden</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Wiesbaden</a>
                         </Link>
                         <Link href={`/photovoltaik-worms`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik Worms</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Worms</a>
                         </Link>
                         <Link href={`/solaranlage-worms`}>
-                            <a className="m-4 hover:text-yellow-400 transition duration-300 ease-in-out">Solaranlage Worms</a>
+                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Worms</a>
                         </Link>
                         </div>
                         </div>
@@ -147,7 +147,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                             <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Karriere</a>
                         </Link>
                         <Link href={`/konfigurator`}>
-                            <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
+                            <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:text-white hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
                                 <p className="">Angebot</p>
                                 <BsArrowRightShort className="text-3xl" />
                             </a>
@@ -184,7 +184,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                     <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Karriere</a>
                 </Link>
                 <Link href={`/konfigurator`}>
-                    <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
+                    <a className="flex space-x-1 items-center bg-yellow-400 text-black hover:text-white hover:scale-105 transition duration-200 ease-linear px-4 py-1 rounded-full">
                         <p className="">Angebot</p>
                         <BsArrowRightShort className="text-3xl" />
                     </a>

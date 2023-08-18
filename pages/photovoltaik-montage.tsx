@@ -24,7 +24,7 @@ const PhotovoltaikMontage: NextPage = () => {
           content="Photovoltaik-Montage Mannheim: innovative Solartechnik 🌞 Regionaler Anbieter ✔️ Experten für PV-Anlagenbau ➡️ Jetzt informieren❕"/>
           </Helmet>
             <div className="flex flex-col items-center max-w-full">
-								<div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+								<div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -57,7 +57,7 @@ const PhotovoltaikMontage: NextPage = () => {
                     bullet6='Engagiertes Team erfahrener Experten'
                     bullet7='Umfassende Betreuung nach dem Kauf'
                     bullet8='Service inkl. Reparatur und Wartung'
-                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    image='https://as2.ftcdn.net/v2/jpg/06/09/94/73/1000_F_609947338_6ecL1u2CcvOktKowB8xG93RUrEZnO4qQ.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
                     left />
@@ -66,7 +66,7 @@ const PhotovoltaikMontage: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                      Das Team von Lumix Solar begleitet Sie auf Ihrem Weg zur klimaneutralen Stromerzeugung mit einem ganzheitlichen Service. Unsere zuverlässigen Experten werden Ihnen im Rahmen der Photovoltaik-Beratung die Vorteile einer Photovoltaik-Anlage erläutern und dann eine bedarfsorientierte Planung vornehmen. Anschließend sorgen wir mit der fachgerechten Photovoltaik-Montage dafür, dass die PV-Anlage in Mannheim einen maximalen Ertrag erwirtschaftet. Es ist wichtig, die Solaranlage professionell montieren zu lassen, damit eine lange Lebensdauer erreicht wird und sich die Anlage zudem optimal in das Erscheinungsbild des Hauses einfügt. Beauftragen Sie deshalb mit der Photovoltaik-Montage unsere zuverlässige Firma in Mannheim – wir betreuen Ihr Projekt von der Planung bis zur Inbetriebnahme und stehen Ihnen auch danach mit umfassendem Service zur Verfügung.
                      </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -109,7 +109,7 @@ const PhotovoltaikMontage: NextPage = () => {
                 bullet1='Aufdachmontage der PV-Anlage'
                 bullet2='Integration der PV-Anlage ins Dach'
                 bullet3='Vollständig gebäudeintegrierte PV-Anlage'
-                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
+                image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
                 link='/konfigurator' 
 				        linkText='Jetzt Angebot in Mannheim erstellen lassen!'/>
                 
@@ -122,7 +122,7 @@ const PhotovoltaikMontage: NextPage = () => {
 								yellowTitle='Professioneller  '
                 title='PV-Anlagenbau in Mannheim'
                 text='Der moderne PV-Anlagenbau bietet Ihnen in Mannheim verschiedene Optionen. Grundlage für die Gestaltung einer effizienten Photovoltaik-Anlage ist die Auswahl der Solarmodule sowie des Stromspeichers. Wir verwenden für Ihre Photovoltaik-Montage ausschließlich Produkte bester Qualität von renommierten Herstellern. Als führender Anbieter im Bereich des PV-Anlagenbaus haben wir in Mannheim bereits zahlreiche Solaranlagen für Privatkunden und Gewerbebetriebe konfiguriert und installiert. Profitieren Sie von den Vorteilen einer ganzheitlichen Betreuung – von der Feststellung des Bedarfs über die Konfiguration bis zur Photovoltaik-Montage. Die naheliegende Frage: Lohnt sich PV?, beantworten wir Ihnen mit einer detaillierten Wirtschaftlichkeitsberechnung. Photovoltaik-Anlagen der neuesten Generation amortisieren sich in weniger als zehn Jahren und helfen Ihnen, unabhängig von Stromlieferanten zu werden sowie einen Beitrag zur Energiewende zu leisten. Investieren Sie jetzt in Ihre eigene kleine Energiewende – mit Lumix Solar.'
-                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+                video='https://v.ftcdn.net/06/05/71/29/700_F_605712905_Zdo4J0LjhuytJITJiUSEzxO4JBMuoEOl_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
                 />

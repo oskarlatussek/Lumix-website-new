@@ -58,7 +58,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                     bullet4='Generierung individueller Konfigurationen'
                     bullet5='Rundum-Service inkl. Montage & Wartung'
                     bullet6='Garantierte Einhaltung von Lieferzusagen'
-                    image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
+                    image='https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
                     left />
@@ -69,7 +69,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
-                    <p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
+                    <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
                     Bevor die Entscheidung für eine Photovoltaik-Anlage getroffen wird, sollte eine differenzierte Planung der Anlage durch erfahrene Experten erfolgen. Unser zuverlässiges Team unterstützt Sie dabei, die Solaranlage zu planen und berücksichtigt in Mannheim die örtlichen Gegebenheiten, Ihren individuellen Strombedarf sowie Fördermöglichkeiten. Ziel der durchdachten Planung von Photovoltaik-Anlagen ist die Erstellung eines zukunftsfähigen Energiekonzepts für Ihren Privathaushalt oder Ihren Gewerbebetrieb in Mannheim. Basierend auf dem Planungskonzept wird die Photovoltaik-Anlage zusammengestellt und von unseren Fachkräften installiert. Sie erhalten von uns alle Leistungen aus einer Hand – von der kompetenten Beratung und der Planung der Photovoltaik-Anlage über die Montage in Mannheim bis zur Reinigung, Wartung und Reparatur. Sie sind an unserem Rundum-Service interessiert und möchten die Solaranlage mit unseren Experten planen? Hier können Sie direkt mit uns Kontakt aufnehmen sich und einfach und bequem ein Online-Angebot erstellen lassen.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
@@ -108,7 +108,7 @@ const PhotovoltaikPlanung: NextPage = () => {
 				yellowTitle='Dimensionierung '
                 title='von PV-Anlagen in Mannheim'
                 text='Ziel der Installation einer Photovoltaik-Anlage ist zum einen, umweltfreundlich Strom selbst zu produzieren und sich unabhängig von Stromausfällen zu machen. Andererseits ist die Planung einer Photovoltaik-Anlage in Mannheim auch mit dem Wunsch verbunden, die Stromkosten dauerhaft zu senken. Deshalb ist es wichtig, Wirtschaftlichkeitsberechnungen durchzuführen und zu überprüfen, unter welchen Bedingungen Sie die größten Einsparpotenziale realisieren. Wir checken die Bedingungen bei Ihnen vor Ort. Manchmal ist es sinnvoll, zunächst eine Dachsanierung durchzuführen, wenn Sie eine Solaranlage planen, denn die PV-Anlagen überzeugen mit langer Nutzungsdauer, sodass Ihr Dach in Mannheim vor der Montage eventuell erneuert werden sollte. Bei der Dimensionierung der PV-Anlage wird Ihr Stromverbrauch zugrunde gelegt. Es ist jedoch empfehlenswert, bei der Planung der Photovoltaik-Anlage zukünftige Entwicklungen zu antizipieren und die Anlage in Mannheim eher etwas großzügiger zu konfigurieren, wenn es das Budget erlaubt. Dann können Sie künftig günstigen Solarstrom für ein Elektroauto oder eine Wärmepumpe nutzen. Um die Eigenverbrauchsquote und damit die Effizienz der PV-Anlage zu erhöhen, sollten Sie außerdem einen entsprechend großen Stromspeicher auswählen. Mit einer differenzierten Wirtschaftlichkeitsberechnung können wir Ihnen im Rahmen der Planung Ihrer Photovoltaik-Anlage in Mannheim die Frage: Lohnt sich PV? genau beantworten. Für unsere PV-Anlagen verwenden wir ausschließlich hochwertige Produkte und innovative Solarmodule renommierter Hersteller und sorgen mit umfassenden Serviceleistungen dafür, dass die Anlagen einen maximalen Ertrag erwirtschaften.'
-                image='https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg'
+                video='https://v.ftcdn.net/06/06/53/59/700_F_606535991_d72ukAYlWN4K2IFT8behDcZncmJKwNhu_ST.mp4'
                 link='/konfigurator' 
 				        linkText='Jetzt Solarcheck starten!'/>
                 
@@ -125,7 +125,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                 bullet2='Stromspeicher'
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
-                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+                image='https://as2.ftcdn.net/v2/jpg/06/05/13/47/1000_F_605134761_38dguQbVgR4RZdm5lOuvUaJOVyCHxMPb.jpg'
 								linkText='Hier Angebot anfordern!'
                 link='/konfigurator'
                 left />
