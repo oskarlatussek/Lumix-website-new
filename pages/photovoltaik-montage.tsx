@@ -61,6 +61,7 @@ const PhotovoltaikMontage: NextPage = () => {
                     image='https://as2.ftcdn.net/v2/jpg/06/09/94/73/1000_F_609947338_6ecL1u2CcvOktKowB8xG93RUrEZnO4qQ.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
                     left />
 
 <div className="items-center w-full justify-center pt-10">   

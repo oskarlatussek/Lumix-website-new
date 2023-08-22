@@ -6,7 +6,10 @@ import Contact from './Contact';
 const Footer = () => {
 
 
-    return (
+    return (<>
+
+		<p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center pb-5 sm:pb-10 w-full"><span className="drop-shadow-none">Der </span><span className="text-yellow-400 drop-shadow-none font-bold">Startschuss</span><span className="drop-shadow-none"> für Ihr </span><span className="text-yellow-400 drop-shadow-none font-bold">Solarprojekt!</span></p>
+
         <footer style={{ top: 0, backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} id="contact" className="bg-black/50 backdrop-blur-s 2xl:p-20 flex relative flex-col-reverse justify-between items-center space-x-0 xl:space-x-10">
            <div style={{ top: 0 }} className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 				
@@ -149,7 +152,7 @@ const Footer = () => {
             </div>
 					</div>
         </footer>
-
+</>
     )
 }
 

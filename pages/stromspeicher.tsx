@@ -63,6 +63,7 @@ const Stromspeicher: NextPage = () => {
                     image='https://as2.ftcdn.net/v2/jpg/05/21/20/51/1000_F_521205159_vw5PbN1jxO3uH2a9moyAwPKosdFJ9VmJ.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
                     left />
 
 <div className="items-center w-full justify-center pt-10">   

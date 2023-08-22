@@ -98,7 +98,7 @@ const Privat: NextPage = () => {
                     </p>
                 </div> */}
 
-                <Contact />
+                {/*<Contact />*/}
 
             </div>
         </>

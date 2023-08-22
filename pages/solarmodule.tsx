@@ -59,6 +59,7 @@ const Solarmodule: NextPage = () => {
                     image='https://as1.ftcdn.net/v2/jpg/05/20/94/80/1000_F_520948039_3zNc2b2IOFiC46isPwQ0wnxfiTyoHHxh.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
                     left />
 
 <div className="items-center w-full justify-center pt-10">   

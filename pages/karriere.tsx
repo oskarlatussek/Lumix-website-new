@@ -71,7 +71,7 @@ const Team: NextPage = () => {
                 </div>
 
                 <div className='w-full flex justify-center h-full bg-white'>
-                    <Contact />
+                    {/*<Contact />*/}
                 </div>
 
             </div>

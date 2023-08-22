@@ -59,6 +59,7 @@ Mit einer modernen Photovoltaik-Anlage starten Sie in Ludwigshafen Ihre ganz per
                     image='https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg'
 										link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
 										left />
 
 

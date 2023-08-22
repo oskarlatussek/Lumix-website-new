@@ -138,7 +138,7 @@ const Konfigurator: NextPage = () => {
 
                 </div>
 
-                <Contact />
+                {/*<Contact />*/}
             </div>
         </>
     )

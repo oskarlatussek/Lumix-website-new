@@ -80,6 +80,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                     image='https://as2.ftcdn.net/v2/jpg/05/91/00/61/1000_F_591006161_PS4BBA6OLtDs1eGk4RlDuEMmNMLosJtl.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
                     left />
 
                   <div className="items-center w-full justify-center pt-10">   

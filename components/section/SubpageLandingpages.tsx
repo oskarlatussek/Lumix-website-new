@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FiCheck, FiPhone } from "react-icons/fi";
 import { PiHandHeartBold } from "react-icons/pi";
-import { HiOutlineCalculator } from "react-icons/hi";
+import { HiOutlineCalculator, HiOutlineHome, HiOutlineClipboard } from "react-icons/hi";
 
 
 
@@ -24,9 +24,10 @@ interface SubpageLandingpageProps {
     linkText?: string;
     left?: boolean;
     icons?: boolean;
+    icons2?: boolean;
 }
 
-const SubpageLandingpages = ({ icons, title, yellowTitle, pretext, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
+const SubpageLandingpages = ({ icons, icons2, title, yellowTitle, pretext, bullet1, bullet2, bullet3, bullet4, bullet5, bullet6, bullet7, bullet8, text, video, image, linkText, link, left }: SubpageLandingpageProps) => {
     return (
         <>
             <div className="min-h-screen w-full p-2 sm:p-5">
@@ -112,6 +113,22 @@ const SubpageLandingpages = ({ icons, title, yellowTitle, pretext, bullet1, bull
                             <HiOutlineCalculator className="text-yellow-400 text-5xl" />
                             <span className="text-lg">
                             Förderung sichern
+                                </span>
+                                </div>
+                        </div>                            
+                        )}
+                        {icons2 && (
+                            <div className="font-bold flex w-full justify-around items-center space-x-3  py-3">
+                                <div className="flex flex-col items-center space-x-3 py-3">
+                                <HiOutlineHome className="text-yellow-400 text-5xl" />
+                               <span className="text-lg">
+                               Regional und überregional für Sie im Einsatz
+                                </span>
+                                </div>
+                                <div className="flex flex-col items-center space-x-3 py-3">
+                            <HiOutlineClipboard className="text-yellow-400 text-5xl" />
+                            <span className="text-lg">
+                            Komplett-Service von der Planung bis zur Wartung
                                 </span>
                                 </div>
                         </div>                            

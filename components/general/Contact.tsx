@@ -52,9 +52,6 @@ const Contact = () => {
             <div id="contact" className="w-full flex flex-col lg:flex-col space-x-0 space-y-8 lg:space-y-8 items-center justify-evenly p-5  sm:p-5 sm:pt-16 ">
 
                 <div className="flex flex-col items-center space-y-10 sm:space-y-16 max-w-full">
-                    <p className="text-4xl text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-7xl font-medium text-center leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-											Der Startschuss für Ihr Solarprojekt!
-											</p>
                     <div className="flex flex-col justify-between sm:flex-row space-x-0 space-y-3 sm:space-y-0 w-full">
                         <div className="flex flex-col items-center text-center text-xl lg:w-[180px]">
                             <FiMail className="text-yellow-400 text-6xl mb-8" />

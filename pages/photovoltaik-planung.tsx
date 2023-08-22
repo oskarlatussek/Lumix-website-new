@@ -62,6 +62,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                     image='https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
+                    icons2
                     left />
 
 
