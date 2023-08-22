@@ -46,10 +46,10 @@ const KonfiguratorAddress = () => {
                         }}
                         minLengthAutocomplete={3} /> */}
 
-                    <Link href={{ pathname: '/konfigurator', query: JSON.stringify(address) }}>
+                    <Link href={{ pathname: '/konfigurator', query: { address: JSON.stringify(address) } }}>
                         <a className="self-center flex text-sm xs:text-base items-center space-x-2 md:self-start bg-yellow-400 rounded-full font-medium max-w-max px-4 py-2 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
                             <span>Zur Preisermittlung</span>
-                            <HiOutlineArrowSmRight className="text-xl"/>
+                            <HiOutlineArrowSmRight className="text-xl" />
                         </a>
                     </Link>
                 </div>
