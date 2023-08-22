@@ -66,7 +66,7 @@ Mit einer modernen Photovoltaik-Anlage starten Sie in Ludwigshafen Ihre ganz per
 											<p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
 												<span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
 											</p>
-											<p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+											<p className="text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] p-5 sm:p-10 text-center lg:text-center">
 											Die Photovoltaik-Technologie, insbesondere die Entwicklung moderner Speicher, hat in den letzten Jahren erhebliche Fortschritte gemacht – Photovoltaik-Anlagen von Lumix Solar ermöglichen die Steigerung der Eigenverbrauchsquote von 30 auf maximal 80 Prozent, sodass sich die Effizienz der PV-Anlage in Ludwigshafen drastisch erhöht. Dank einer modernen Photovoltaik-Anlage mit Stromspeicher werden Sie fast vollständig unabhängig von den öffentlichen Stromanbietern und schützen sich zudem effektiv vor Stromausfällen aufgrund überlasteter Stromnetze.
                 	    </p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">

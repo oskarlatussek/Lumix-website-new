@@ -51,25 +51,25 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                           onMouseLeave={() => setIsShown(false)} 
                         className={` -translate-x-2/3  grid absolute z-10 rounded-lg shadow `} style={{ top: '80%', backgroundColor: '#facc15' }} >
                         <Link href={`/solaranlage`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage</a>
                         </Link>
                         <Link href={`/solarmodule`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solarmodule</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solarmodule</a>
                         </Link>
                         <Link href={`/stromspeicher`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Stromspeicher</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Stromspeicher</a>
                         </Link>
                         <Link href={`/photovoltaik-mannheim`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mannheim</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mannheim</a>
                         </Link>
                         <Link href={`/photovoltaik-beratung`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Beratung</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Beratung</a>
                         </Link>
                         <Link href={`/photovoltaik-planung`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Planung</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Planung</a>
                         </Link>
                         <Link href={`/photovoltaik-montage`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Montage</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Montage</a>
                         </Link>
                         </div>
                         </div>
@@ -92,40 +92,40 @@ const Toolbar = ({ dark }: ToolbarProps) => {
                           onMouseLeave={() => setIsShownL(false)} 
                         className={` -translate-x-2/3  grid absolute z-10 bg-white rounded-lg shadow dark:bg-gray-700`} style={{ top: '80%', backgroundColor: '#facc15'  }} >
                         <Link href={`/photovoltaik-heidelberg`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Heidelberg</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Heidelberg</a>
                         </Link>
                         <Link href={`/solaranlage-heidelberg`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage  Heidelberg</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage  Heidelberg</a>
                         </Link>
                         <Link href={`/photovoltaik-ludwigshafen`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Ludwigshafen</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Ludwigshafen</a>
                         </Link>
                         <Link href={`/solaranlage-ludwigshafen`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Ludwigshafen</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Ludwigshafen</a>
                         </Link>
                         <Link href={`/photovoltaik-darmstadt`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Darmstadt</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Darmstadt</a>
                         </Link>
                         <Link href={`/solaranlage-darmstadt`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Darmstadt</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Darmstadt</a>
                         </Link>
                         <Link href={`/photovoltaik-mainz`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mainz</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Mainz</a>
                         </Link>
                         <Link href={`/solaranlage-mainz`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Mainz</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Mainz</a>
                         </Link>
                         <Link href={`/photovoltaik-wiesbaden`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Wiesbaden</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Wiesbaden</a>
                         </Link>
                         <Link href={`/solaranlage-wiesbaden`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Wiesbaden</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Wiesbaden</a>
                         </Link>
                         <Link href={`/photovoltaik-worms`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Worms</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Photovoltaik Worms</a>
                         </Link>
                         <Link href={`/solaranlage-worms`}>
-                            <a className="m-4 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Worms</a>
+                            <a className="m-2 text-black hover:text-white transition duration-300 ease-in-out">Solaranlage Worms</a>
                         </Link>
                         </div>
                         </div>
