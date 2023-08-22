@@ -160,7 +160,8 @@ Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelbe
                 image='/Images/gewerbe.webp'
                link='/konfigurator'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
-                icons/>
+                icons
+                left/>
 
                 <Service />
                 

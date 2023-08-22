@@ -167,6 +167,7 @@ Mit einer modernen Photovoltaik-Anlage starten Sie in Ludwigshafen Ihre ganz per
 								video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
                link='/konfigurator'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
+                left
                 icons/>
 
                 <Service />

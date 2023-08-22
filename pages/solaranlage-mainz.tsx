@@ -144,7 +144,7 @@ const SolaranlageMainz: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
 								linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
-                 />
+                left />
 
 
                 <SubpageLandingpages
@@ -155,6 +155,8 @@ const SolaranlageMainz: NextPage = () => {
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
                 image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
+                linkText='Noch Fragen? Dann schreiben Sie uns'
+                link='/konfigurator'
                 icons />
 
                 <Service />
