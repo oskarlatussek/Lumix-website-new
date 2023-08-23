@@ -4,7 +4,8 @@ export default async function handler (req, res) {
     const labels = {
         "meta": "Meta Ads",
         "google": "Google Ads",
-        "flyer": "Flyer"
+        "tuerflyer_v1": "Türflyer V1",
+        "tuerflyer_v2": "Türflyer V2",
     }
     const address = req.body.address
     const email = req.body.email
