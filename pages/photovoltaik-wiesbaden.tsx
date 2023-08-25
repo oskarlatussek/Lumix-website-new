@@ -74,21 +74,21 @@ const PhotovoltaikWiesbaden: NextPage = () => {
 											Sie möchten zum Klimaschutz beitragen und gleichzeitig Ihre Energiekosten senken? Der Umstieg auf regenerative Energien wird dank moderner Photovoltaik-Anlagen für Privathaushalte und Gewerbebetriebe in Wiesbaden immer attraktiver. Fortschreitende Technik auf dem Gebiet der Stromspeicher und bessere Wirkungsgrade führen dazu, dass Photovoltaik-Anlagen immer beliebter werden. Das Team von Lumix Solar ist im Raum Wiesbaden Ihr ansprechpartner für innovative Lösungen im Bereich Solartechnik. Lassen Sie sich von uns qualifiziert beraten.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
-												<div className="flex flex-col items-center w-full justify-center">
+												<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaSolarPanel className=" text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Installationen
 												</p>
 											</div>
-											<div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+											<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaHandHoldingDollar className="text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Kundenersparnis (€)
 												</p>
 											</div>
-											<div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+											<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaEarthAmericas className="text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">

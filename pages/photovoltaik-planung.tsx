@@ -75,21 +75,21 @@ const PhotovoltaikPlanung: NextPage = () => {
                     Bevor die Entscheidung für eine Photovoltaik-Anlage getroffen wird, sollte eine differenzierte Planung der Anlage durch erfahrene Experten erfolgen. Unser zuverlässiges Team unterstützt Sie dabei, die Solaranlage zu planen und berücksichtigt in Mannheim die örtlichen Gegebenheiten, Ihren individuellen Strombedarf sowie Fördermöglichkeiten. Ziel der durchdachten Planung von Photovoltaik-Anlagen ist die Erstellung eines zukunftsfähigen Energiekonzepts für Ihren Privathaushalt oder Ihren Gewerbebetrieb in Mannheim. Basierend auf dem Planungskonzept wird die Photovoltaik-Anlage zusammengestellt und von unseren Fachkräften installiert. Sie erhalten von uns alle Leistungen aus einer Hand – von der kompetenten Beratung und der Planung der Photovoltaik-Anlage über die Montage in Mannheim bis zur Reinigung, Wartung und Reparatur. Sie sind an unserem Rundum-Service interessiert und möchten die Solaranlage mit unseren Experten planen? Hier können Sie direkt mit uns Kontakt aufnehmen sich und einfach und bequem ein Online-Angebot erstellen lassen.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
-                            <div className="flex flex-col items-center w-full justify-center">
+                            <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaSolarPanel className=" text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Installationen
                             </p>
                         </div>
-                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaHandHoldingDollar className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Kundenersparnis (€)
                             </p>
                         </div>
-                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaEarthAmericas className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">

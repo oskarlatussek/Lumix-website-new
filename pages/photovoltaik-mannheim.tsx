@@ -72,21 +72,21 @@ const PhotovoltaikMannheim: NextPage = () => {
                     Sie wünschen eine persönliche Beratung und fragen sich: Lohnt sich PV?  Nutzen Sie unsere ausführliche Beratung, bei der wir Ihnen die Optionen der Photovoltaik-Technologie erläutern und Sie hinsichtlich der Konfiguration einer PV-Anlage in Mannheim informieren. Selbstverständlich können Sie auch direkt ein Angebot für Ihre Photovoltaik-Anlage anfordern.
 										</p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
-                            <div className="flex flex-col items-center w-full justify-center">
+                            <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaSolarPanel className=" text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Installationen
                             </p>
                         </div>
-                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaHandHoldingDollar className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Kundenersparnis (€)
                             </p>
                         </div>
-                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
                             <FaEarthAmericas className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">

@@ -73,21 +73,21 @@ const PhotovoltaikMainz: NextPage = () => {
 													Immer mehr Privathaushalte und Gewerbebetriebe entscheiden sich für eine innovative Photovoltaik-Anlage in Mainz. Insbesondere die Tatsache, dass sich der Wirkungsgrad von Photovoltaik-Anlagen stark erhöht hat und dadurch die Wirtschaftlichkeit enorm verbessert wurde, trägt zur steigenden Attraktivität von PV-Anlagen bei. Dank einer durchschnittlichen Amortisationsdauer der Photovoltaik-Anlage von unter zehn Jahren und einer Lebensdauer von mehr als 25 Jahren kann die Frage: Lohnt sich PV?, mittlerweile mit einem eindeutigen „Ja“ beantwortet werden. Gerne unterbreiten wir Ihnen für den Raum Mainz ein individuelles Angebot.
 										</p>
 										<div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
-												<div className="flex flex-col items-center w-full justify-center">
+												<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaSolarPanel className=" text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Installationen
 												</p>
 											</div>
-											<div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+											<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaHandHoldingDollar className="text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
 												Kundenersparnis (€)
 												</p>
 											</div>
-											<div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
+											<div className="flex sm:p-0 p-7 flex-col items-center w-full justify-center">
 												<FaEarthAmericas className="text-yellow-400 text-7xl" />
 												<CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
 												<p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
