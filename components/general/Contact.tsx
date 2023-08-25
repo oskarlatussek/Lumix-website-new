@@ -52,7 +52,7 @@ const Contact = () => {
             <div id="contact" className="w-full flex flex-col lg:flex-col space-x-0 space-y-8 lg:space-y-8 items-center justify-evenly p-5  sm:p-5 sm:pt-16 ">
 
                 <div className="flex flex-col items-center space-y-10 sm:space-y-16 max-w-full">
-                    <div className="flex flex-col justify-between sm:flex-row space-x-0 space-y-3 sm:space-y-0 w-full">
+                    <div className="flex flex-col justify-between lg:flex-row space-x-0 space-y-3 sm:space-y-0 w-full">
                         <div className="flex flex-col items-center text-center text-xl lg:w-[180px]">
                             <FiMail className="text-yellow-400 text-6xl mb-8" />
                             <a href="mailto:info@lumix.solar" className="text-gray-300 hover:text-yellow-400 transition duration-200 ease-linear">info@lumix.solar</a>

@@ -35,7 +35,7 @@ const SubpageLandingpages = ({ icons, icons2, title, yellowTitle, pretext, bulle
                 <div className="h-screen w-full sticky top-0 flex items-center">
                     {/* <div className="absolute w-full h-[95%] bg-white/10 left-0 top-[2.5%] rounded-xl"/> */}
                     {video && (
-                    <video className="object-cover h-[95%] w-full rounded-xl background-video" autoPlay loop muted>
+                    <video className="object-cover h-[95%] w-full rounded-xl background-video" playsInline autoPlay loop muted>
                         <source src={video} type="video/mp4" />
                         {/* You can add additional source elements for other video formats */}
                         Your browser does not support the video tag.
@@ -47,8 +47,8 @@ const SubpageLandingpages = ({ icons, icons2, title, yellowTitle, pretext, bulle
                 </div>
 
                 <div className={`h-screen w-full sticky top-0 flex items-center ${left ? "justify-start" : "justify-end"}`}>
-                    <div className="w-full md:w-1/2 h-[95%] bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
-                        <p className="font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8">
+                    <div className="w-full sectionHeight sm:min-h-unset h-auto lg:w-1/2 sm:h-[95%] bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
+                        <p className="font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
                         <span className="text-yellow-400 drop-shadow-none font-bold">{yellowTitle}</span>{title}
                         </p>
                         <div className="flex flex-col">

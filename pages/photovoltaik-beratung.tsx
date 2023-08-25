@@ -91,21 +91,21 @@ const PhotovoltaikBeratung: NextPage = () => {
                     Wenn Sie erwägen, eine Photovoltaik-Anlage installieren zu lassen, sollten Sie zunächst eine fachkundige, herstellerunabhängige Beratung in Mannheim nutzen. Unser Team verfügt über langjährige Erfahrung in der Installation von PV-Anlagen für Privathaushalte sowie für Gewerbebetriebe und kann Ihnen somit eine kompetente Solaranlagen-Beratung in Mannheim bieten. Dabei verfolgen wir das Ziel, Ihnen durch die Photovoltaik-Beratung die Entscheidung zu erleichtern und gemeinsam mit Ihnen eine PV-Anlage zu konfigurieren, die perfekt zu Ihrem Haus und Ihren Anforderungen passt. Wenn Sie sich für unser Angebot entscheiden, übernehmen wir die konkrete Planung und die fachgerechte Montage Ihrer PV-Anlage.
                     </p>
                     <div className="flex flex-col md:flex-row items-center w-full justify-center py-4">
-                            <div className="flex flex-col items-center w-full justify-center">
+                            <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
                             <FaSolarPanel className=" text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} prefix='>' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={700} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Installationen
                             </p>
                         </div>
-                        <div className="flex flex-col  items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
                             <FaHandHoldingDollar className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} suffix='Mio' prefix='>' decimal='.' decimals={1} className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1.3} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
                             Kundenersparnis (€)
                             </p>
                         </div>
-                        <div className="flex flex-col  items-center w-full justify-center">
+                        <div className="flex sm:p-0 p-5 flex-col items-center w-full justify-center">
                             <FaEarthAmericas className="text-yellow-400 text-7xl" />
                             <CountUp enableScrollSpy={true} separator='' suffix='t' className='font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl py-5 text-center lg:text-center' end={1300} />
                             <p className="font-semibold text-xl text-xl w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] text-center lg:text-center">
