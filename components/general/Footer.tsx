@@ -50,9 +50,6 @@ const Footer = () => {
 									<Link href={`/rendite`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Lohnt sich PV?</a>
 									</Link>
-									<Link href={`/`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Startseite</a>
-									</Link>
 									</div>
 							</div>
 
