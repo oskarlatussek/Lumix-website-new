@@ -38,29 +38,6 @@ const Footer = () => {
 									<Link href={`/produkte`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Unsere Produkte</a>
 									</Link>
-									<Link href={`/solaranlage`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage</a>
-									</Link>
-									<Link href={`/solarmodule`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solarmodule</a>
-									</Link>
-									<Link href={`/stromspeicher`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Stromspeicher</a>
-									</Link>
-									<Link href={`/photovoltaik-mannheim`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Mannheim</a>
-									</Link>
-									<Link href={`/photovoltaik-beratung`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Beratung</a>
-									</Link>
-									</div>
-									<div  className="lg:mt-7 mt-0 flex flex-col">
-									<Link href={`/photovoltaik-planung`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Planung</a>
-									</Link>
-									<Link href={`/photovoltaik-montage`}>
-											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Montage</a>
-									</Link>
 									<Link href={`/team`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Das Team</a>
 									</Link>
@@ -84,6 +61,27 @@ const Footer = () => {
 									<span className="font-semibold text-white w-full leading-tight sm:leading-tight lg:leading-tight font-medium max-w-[100%] ">
 										Regional
 									</span>
+									<Link href={`/solaranlage`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage</a>
+									</Link>
+									<Link href={`/solarmodule`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solarmodule</a>
+									</Link>
+									<Link href={`/stromspeicher`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Stromspeicher</a>
+									</Link>
+									<Link href={`/photovoltaik-mannheim`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Mannheim</a>
+									</Link>
+									<Link href={`/photovoltaik-beratung`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Beratung</a>
+									</Link>
+									<Link href={`/photovoltaik-planung`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Planung</a>
+									</Link>
+									<Link href={`/photovoltaik-montage`}>
+											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Montage</a>
+									</Link>
 									<Link href={`/photovoltaik-heidelberg`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Heidelberg</a>
 									</Link>
@@ -93,6 +91,8 @@ const Footer = () => {
 									<Link href={`/photovoltaik-ludwigshafen`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Ludwigshafen</a>
 									</Link>
+									</div>
+									<div  className="lg:mt-7 mt-0 flex flex-col">
 									<Link href={`/solaranlage-ludwigshafen`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage Ludwigshafen</a>
 									</Link>
@@ -105,8 +105,6 @@ const Footer = () => {
 									<Link href={`/photovoltaik-mainz`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Photovoltaik Mainz</a>
 									</Link>
-									</div>
-									<div  className="lg:mt-7 mt-0 flex flex-col">
 									<Link href={`/solaranlage-mainz`}>
 											<a className="text-gray-400 hover:text-white transition duration-200 ease-linear">Solaranlage Mainz</a>
 									</Link>
