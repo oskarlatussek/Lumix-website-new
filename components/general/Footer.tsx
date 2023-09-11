@@ -29,6 +29,9 @@ const Footer = () => {
 									<Link href={`/`}>
 											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Startseite</a>
 									</Link>
+									<Link href={`/produkte`}>
+											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Unsere Produkte</a>
+									</Link>
 									<Link href={`/photovoltaik`}>
 											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Photovoltaik</a>
 									</Link>
@@ -43,9 +46,6 @@ const Footer = () => {
 									</Link>
 									<Link href={`/konfigurator`}>
 											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Angebot einholen</a>
-									</Link>
-									<Link href={`/produkte`}>
-											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Unsere Produkte</a>
 									</Link>
 									<Link href={`/team`}>
 											<a className="text-gray-400 hover:text-yellow-400 transition duration-200 ease-linear">Das Team</a>
