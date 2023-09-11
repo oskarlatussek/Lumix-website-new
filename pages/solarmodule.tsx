@@ -110,11 +110,17 @@ const Solarmodule: NextPage = () => {
                 link='/konfigurator' 
 				        linkText='Jetzt Solarcheck starten!'/>
                 
+                <div className="flex items-center w-full justify-center py-10">
+                    {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+                    <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full"><span className="drop-shadow-none">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-none"> für alle!</span></p>
+                </div>    
+
+
                 <SubpageLandingpages
 				yellowTitle ='Solarmodule '
                 title='namhafter Hersteller in Mannheim!'
                 text='Als Anbieter moderner PV-Anlagen verwenden wir ausschließlich Solarmodule namhafter Hersteller, sodass Sie in Mannheim von einer hervorragenden Qualität profitieren. Sie können zwischen mono- und polykristallinen Solarmodulen verschiedener Hersteller wählen und die PV-Anlage auch optisch an Ihr Haus anpassen. Mittlerweile stehen sogar Solarmodule zur Verfügung, die von der Denkmalschutzbehörde genehmigt werden. Alle in unseren Photovoltaik-Anlagen verbauten Module garantieren Ihnen in Mannheim eine sehr lange Haltbarkeit sowie einen optimalen Ertrag und benötigen zudem nur wenig Wartung. Lohnt sich PV? Diese Frage können wir Ihnen anhand einer Wirtschaftlichkeitsberechnung ganz genau beantworten. Die meisten PV-Anlagen amortisieren sich heutzutage in weniger als zehn Jahren und der Effekt der Reduzierung Ihrer Stromkosten wirkt lange darüber hinaus. Profitieren Sie von unserem exzellenten Service, der neben der Beratung auch die Planung der PV-Anlage sowie des Stromspeichers und die Montage der Solarmodule in Mannheim umfasst.'
-                video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
+                image='https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg'
 				linkText='Hier Angebot anfordern!'
                 link='/konfigurator'
                 left />

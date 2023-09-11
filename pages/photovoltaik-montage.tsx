@@ -127,7 +127,8 @@ const PhotovoltaikMontage: NextPage = () => {
                 video='https://v.ftcdn.net/06/05/71/29/700_F_605712905_Zdo4J0LjhuytJITJiUSEzxO4JBMuoEOl_ST.mp4'
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
-                icons/>
+                icons
+                left/>
 
           
 

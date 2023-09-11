@@ -126,6 +126,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 link='/konfigurator'
                 left />
 
+                <Service />
                 <SubpageLandingpages 
 								yellowTitle ='PV-Anlage '
 								title='mit Speicher kaufen – unsere Leistungen für Kunden aus Heidelberg:'
@@ -140,7 +141,11 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 icons/>
 
-                <Service />
+                <div className="flex items-center w-full justify-center py-10">
+                    {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+                    <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center pb-5 sm:pb-10 w-full"><span className="drop-shadow-none">Der </span><span className="text-yellow-400 drop-shadow-none font-bold">Startschuss</span><span className="drop-shadow-none"> für Ihr </span><span className="text-yellow-400 drop-shadow-none font-bold">Solarprojekt!</span></p>
+                </div>
+
                 <SubpageLandingpages
 								yellowTitle='Lumix Solar -'
 								title=' Photovoltaik-Anbieter nahe Heidelberg'
@@ -148,7 +153,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
                 video='https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4'
 								linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
-                 />
+                left />
 
                 {/* <FAQ /> */}
             </div>

@@ -137,6 +137,7 @@ const SolaranlageWiesbaden: NextPage = () => {
                  />
 
                 
+<Service />
                 <SubpageLandingpages
 								yellowTitle='Kompetente Planung'
                 title=' Ihrer Solaranlage in Wiesbaden'
@@ -147,6 +148,11 @@ const SolaranlageWiesbaden: NextPage = () => {
                 left/>
 
 
+
+<div className="flex items-center w-full justify-center py-10">
+                    {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+                    <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center pb-5 sm:pb-10 w-full"><span className="drop-shadow-none">Der </span><span className="text-yellow-400 drop-shadow-none font-bold">Startschuss</span><span className="drop-shadow-none"> für Ihr </span><span className="text-yellow-400 drop-shadow-none font-bold">Solarprojekt!</span></p>
+                </div>
                 <SubpageLandingpages
 								yellowTitle='Lumix Solar – '
                 title='Ihr regionaler Ansprechpartner für:'
@@ -159,7 +165,6 @@ const SolaranlageWiesbaden: NextPage = () => {
                 link='/konfigurator'
                 icons />
 
-                <Service />
                 
 
                 {/* <FAQ /> */}

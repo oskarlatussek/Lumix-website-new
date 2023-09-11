@@ -137,11 +137,12 @@ Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelbe
 								yellowTitle='Kompetente Planung '
 								title='Ihrer Solaranlage in Heidelberg'
                 text='Lumix Solar überzeugt seit Jahren Kunden mit einem exzellenten Service und individuellen Energielösungen. Unser Team übernimmt die bedarfsgerechte Planung der Solaranlage und konfiguriert in Heidelberg Ihre PV-Anlage mit hochwertigen Produkten renommierter Hersteller. Die zuverlässige Planung sorgt dafür, dass die Solaranlage weder überdimensioniert wird noch zu schnell an ihre Kapazitätsgrenzen stößt.'
-                image='/Images/gewerbe.webp'
+                image='https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg'
 								linkText='Jetzt Solarcheck starten!'
                 link='/konfigurator'
                 left />
                 
+                <Service />
                 <SubpageLandingpages
 								yellowTitle='Solartechnik – '
 								title='beste Optionen für die Zukunft'
@@ -151,6 +152,11 @@ Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelbe
                 link='/konfigurator'
                  />
 
+
+<div className="flex items-center w-full justify-center py-10">
+                    {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+                    <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center pb-5 sm:pb-10 w-full"><span className="drop-shadow-none">Der </span><span className="text-yellow-400 drop-shadow-none font-bold">Startschuss</span><span className="drop-shadow-none"> für Ihr </span><span className="text-yellow-400 drop-shadow-none font-bold">Solarprojekt!</span></p>
+                </div>
                 <SubpageLandingpages
 								title='Lumix Solar – wir liefern:'
                 bullet1='Solartechnik'
@@ -163,7 +169,6 @@ Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelbe
                 icons
                 left/>
 
-                <Service />
                 
 
                 {/* <FAQ /> */}

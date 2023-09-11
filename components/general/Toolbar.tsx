@@ -225,7 +225,7 @@ const Toolbar = ({ dark }: ToolbarProps) => {
         onClick={() => setOpen(!open)}
         className={`${
           !open && "hidden"
-        } p-5 top-0 fixed w-full backdrop-filter backdrop-blur-xl flex flex-col space-y-5 items-center pt-20`}
+        } p-5 top-0 fixed w-full backdrop-filter backdrop-blur-xl flex flex-col space-y-5 items-center pt-20 h-full overflow-auto`}
       >
         <Link href={`/photovoltaik`}>
           <a className="hover:text-yellow-400 transition duration-300 ease-in-out">Photovoltaik</a>
