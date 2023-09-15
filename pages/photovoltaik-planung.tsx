@@ -26,7 +26,7 @@ const PhotovoltaikPlanung: NextPage = () => {
             </Helmet>
 
             <div className="flex flex-col items-center max-w-full">
-								<div style={{ backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
+								<div style={{ backgroundImage: `url(https://as1.ftcdn.net/v2/jpg/06/15/30/72/1000_F_615307240_a58FZJ6gtc5qysfbwzvJMYRDQ1vEhuTq.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }} className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center">
                     <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
@@ -127,7 +127,7 @@ const PhotovoltaikPlanung: NextPage = () => {
                 bullet2='Stromspeicher'
                 bullet3='Wechselrichter'
                 bullet4='Backup- & Wallboxen'
-                image='https://as2.ftcdn.net/v2/jpg/06/05/13/47/1000_F_605134761_38dguQbVgR4RZdm5lOuvUaJOVyCHxMPb.jpg'
+                video='https://v.ftcdn.net/06/18/06/10/700_F_618061093_VFYEgaSImEuoG8JpvoKUXkwV2LZgI0VF_ST.mp4'
 								linkText='Hier Angebot anfordern!'
                 link='/konfigurator'
                 left 

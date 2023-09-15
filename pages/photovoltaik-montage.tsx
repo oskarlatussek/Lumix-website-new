@@ -111,7 +111,7 @@ const PhotovoltaikMontage: NextPage = () => {
                 bullet1='Aufdachmontage der PV-Anlage'
                 bullet2='Integration der PV-Anlage ins Dach'
                 bullet3='Vollständig gebäudeintegrierte PV-Anlage'
-                image='https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg'
+                image='https://as1.ftcdn.net/v2/jpg/06/05/35/36/1000_F_605353666_wFneStQOgmFl8TqlHfIF1rM56UYxa1QI.jpg'
                 link='/konfigurator' 
 				        linkText='Jetzt Angebot in Mannheim erstellen lassen!'/>
                 

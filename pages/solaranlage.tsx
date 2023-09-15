@@ -11,7 +11,6 @@ import { HiOutlineArrowSmRight } from "react-icons/hi"
 
 
 
-
 const Solaranlage: NextPage = () => {
 
     return (
@@ -138,9 +137,6 @@ const Solaranlage: NextPage = () => {
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
                 icons/>
-
-
-
 
 
             </div>

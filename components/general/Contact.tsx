@@ -53,16 +53,16 @@ const Contact = () => {
 
                 <div className="flex flex-col items-center space-y-10 sm:space-y-16 max-w-full">
                     <div className="flex flex-col justify-between lg:flex-row space-x-0 space-y-3 sm:space-y-0 w-full">
-                        <div className="flex flex-col p-7 sm:p-0 items-center text-center text-xl lg:w-[180px]">
+                        <div className="flex flex-col p-7 lg:p-0 items-center text-center text-xl lg:w-[180px]">
                             <FiMail className="text-yellow-400 text-6xl mb-8" />
                             <a href="mailto:info@lumix.solar" className="text-zinc-800 hover:text-yellow-400 transition duration-200 ease-linear">info@lumix.solar</a>
                         </div>
-                        <div className="flex flex-col p-7 sm:p-0 items-center text-center text-xl lg:w-[180px]">
+                        <div className="flex flex-col p-7 lg:p-0 items-center text-center text-xl lg:w-[180px]">
                             <FiPhone className="text-yellow-400 text-6xl mb-8" />
                             {/* <a href="tel:+491627656187" className="text-gray-600 hover:text-black transition duration-200 ease-linear">+49 162 7656 187</a> */}
                             <a href="tel:+49621150350" className="text-zinc-800 hover:text-yellow-400 transition duration-200 ease-linear">+49 621 150 350</a>
                         </div>
-                        <div className="flex flex-col p-7 sm:p-0 items-center text-center text-xl lg:w-[180px]">
+                        <div className="flex flex-col p-7 lg:p-0 items-center text-center text-xl lg:w-[180px]">
 														<FaMapPin className="text-yellow-400 text-6xl mb-8" />
                             <span className="text-zinc-800 hover:text-yellow-400 transition duration-200 ease-linear">Industriestraße 35, 68169 Mannheim</span>
                         </div>

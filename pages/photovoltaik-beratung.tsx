@@ -77,7 +77,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                     bullet4='Generierung individueller Konfigurationen'
                     bullet5='Rundum-Service inkl. Montage & Wartung'
                     bullet6='Garantierte Einhaltung von Lieferzusagen'
-                    image='https://as2.ftcdn.net/v2/jpg/05/91/00/61/1000_F_591006161_PS4BBA6OLtDs1eGk4RlDuEMmNMLosJtl.jpg'
+                    image='https://as1.ftcdn.net/v2/jpg/05/30/52/82/1000_F_530528267_LChGDs2uMNfZijiI2CYjjC2vHtzWyw5g.jpg'
                     link='/konfigurator'
                     linkText='Heute noch Termin vereinbaren!' 
                     icons2
@@ -135,7 +135,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                 bullet5='Möchten Sie den Solarstrom zum Großteil selbst nutzen?'
                 bullet6='Ist die Dachfläche überhaupt groß genug?'
                 text='Besonders lohnend ist die Installation einer PV-Anlage, wenn der Strom zum Großteil selbst verbraucht und nicht ins öffentliche Stromnetz eingespeist wird. Optimal ist somit die Kombination einer Photovoltaik-Anlage mit einer Wallbox zum Aufladen Ihres E-Autos sowie mit einer Wärmepumpe. Darüber hinaus sorgt ein leistungsstarker Stromspeicher dafür, dass Sie Ihren Sonnenstrom sogar nutzen können, wenn keine Sonne scheint. Die Photovoltaik-Beratung wird diese Effekte im Rahmen einer Wirtschaftlichkeitsberechnung in Mannheim quantifizieren und damit eindeutig die Frage beantworten: Lohnt sich PV? '
-                image='https://as1.ftcdn.net/v2/jpg/05/30/52/82/1000_F_530528267_LChGDs2uMNfZijiI2CYjjC2vHtzWyw5g.jpg'
+                image='https://as2.ftcdn.net/v2/jpg/05/91/00/61/1000_F_591006161_PS4BBA6OLtDs1eGk4RlDuEMmNMLosJtl.jpg'
                 link='/konfigurator' 
 				        linkText='Jetzt Solarcheck starten!'/>
                 
