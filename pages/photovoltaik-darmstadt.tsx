@@ -28,7 +28,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Photovoltaik-Anlage in Darmstadt installieren</h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44   sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44  sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
 
                             Eine leistungsstarke Photovoltaik-Anlage von Lumix Solar bietet Ihnen in Darmstadt die Möglichkeit, Strom klimaneutral selbst zu produzieren. Nutzen Sie die Solartechnik, um unabhängig von Stromanbietern zu werden – wir unterstützen Sie dabei mit unserem Rundum-Service.
                         </p>

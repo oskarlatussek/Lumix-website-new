@@ -27,7 +27,7 @@ const Produkte: NextPage = () => {
             >
               Unsere Produkte
             </h3>
-            <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44   sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
+            <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44  sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
               Individuelle Komplettlösungen, maßgeschneidert auf Ihre
               Bedürfnisse.
             </p>

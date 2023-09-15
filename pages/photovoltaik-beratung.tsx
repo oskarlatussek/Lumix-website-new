@@ -53,7 +53,7 @@ const PhotovoltaikBeratung: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Kompetente Photovoltaik-Beratung in Mannheim
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44   sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44  sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
                         Profitieren Sie von einer fundierten Photovoltaik-Beratung, mit der wir Ihnen in Mannheim die Entscheidung erheblich erleichtern. Unsere Mitarbeiter beraten herstellerunabhängig über Solarmodule, Stromspeicher sowie Montageoptionen und orientieren sich dabei ausschließlich an Ihren Wünschen und Interessen.
                         </p>
 
