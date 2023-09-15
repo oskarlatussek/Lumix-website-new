@@ -31,7 +31,7 @@ const PhotovoltaikMontage: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Experten für Photovoltaik-Montage in Mannheim
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
 
                         Wir bieten Ihnen verschiedene Optionen der Photovoltaik-Montage an, sodass die Solarmodule in Mannheim an fast jedem Gebäude einsetzbar sind. Gerne informieren wir Sie über Alternativen zur bekannten Dachmontage von PV-Anlagen.
 												 </p>
