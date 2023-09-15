@@ -30,7 +30,7 @@ const PhotovoltaikMannheim: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Photovoltaik in Mannheim – Ihr regionaler Partner
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44   sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
 
                         Photovoltaik bietet Kunden in Mannheim die Möglichkeit, umweltfreundlich Strom selbst zu produzieren. Informieren Sie sich darüber, wie wir Sie beim Umstieg auf eine klimaneutrale Stromerzeugung unterstützen und Ihnen dabei helfen, Stromkosten nachweislich zu senken.
 												</p>
