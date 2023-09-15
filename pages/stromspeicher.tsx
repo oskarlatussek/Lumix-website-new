@@ -33,7 +33,7 @@ const Stromspeicher: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Stromspeicher für Photovoltaik-Anlagen in Mannheim
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 animate__animated animate__fadeIn animate__delay-3s">
 
                         Mit einem innovativen Stromspeicher steigern Sie die Eigenverbrauchsquote und damit die Effizienz Ihrer Photovoltaik-Anlage in Mannheim erheblich. Dank moderner Stromspeicher sparen Sie den Großteil der Stromkosten ein und werden unabhängig von Versorgungsunternehmen und Netzausfällen.
 												</p>

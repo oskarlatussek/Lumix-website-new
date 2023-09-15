@@ -31,7 +31,7 @@ const SolaranlageMainz: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                             Solaranlage – Strom in Mainz selbst erzeugen
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 animate__animated animate__fadeIn animate__delay-3s">
 
                             Mit einer Solaranlage von Lumix Solar produzieren Sie Ihren Strom in Mainz auf dem eigenen Dach oder an der Fassade. Informieren Sie sich über die Möglichkeiten der modernen Solartechnik und reduzieren Sie dauerhaft Ihre Energiekosten.
                         </p>

@@ -30,7 +30,7 @@ const Solaranlage: NextPage = () => {
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>
                         Solaranlagen von Lumix Solar
                         </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 animate__animated animate__fadeIn animate__delay-3s">
 
                         Profitieren Sie von den Vorteilen einer Solaranlage von Lumix Solar, Ihrem regionalen Partner in Mannheim. Wir liefern hochwertige Anlagen und unterstützen unsere Kunden zusätzlich mit einem hervorragenden und umfangreichen Service.                        </p>
 
