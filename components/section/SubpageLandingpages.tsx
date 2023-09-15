@@ -148,13 +148,13 @@ const SubpageLandingpages = ({
                 </span>
               </p>
               <div className="flex flex-col">
-                <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                <p className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                   {pretext}
                 </p>
                 {bullet1 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet1}
                     </span>
                   </div>
@@ -162,7 +162,7 @@ const SubpageLandingpages = ({
                 {bullet2 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet2}
                     </span>
                   </div>
@@ -170,7 +170,7 @@ const SubpageLandingpages = ({
                 {bullet3 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet3}
                     </span>
                   </div>
@@ -178,7 +178,7 @@ const SubpageLandingpages = ({
                 {bullet4 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet4}
                     </span>
                   </div>
@@ -186,7 +186,7 @@ const SubpageLandingpages = ({
                 {bullet5 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet5}
                     </span>
                   </div>
@@ -194,7 +194,7 @@ const SubpageLandingpages = ({
                 {bullet6 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet6}
                     </span>
                   </div>
@@ -202,7 +202,7 @@ const SubpageLandingpages = ({
                 {bullet7 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet7}
                     </span>
                   </div>
@@ -210,13 +210,13 @@ const SubpageLandingpages = ({
                 {bullet8 && (
                   <div className="flex items-center space-x-3 text-lg py-1">
                     <FiCheck className="text-yellow-400 text-3xl" />
-                    <span className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+                    <span className="font-medium text-sm sm:text-base lg:text-lg text-left sm:text-center max-w-2xl text-zinc-800">
                       {bullet8}
                     </span>
                   </div>
                 )}
               </div>
-              <p className="font-medium text-sm sm:text-base lg:text-lg text-justify sm:text-center max-w-2xl text-zinc-800">
+              <p className="font-medium text-sm sm:text-base lg:text-lg text-center sm:text-center max-w-2xl text-zinc-800">
                 {text}
               </p>
               {icons && (
