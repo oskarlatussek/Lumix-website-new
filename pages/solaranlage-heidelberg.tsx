@@ -29,7 +29,7 @@ const SolaranlageHeidelberg: NextPage = () => {
                     <div className="p-5 sm:p-10 flex flex-col items-center relative space-y-5 sm:space-y-10 py-10 mt-20 text-center">
 
                         <h3 className={`w-full sm:w-4/5 z-10 animate__animated animate__fadeIn animate__delay-2s pb-0 md:pb-5`}>Investieren Sie in eine moderne Solaranlage in Heidelberg </h3>
-                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 pb-44 animate__animated animate__fadeIn animate__delay-3s">
+                        <p className="text-sm sm:text-lg lg:text-lg xl:text-lg leading-tight sm:leading-tight lg:leading-tight xl:leading-tight text-gray-300 font-medium max-w-4xl z-10 mb-44 sm:pb-0 pb-20 animate__animated animate__fadeIn animate__delay-3s">
 Nutzen Sie die Vorteile innovativer Solaranlagen von Lumix Solar, um in Heidelberg umweltfreundlichen Sonnenstrom auf dem Dach oder an der Fassade Ihres Hauses zu produzieren. Damit senken Sie die Stromkosten erheblich und tragen signifikant zum Klimaschutz bei.</p>
 
                         {/* <Link href="#first_section">
