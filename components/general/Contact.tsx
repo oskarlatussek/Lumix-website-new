@@ -13,7 +13,6 @@ const Contact = () => {
     const handleSumbmit = async (e: any) => {
         e.preventDefault();
         setProcessing(true)
-        window.dataLayer.push({'event': 'kontaktformular'})
 
         try {
             const res = await fetch("/api/contact", {
