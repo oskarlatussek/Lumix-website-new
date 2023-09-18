@@ -8,6 +8,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { HiOutlineArrowSmRight } from "react-icons/hi"
+import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 
 
 
