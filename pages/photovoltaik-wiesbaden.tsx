@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import Process from "../components/section/Process";
 import SubpageLandingpages from "../components/section/SubpageLandingpages";
-import Contact from '../components/general/Contact';
+
 import Service from '../components/section/Service';
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 import Link from 'next/link';
@@ -10,6 +10,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { HiOutlineArrowSmRight } from "react-icons/hi"
+import Contact from '../components/general/Contact';
 
 
 const PhotovoltaikWiesbaden: NextPage = () => {

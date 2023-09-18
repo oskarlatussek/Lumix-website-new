@@ -2,14 +2,14 @@ import type { NextPage } from 'next'
 
 import Process from "../components/section/Process";
 import SubpageLandingpages from "../components/section/SubpageLandingpages";
-import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
+
 import Link from 'next/link';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Contact from '../components/general/Contact';
 import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { HiOutlineArrowSmRight } from "react-icons/hi"
-
+import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 
 
 const Solaranlage: NextPage = () => {
@@ -138,7 +138,6 @@ const Solaranlage: NextPage = () => {
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                 link='/konfigurator'
                 icons/>
-
 
                       <Contact />
             </div>

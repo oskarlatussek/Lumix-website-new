@@ -2,8 +2,9 @@ import type { NextPage } from 'next'
 
 import Process from "../components/section/Process";
 import SubpageLandingpages from "../components/section/SubpageLandingpages";
-import Service from '../components/section/Service';
-import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
+
+
+import Service from '../components/section/Service';import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 import Link from 'next/link';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Contact from '../components/general/Contact';
