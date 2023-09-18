@@ -7,6 +7,7 @@ import {
   HiOutlineClipboard,
 } from 'react-icons/hi'
 import React, { useEffect, useState, useRef } from 'react';
+import { useRouter } from 'next/router';
 
 interface SubpageLandingpageProps {
   title?: string
@@ -67,25 +68,36 @@ const SubpageLandingpages = ({
   const [isClient, setIsClient] = useState(false)
   const foregroundRef = useRef(null);
   const backgroundRef = useRef(null);
+  const router = useRouter(); // Access the router object
+  const  id = router.pathname; // Access the 'id' query parameter
+
   useEffect(() => {
     setIsClient(true)
   }, [])
-
+  
   useEffect(() => {
+    const  id = router.pathname; // Access the 'id' query parameter
+    console.log('Current id:', id);
+
     // Get references to the div elements
     // Function to update the height of the background div
     function updateHeight() {
         const foregroundDiv = foregroundRef.current;
   const backgroundDiv = backgroundRef.current;
         console.log('updateHeight called');
+        console.log(foregroundDiv);
+        console.log(backgroundDiv);
 
       // Ensure that the DOM elements are fully loaded
-        const foregroundHeight = foregroundDiv.clientHeight // Get the height of the foreground div
-        backgroundDiv.style.height = `${foregroundHeight}px` // Set the background div's height
-        console.log({ foregroundHeight })
-      
+      if (foregroundDiv && backgroundDiv) {
+        const foregroundHeight = foregroundDiv.clientHeight;
+        backgroundDiv.style.height = `${foregroundHeight}px`;
+        console.log({ foregroundHeight });
+      }
     }
-
+    setTimeout(() => {
+      updateHeight();
+    }, 500);
     // Call the function when the window is fully loaded and whenever the window is resized
     window.addEventListener('load', updateHeight)
     window.addEventListener('resize', updateHeight)
@@ -93,14 +105,16 @@ const SubpageLandingpages = ({
     // Call the function once to handle the initial dimensions
     document.addEventListener('DOMContentLoaded', () => {
         updateHeight();
+        console.log("run func")
+
     });
-    
+
   // Clean up the event listeners when the component unmounts
   return () => {
     window.removeEventListener('load', updateHeight);
     window.removeEventListener('resize', updateHeight);
   };
-}, []);
+}, [router]);
 
   return (
     <>
@@ -108,7 +122,7 @@ const SubpageLandingpages = ({
         {isClient && (
           <div  ref={backgroundRef} 
           id={`${uniqueId}-background`}
-          className=" w-full sticky top-0 sm:top-10 flex items-center">
+          className=" w-full sticky top-2 sm:top-5 flex items-center min-h-screen">
             {/* <div className="absolute w-full bg-white/10 left-0 top-[2.5%] rounded-xl"/> */}
             {video && (
               <video
@@ -134,11 +148,11 @@ const SubpageLandingpages = ({
         {isClient && (
           <div ref={foregroundRef}
             id={`${uniqueId}-foreground`}
-            className={` w-full sticky top-0 sm:top-10 flex items-center ${
+            className={` w-full sticky min-h-screen top-0 sm:top-10 flex items-center ${
               left ? 'justify-start' : 'justify-end'
             }`}
           >
-            <div className="w-full sectionHeight min-h-screen  lg:w-1/2 bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
+            <div className="w-full sectionHeight h-full min-h-screen lg:w-1/2 bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
               <p className="leading-tight font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
                 <span className="leading-tight">
                   <span className="text-yellow-400 drop-shadow-none font-bold">
@@ -220,28 +234,28 @@ const SubpageLandingpages = ({
                 {text}
               </p>
               {icons && (
-                <div className="font-bold flex w-full justify-around items-center space-x-3  py-3">
-                  <div className="flex flex-col items-center space-x-3 py-3">
+                <div className="font-bold flex w-full justify-around items-center gap-x-8 py-3">
+                  <div className="flex flex-col items-center  py-3">
                     <PiHandHeartBold className="text-yellow-400 text-5xl" />
-                    <span className="text-lg">Zufriedenheitsgarantie</span>
+                    <span className="text-lg ml-0">Zufriedenheitsgarantie</span>
                   </div>
-                  <div className="flex flex-col items-center space-x-3 py-3">
+                  <div className="flex flex-col items-center  py-3">
                     <HiOutlineCalculator className="text-yellow-400 text-5xl" />
-                    <span className="text-lg">Förderung sichern</span>
+                    <span className="text-lg ml-0">Förderung sichern</span>
                   </div>
                 </div>
               )}
               {icons2 && (
-                <div className="font-bold flex w-full justify-around items-center space-x-3  py-3">
-                  <div className="flex flex-col items-center space-x-3 py-3">
+                <div className="font-bold flex w-full justify-around items-center gap-x-8  py-3">
+                  <div className="flex flex-col items-center  py-3">
                     <HiOutlineHome className="text-yellow-400 text-5xl" />
-                    <span className="text-lg">
+                    <span className="text-lg ml-0">
                       Regional und überregional für Sie im Einsatz
                     </span>
                   </div>
-                  <div className="flex flex-col items-center space-x-3 py-3">
+                  <div className="flex flex-col items-center  py-3">
                     <HiOutlineClipboard className="text-yellow-400 text-5xl" />
-                    <span className="text-lg">
+                    <span className="text-lg ml-0">
                       Komplett-Service von der Planung bis zur Wartung
                     </span>
                   </div>

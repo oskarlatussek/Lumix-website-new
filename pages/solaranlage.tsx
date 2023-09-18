@@ -5,6 +5,7 @@ import SubpageLandingpages from "../components/section/SubpageLandingpages";
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress';
 import Link from 'next/link';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Contact from '../components/general/Contact';
 import { FaSolarPanel, FaHandHoldingDollar, FaEarthAmericas } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { HiOutlineArrowSmRight } from "react-icons/hi"
@@ -63,7 +64,7 @@ const Solaranlage: NextPage = () => {
                     icons2
                     left />
 
-                <div className="items-center w-full justify-center pt-10">   
+                <div className="items-center w-full justify-center pt-10 p-2 sm:p-5">   
                   <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
                     <span className="text-yellow-400 drop-shadow-none font-bold">Ihre Vorteile</span> wenn Sie mit uns zusammenarbeiten
                   </p>                 
@@ -139,6 +140,7 @@ const Solaranlage: NextPage = () => {
                 icons/>
 
 
+                      <Contact />
             </div>
             </HelmetProvider>
 
