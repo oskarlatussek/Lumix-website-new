@@ -134,7 +134,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
                 linkText='Noch Fragen? Dann schreiben Sie uns'
                  />
 
-                
+                 
 <Service />
                 <SubpageLandingpages
 								yellowTitle='Solaranlagen-Beratung'
