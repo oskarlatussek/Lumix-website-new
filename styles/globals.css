@@ -204,15 +204,6 @@ ul{
   min-width: 100%;
 }
 
-@media only screen and (max-width: 640px) {
-  .sectionHeight{
-    min-height: -webkit-fill-available;
-  }
-  .h-screen{
-    height: 130vh;
-  }
-}
-
 .mb-44{
   margin-bottom: 11rem!important;
 }

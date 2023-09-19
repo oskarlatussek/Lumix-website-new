@@ -234,7 +234,7 @@ const SubpageLandingpages = ({
                 {text}
               </p>
               {icons && (
-                <div className="font-bold flex w-full justify-around items-center gap-x-8 py-3">
+                <div className="font-bold flex w-full justify-around items-center gap-x-8 py-3 flex-col sm:flex-row">
                   <div className="flex flex-col items-center  py-3">
                     <PiHandHeartBold className="text-yellow-400 text-5xl" />
                     <span className="text-lg ml-0">Zufriedenheitsgarantie</span>
@@ -246,7 +246,7 @@ const SubpageLandingpages = ({
                 </div>
               )}
               {icons2 && (
-                <div className="font-bold flex w-full justify-around items-center gap-x-8  py-3">
+                <div className="font-bold flex w-full justify-around items-center gap-x-8 flex-col sm:flex-row py-3">
                   <div className="flex flex-col items-center  py-3">
                     <HiOutlineHome className="text-yellow-400 text-5xl" />
                     <span className="text-lg ml-0">
@@ -284,7 +284,7 @@ const SubpageLandingpages = ({
               )}
 
               {link && (
-                <div className="flex w-full sm:flex-row items-center flex-col justify-around">
+                <div className="flex w-full sm:flex-row items-center flex-col justify-around flex-col sm:flex-row">
                   <Link href={link} className="pt-4">
                     <a className="text-lg bg-yellow-400 rounded-full font-bold max-w-max px-5 py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
                       {linkText}

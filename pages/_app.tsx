@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import { Footer, Toolbar } from '../components'
 import '../styles/globals.css'
+import '../styles/review.css'; // Adjust the path to your CSS file
 import Script from 'next/script'
 import { getCookie } from 'cookies-next';
 import Consent from '../components/general/Conset'
