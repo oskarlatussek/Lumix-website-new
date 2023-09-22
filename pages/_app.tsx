@@ -1,23 +1,24 @@
-
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
 import { Footer, Toolbar } from '../components'
 import '../styles/globals.css'
-import '../styles/review.css'; // Adjust the path to your CSS file
+import '../styles/review.css'
 import Script from 'next/script'
-import { getCookie } from 'cookies-next';
+import { getCookie } from 'cookies-next'
 import Consent from '../components/general/Conset'
 
-
 function MyApp({ Component, pageProps }: AppProps) {
-  const consent = getCookie('localConsent');
+  const consent = getCookie('localConsent')
 
   return (
     <>
       <Head>
         <title>Lumix Solar | Solaranlagen & Batteriespeicher</title>
-        <meta name="description" content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage." />
+        <meta
+          name="description"
+          content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage."
+        />
         {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=GTM-NNFZGHS`}
@@ -89,7 +90,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       /> */}
       <Toolbar dark />
       <Consent />
-      <main className=''>
+      <main className="">
         <Component {...pageProps} />
       </main>
       <Footer />

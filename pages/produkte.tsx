@@ -1,11 +1,11 @@
-import type { NextPage } from "next"
+import type { NextPage } from 'next'
 
-import Hero from "../components/general/Hero"
-import Contact from "../components/general/Contact"
-import ImageSection from "../components/section/ImageSection"
-import Process from "../components/section/Process"
-import KonfiguratorAddress from "../components/section/KonfiguratorAddress"
-import SubpageLandingpages from "../components/section/SubpageLandingpages"
+import Hero from '../components/general/Hero'
+import Contact from '../components/general/Contact'
+import ImageSection from '../components/section/ImageSection'
+import Process from '../components/section/Process'
+import KonfiguratorAddress from '../components/section/KonfiguratorAddress'
+import SubpageLandingpages from '../components/section/SubpageLandingpages'
 
 const Produkte: NextPage = () => {
   return (
@@ -14,8 +14,8 @@ const Produkte: NextPage = () => {
         <div
           style={{
             backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
           className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center"
         >
@@ -103,7 +103,7 @@ const Produkte: NextPage = () => {
           left
         />
 
-        {/*<Contact />*/}
+        <Contact />
       </div>
     </>
   )

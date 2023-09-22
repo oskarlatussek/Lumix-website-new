@@ -6,8 +6,8 @@ import {
   HiOutlineHome,
   HiOutlineClipboard,
 } from 'react-icons/hi'
-import React, { useEffect, useState, useRef } from 'react';
-import { useRouter } from 'next/router';
+import React, { useEffect, useState, useRef } from 'react'
+import { useRouter } from 'next/router'
 
 interface SubpageLandingpageProps {
   title?: string
@@ -64,66 +64,56 @@ const SubpageLandingpages = ({
   link,
   left,
 }: SubpageLandingpageProps) => {
-  const uniqueId = `${Math.random().toString(36).substr(2, 9)}`
   const [isClient, setIsClient] = useState(false)
-  const foregroundRef = useRef(null);
-  const backgroundRef = useRef(null);
-  const router = useRouter(); // Access the router object
-  const  id = router.pathname; // Access the 'id' query parameter
+  const foregroundRef = useRef(null)
+  const backgroundRef = useRef(null)
+  const router = useRouter() 
 
   useEffect(() => {
     setIsClient(true)
   }, [])
-  
-  useEffect(() => {
-    const  id = router.pathname; // Access the 'id' query parameter
-    console.log('Current id:', id);
 
-    // Get references to the div elements
+  useEffect(() => {
+
     // Function to update the height of the background div
     function updateHeight() {
-        const foregroundDiv = foregroundRef.current;
-  const backgroundDiv = backgroundRef.current;
-        console.log('updateHeight called');
-        console.log(foregroundDiv);
-        console.log(backgroundDiv);
+      const foregroundDiv = foregroundRef.current
+      const backgroundDiv = backgroundRef.current
+
 
       // Ensure that the DOM elements are fully loaded
       if (foregroundDiv && backgroundDiv) {
-        const foregroundHeight = foregroundDiv.clientHeight;
-        backgroundDiv.style.height = `${foregroundHeight}px`;
-        console.log({ foregroundHeight });
+        const foregroundHeight = foregroundDiv.clientHeight
+        backgroundDiv.style.height = `${foregroundHeight}px`
       }
     }
     setTimeout(() => {
-      updateHeight();
-    }, 500);
+      updateHeight()
+    }, 500)
     // Call the function when the window is fully loaded and whenever the window is resized
     window.addEventListener('load', updateHeight)
     window.addEventListener('resize', updateHeight)
 
     // Call the function once to handle the initial dimensions
     document.addEventListener('DOMContentLoaded', () => {
-        updateHeight();
-        console.log("run func")
+      updateHeight()
+    })
 
-    });
-
-  // Clean up the event listeners when the component unmounts
-  return () => {
-    window.removeEventListener('load', updateHeight);
-    window.removeEventListener('resize', updateHeight);
-  };
-}, [router]);
+    // Clean up the event listeners
+    return () => {
+      window.removeEventListener('load', updateHeight)
+      window.removeEventListener('resize', updateHeight)
+    }
+  }, [router])
 
   return (
     <>
       <div className=" w-full p-2 sm:p-5">
         {isClient && (
-          <div  ref={backgroundRef} 
-          id={`${uniqueId}-background`}
-          className=" w-full sticky top-2 sm:top-5 flex items-center min-h-screen">
-            {/* <div className="absolute w-full bg-white/10 left-0 top-[2.5%] rounded-xl"/> */}
+          <div
+            ref={backgroundRef}
+            className=" w-full sticky top-2 sm:top-5 flex items-center min-h-screen"
+          >
             {video && (
               <video
                 className="object-cover h-full w-full rounded-xl background-video"
@@ -133,7 +123,6 @@ const SubpageLandingpages = ({
                 muted
               >
                 <source src={video} type="video/mp4" />
-                {/* You can add additional source elements for other video formats */}
                 Your browser does not support the video tag.
               </video>
             )}
@@ -146,8 +135,8 @@ const SubpageLandingpages = ({
           </div>
         )}{' '}
         {isClient && (
-          <div ref={foregroundRef}
-            id={`${uniqueId}-foreground`}
+          <div
+            ref={foregroundRef}
             className={` w-full sticky min-h-screen top-0 sm:top-10 flex items-center ${
               left ? 'justify-start' : 'justify-end'
             }`}
