@@ -33,7 +33,7 @@ const PhotovoltaikMannheim: NextPage = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
-            className="w-full test bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center"
+            className="w-full bg-cente min-h-screen group relative h-full flex flex-col justify-center items-center"
           >
             <div className="absolute w-full h-full z-0 bg-black/50 backdrop-blur-s animate__animated animate__fadeIn animate__delay-1s" />
 
