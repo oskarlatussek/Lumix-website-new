@@ -207,3 +207,12 @@ ul{
 .mb-44{
   margin-bottom: 11rem!important;
 }
+
+.hyphenate {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}

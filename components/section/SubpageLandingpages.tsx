@@ -142,9 +142,9 @@ const SubpageLandingpages = ({
             }`}
           >
             <div className="w-full sectionHeight h-full min-h-screen lg:w-1/2 bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
-              <p className="leading-tight font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
-                <span className="leading-tight">
-                  <span className="text-yellow-400 drop-shadow-none font-bold">
+              <p className="hyphenate leading-tight font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
+                <span className="hyphenate leading-tight">
+                  <span className="hyphenate text-yellow-400 drop-shadow-none font-bold">
                     {yellowTitle}
                   </span>
                   {title}
@@ -273,14 +273,14 @@ const SubpageLandingpages = ({
               )}
 
               {link && (
-                <div className="flex w-full sm:flex-row items-center flex-col justify-around flex-col sm:flex-row">
+                <div className="flex w-full xl:flex-row items-center flex-col justify-around">
                   <Link href={link} className="pt-4">
                     <a className="text-lg bg-yellow-400 rounded-full font-bold max-w-max px-5 py-3 cursor-pointer hover:scale-105 transition duration-300 ease-linear">
                       {linkText}
                     </a>
                   </Link>
                   {icons && (
-                    <div className="flex items-center space-x-3 text-lg sm:mt-0 mt-10">
+                    <div className="flex items-center space-x-3 text-lg xl:mt-0 mt-10">
                       <FiPhone className="text-yellow-400 text-4xl " />
                       <a
                         href="tel:+49621150350"

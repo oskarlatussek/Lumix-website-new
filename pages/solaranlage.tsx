@@ -80,7 +80,7 @@ const Solaranlage: NextPage = () => {
           />
 
           <div className="items-center w-full justify-center pt-10 p-2 sm:p-5">
-            <p className="font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
+            <p className="hyphenate font-semibold w-full text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl pb-8 text-center lg:text-center">
               <span className="text-yellow-400 drop-shadow-none font-bold">
                 Ihre Vorteile
               </span>{' '}
