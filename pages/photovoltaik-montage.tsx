@@ -12,6 +12,9 @@ import {
   FaEarthAmericas,
 } from 'react-icons/fa6'
 import CountUp from 'react-countup'
+
+import Review from '../components/section/Reviews'
+
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
 import Contact from '../components/general/Contact'
 
@@ -166,7 +169,7 @@ const PhotovoltaikMontage: NextPage = () => {
 
           <div className="flex items-center w-full justify-center py-10">
             {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
-            <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
+            <p className="hyphenate text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
               <span className="drop-shadow-none">
                 Unabhängige, effiziente und nachhaltige{' '}
               </span>
@@ -176,7 +179,17 @@ const PhotovoltaikMontage: NextPage = () => {
               <span className="drop-shadow-none"> für alle!</span>
             </p>
           </div>
-
+          <div className="flex items-center w-full justify-center py-10">
+            {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
+            <p className="hyphenate text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
+              <span className="drop-shadow-none">Was unsere </span>
+              <span className="text-yellow-400 drop-shadow-none font-bold">
+                Kunden{' '}
+              </span>
+              <span className="drop-shadow-none"> sagen!</span>
+            </p>
+          </div>
+          <Review />
           <SubpageLandingpages
             yellowTitle="Professioneller  "
             title="PV-Anlagenbau in Mannheim"

@@ -45,12 +45,15 @@ const GoogleReviewsCarousel = () => {
             <div className="testimonialName w-full">
               <h4>Markus Lehr</h4>
 
-              <div className="rating flex w-max">
+              <div className="rating flex xl:flex-row flex-col w-max">
+                <div className="flex flex-row">
+
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
+                </div>
                 <span className="testimonalTime">2 months ago</span>
               </div>
             </div>
@@ -77,12 +80,14 @@ const GoogleReviewsCarousel = () => {
             <div className="testimonialName w-full">
               <h4>Thomas Müller</h4>
 
-              <div className="rating flex w-max">
+              <div className="rating flex xl:flex-row flex-col w-max flex w-max">
+              <div className="flex flex-row">
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
+                </div>
                 <span className="testimonalTime">2 months ago</span>
               </div>
             </div>
@@ -107,13 +112,15 @@ const GoogleReviewsCarousel = () => {
             <div className="testimonialName w-full">
               <h4>Kay Lauer</h4>
 
-              <div className="rating flex w-max">
+              <div className="rating flex xl:flex-row flex-col w-max flex w-max">
+              <div className="flex flex-row">
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
-                <span className="testimonalTime">2 months ago</span>
+                </div>
+              <span className="testimonalTime">2 months ago</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -138,12 +145,14 @@ const GoogleReviewsCarousel = () => {
             <div className="testimonialName w-full">
               <h4>Orkan Haksal</h4>
 
-              <div className="rating flex w-max">
+              <div className="rating flex xl:flex-row flex-col w-max flex w-max">
+              <div className="flex flex-row">
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
+                </div> 
                 <span className="testimonalTime">2 months ago</span>
               </div>
             </div>

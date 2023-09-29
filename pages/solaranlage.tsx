@@ -166,7 +166,7 @@ const Solaranlage: NextPage = () => {
 
           <div className="flex items-center w-full justify-center py-10">
             {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
-            <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
+            <p className="hyphenate text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
               <span className="drop-shadow-none">
                 Unabhängige, effiziente und nachhaltige{' '}
               </span>
@@ -187,9 +187,10 @@ const Solaranlage: NextPage = () => {
             left
           />
 
+
           <div className="flex items-center w-full justify-center py-10">
             {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
-            <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
+            <p className="hyphenate text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
               <span className="drop-shadow-none">Was unsere </span>
               <span className="text-yellow-400 drop-shadow-none font-bold">
                 Kunden{' '}
@@ -198,7 +199,6 @@ const Solaranlage: NextPage = () => {
             </p>
           </div>
           <Review />
-
           <SubpageLandingpages
             yellowTitle="Solaranlage"
             title=" von Lumix Solar – wir liefern und montieren:"

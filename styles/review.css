@@ -9,12 +9,13 @@
 .swiper-pagination-bullet-active{
   background: #FACC15!important;
 }
+@media screen and (min-width: 321px) {
 
 .swiper{
   padding-left: 3rem!important;
   padding-right: 3rem!important;
 }
-
+}
 .testimonalTime{
   color: #9aa0a6;
     font-size: 13px;
@@ -23,4 +24,21 @@
 .swiper-pagination{
   position: relative!important;
   padding-top: 12px!important;
+}
+
+@media screen and (max-width: 320px) {
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+display: none;
+    font-size: 25px!important;
+  }
+
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 25px!important;
+    display: none;
+  }
+
+  .swiper{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
 }

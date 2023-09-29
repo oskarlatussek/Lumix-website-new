@@ -141,10 +141,10 @@ const SubpageLandingpages = ({
               left ? 'justify-start' : 'justify-end'
             }`}
           >
-            <div className="w-full sectionHeight h-full min-h-screen lg:w-1/2 bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
-              <p className="hyphenate leading-tight font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
-                <span className="hyphenate leading-tight">
-                  <span className="hyphenate text-yellow-400 drop-shadow-none font-bold">
+            <div className="hyphenate w-full sectionHeight h-full min-h-screen lg:w-1/2 bg-white/30 rounded-xl backdrop-blur-lg flex flex-col space-y-5 items-center justify-center text-center p-5">
+              <p className=" leading-tight font-semibold text-[#1E4E5F] text-4xl sm:text-5xl xl:text-6xl">
+                <span className=" leading-tight">
+                  <span className=" text-yellow-400 drop-shadow-none font-bold">
                     {yellowTitle}
                   </span>
                   {title}
