@@ -87,7 +87,8 @@ const Danke: NextPage = () => {
                     </div>
                 </div>
 
-                {/*<Contact />*/}
+                <Contact />
+
             </div>
         </>
     )

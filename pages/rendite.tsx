@@ -54,7 +54,8 @@ const Rendite: NextPage = () => {
                 </div>
 
 
-                {/*<Contact />*/}
+                <Contact />
+
 
             </div>
         </>

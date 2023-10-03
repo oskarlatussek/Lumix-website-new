@@ -121,7 +121,8 @@ const Produkte: NextPage = () => {
                     </div>
                 </div>
 
-                {/*<Contact />*/}
+                <Contact />
+
 
             </div>
         </>

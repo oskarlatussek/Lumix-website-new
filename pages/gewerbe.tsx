@@ -67,7 +67,8 @@ const Gewerbe: NextPage = () => {
                     <ImageSection image='/Images/agri.webp' />
                 </div>
 
-                {/*<Contact />*/}
+                <Contact />
+
 
             </div>
         </>
