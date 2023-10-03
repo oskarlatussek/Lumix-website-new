@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                 <Subpage title='Lohnt sich PV?' text='Eine Photovoltaikanlage lohnt sich fast immer. Finanziell, aber auch für die Umwelt. Wir zeigen Ihnen, welche Faktoren die Rendite einer Anlage maßgeblich beeinflussen und wie man einen möglichst großen Nutzen aus Förderungen und steuerlichen Aspekten ziehen kann.' image='/Images/rendite.webp' link='/rendite' />
 
                 {/* <FAQ /> */}
-                {/*<Contact />*/}
+                <Contact />
             </div>
         </>
     )
