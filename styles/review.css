@@ -42,3 +42,8 @@ display: none;
     padding-right: 0px!important;
   }
 }
+
+.swiper-slide {
+  height: auto!important;
+}
+

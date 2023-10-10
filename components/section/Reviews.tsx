@@ -33,7 +33,7 @@ const GoogleReviewsCarousel = () => {
         pagination={{ clickable: true }}
         breakpoints={breakpoints} 
       >
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -66,7 +66,7 @@ const GoogleReviewsCarousel = () => {
           Nach einem Jahr Suche waren wir froh Lumix Solar gefunden zu haben, die sich unserer relativ kleinen Anlage angenommen haben (3,7 kWp mit Batterie).Das Angebot kam wie abgesprochen zeitnah zu marktgängigen Konditionen. Terminabsprachen haben gut funktioniert. Alle Beteiligten arbeiteten professionell, engagiert und zuverlässig. Alles funktioniert. Empfehlenswert!
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -101,7 +101,7 @@ const GoogleReviewsCarousel = () => {
 
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -135,7 +135,7 @@ Schnell, kompetent, freundlich und immer ansprechbar.<br></br>
 Keine Kritikpunkte
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -168,7 +168,7 @@ Keine Kritikpunkte
             Volle Sterne für dieses Unternehmen!! Mega kompetent, sauber, schnell und transparent… weiter so.
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -201,7 +201,7 @@ Keine Kritikpunkte
             Preis Leistung top, bei Fragen hat sich lumix immer Zeit genommen und Geduld bewiesen. Weiter so dann klappt es mit der Energie Wende :-)..
           </div>
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
@@ -235,7 +235,7 @@ Keine Kritikpunkte
             </div>
        
         </SwiperSlide>
-        <SwiperSlide className="p-6 testimonialSlide flex items-stretch rounded-xl">
+        <SwiperSlide className="p-6 testimonialSlide rounded-xl">
           <div className="name-icon flex gap-3">
             <div className="testimonialIcon">
               <img
