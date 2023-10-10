@@ -208,25 +208,9 @@ ul{
   margin-bottom: 11rem!important;
 }
 
-.hyphenate {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
--webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto;
-}
 
-@media screen and (max-width: 320px) {
 
-.hyphenate {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  display: inline-block;
--webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto;
-}
-}
+
 
 .expertlink{
     color: #facc15;
