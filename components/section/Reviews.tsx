@@ -54,7 +54,7 @@ const GoogleReviewsCarousel = () => {
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div>
-                <span className="testimonalTime">a week ago</span>
+                <span className="testimonalTime">vor einer Woche</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -87,7 +87,7 @@ const GoogleReviewsCarousel = () => {
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div>
-                <span className="testimonalTime">2 months ago</span>
+                <span className="testimonalTime">vor 2 Monaten</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -121,7 +121,7 @@ const GoogleReviewsCarousel = () => {
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div>
-              <span className="testimonalTime">1 month ago</span>
+              <span className="testimonalTime">vor 1 Monat</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -155,7 +155,7 @@ Keine Kritikpunkte
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div> 
-                <span className="testimonalTime">2 months ago</span>
+                <span className="testimonalTime">vor 2 Monaten</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -188,7 +188,7 @@ Keine Kritikpunkte
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div> 
-                <span className="testimonalTime">3 months ago</span>
+                <span className="testimonalTime">vor 3 Monaten</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -221,7 +221,7 @@ Keine Kritikpunkte
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div> 
-                <span className="testimonalTime">3 months ago</span>
+                <span className="testimonalTime">vor 3 Monaten</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
@@ -255,7 +255,7 @@ Keine Kritikpunkte
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 <img className="w-4	" src="./Graphiken/star.svg" alt="" />
                 </div> 
-                <span className="testimonalTime">4 months ago</span>
+                <span className="testimonalTime">vor 4 Monaten</span>
               </div>
             </div>
             <div className="glogo w-full flex items-start		 justify-end	">
