@@ -190,7 +190,7 @@ const SolaranlageHeidelberg: NextPage = () => {
           <SubpageLandingpages
             yellowTitle="Investition "
             title="mit Weitsicht"
-            text='Die Lebensdauer <a href="/">innovativer</a> Solartechnik beträgt mehr als 25 Jahre – somit handelt es sich bei Photovoltaik-Anlagen in jedem Fall um Investitionen, die sich auszahlen. Selbstverständlich gehört es zu unserem Service, Sie über alle Förderoptionen für Solaranlagen zu informieren und Sie in Heidelberg bei der Beantragung von Förderungen zu unterstützen.'
+            text='Die Lebensdauer innovativer Solartechnik beträgt mehr als 25 Jahre – somit handelt es sich bei Photovoltaik-Anlagen in jedem Fall um Investitionen, die sich auszahlen. Selbstverständlich gehört es zu unserem Service, Sie über alle Förderoptionen für Solaranlagen zu informieren und Sie in Heidelberg bei der Beantragung von Förderungen zu unterstützen.'
             image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
             link="/konfigurator"
             linkText="Jetzt informieren"
