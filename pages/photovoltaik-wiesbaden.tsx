@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import Process from '../components/section/Process'
 import SubpageLandingpages from '../components/section/SubpageLandingpages'
-
+import Advantages from '../components/section/Advantages'
 import Service from '../components/section/Service'
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress'
 import Link from 'next/link'
@@ -183,7 +183,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+<Advantages />
           <SubpageLandingpages
             yellowTitle="PV-Anlage – "
             title="Beratung zu weiteren Möglichkeiten"

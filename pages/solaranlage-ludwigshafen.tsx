@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import Process from '../components/section/Process'
 import SubpageLandingpages from '../components/section/SubpageLandingpages'
-
+import Advantages from '../components/section/Advantages'
 import Contact from '../components/general/Contact'
 import Service from '../components/section/Service'
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress'
@@ -185,7 +185,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+          <Advantages />
           <SubpageLandingpages
             yellowTitle="Komplett-Service"
             title=" mit Lumix Solar"

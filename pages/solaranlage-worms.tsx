@@ -18,6 +18,7 @@ import CountUp from 'react-countup'
 import Review from '../components/section/Reviews'
 
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
+import Advantages from '../components/section/Advantages'
 
 const SolaranlageWorms: NextPage = () => {
   return (
@@ -185,7 +186,7 @@ const SolaranlageWorms: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+<Advantages />
           <SubpageLandingpages
             yellowTitle="Solaranlage "
             title="bedarfsorientiert planen in Worms"

@@ -13,7 +13,7 @@ const Advantages = () => {
                 Lumix Solar
               </span>
             </p>
-            <div className="w-full flex flex-wrap items-stretch px-0 md:px-10 xl:px-20">
+            <div className="w-full flex flex-wrap items-stretch px-0 md:px-10 xl:px-20 pb-20">
 
                 <div className="  flex basis-full sm:basis-1/2 xl:basis-1/3 flex-1 flex-1 ">
                 <div className=" border-2 mr-0 sm:mr-8 mt-8 flex-1  rounded-xl border-black flex flex-row max-w-3xl  items-center">

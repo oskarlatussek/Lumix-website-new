@@ -13,7 +13,7 @@ import {
   FaEarthAmericas,
 } from 'react-icons/fa6'
 import CountUp from 'react-countup'
-
+import Advantages from '../components/section/Advantages'
 import Review from '../components/section/Reviews'
 
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
@@ -184,7 +184,7 @@ const PhotovoltaikMainz: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+          <Advantages />
           <SubpageLandingpages
             yellowTitle="PV-Anlage"
             title=" kaufen in Mainz: Ihr Partner Lumix Solar"

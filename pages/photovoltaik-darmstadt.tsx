@@ -13,7 +13,8 @@ import {
   FaEarthAmericas,
 } from 'react-icons/fa6'
 import CountUp from 'react-countup'
-
+import Advantages from '../components/section/Advantages'
+import Experts from '../components/section/Experts'
 import Review from '../components/section/Reviews'
 
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
@@ -183,7 +184,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+<Advantages />
           <SubpageLandingpages
             yellowTitle="Photovoltaik"
             title=" für eine bedarfsgerechte Stromversorgung"
@@ -192,7 +193,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
-
+<Experts />
           <SubpageLandingpages
             yellowTitle="Photovoltaik-Anbieter"
             title=" für Kunden aus Darmstadt"
