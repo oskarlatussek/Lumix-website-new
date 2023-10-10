@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 
 import Process from '../components/section/Process'
 import SubpageLandingpages from '../components/section/SubpageLandingpages'
-
 import Service from '../components/section/Service'
 import KonfiguratorAddress from '../components/section/KonfiguratorAddress'
 import Link from 'next/link'

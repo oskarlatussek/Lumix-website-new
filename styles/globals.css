@@ -227,3 +227,21 @@ ul{
         hyphens: auto;
 }
 }
+
+.expertlink{
+    color: #facc15;
+}
+@media screen and (min-width: 768px) {
+
+.container-outer{
+  margin: 50px 100px 50px 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+  .container-outer{
+    margin: 50px 0px 50px 0;
+  }
+  }
+

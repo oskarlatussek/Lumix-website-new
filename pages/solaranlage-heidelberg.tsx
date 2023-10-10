@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 
 import Process from '../components/section/Process'
 import SubpageLandingpages from '../components/section/SubpageLandingpages'
+import Advantages from '../components/section/Advantages'
 
 import Contact from '../components/general/Contact'
 import Service from '../components/section/Service'
@@ -14,7 +15,7 @@ import {
   FaEarthAmericas,
 } from 'react-icons/fa6'
 import CountUp from 'react-countup'
-
+import Experts from '../components/section/Experts'
 import Review from '../components/section/Reviews'
 
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
@@ -185,7 +186,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             link="/konfigurator"
             left
           />
-
+          <Advantages />
           <SubpageLandingpages
             yellowTitle="Investition "
             title="mit Weitsicht"
@@ -194,7 +195,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             link="/konfigurator"
             linkText="Jetzt informieren"
           />
-
+          <Experts/>
           <SubpageLandingpages
             yellowTitle="Kompetente Planung "
             title="Ihrer Solaranlage in Heidelberg"
