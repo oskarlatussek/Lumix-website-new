@@ -1,6 +1,7 @@
 import { Loader } from "@googlemaps/js-api-loader";
 import React, { useState, useEffect, useRef } from "react";
 
+
 let autoComplete: google.maps.places.Autocomplete;
 
 function handleScriptLoad(setAddress, autoCompleteRef) {

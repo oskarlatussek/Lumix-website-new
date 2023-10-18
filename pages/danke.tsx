@@ -69,7 +69,7 @@ const Danke: NextPage = () => {
                             </div>
 
                             <div className={`image-section-left mt-10 -mb-20`}>
-                                <ImageSection image='/Images/team.JPG' />
+                                <ImageSection image='/Images/Team/Team.png' />
 
                                 <div className='flex flex-col space-y-5 max-w-3xl self-center'>
                                     <h2>Das ist Lumix</h2>

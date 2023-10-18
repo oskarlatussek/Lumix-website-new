@@ -23,7 +23,7 @@ import ImageSection from '../components/section/ImageSection';
 
 const Konfigurator: NextPage = () => {
     const router = useRouter()
-    const addressObject = !isEmpty(router.query) && JSON.parse(Object.keys(router.query)[0])
+    const addressObject = !isEmpty(router.query.address) && JSON.parse(router.query.address as string)
 
     const [step, setStep] = useState(addressObject ? 2 : 1)
     const [address, setAdress] = useState(addressObject)
@@ -35,6 +35,7 @@ const Konfigurator: NextPage = () => {
     const [message, setMessage] = useState("")
     const [response, setResponse] = useState({ message: "", error: false })
     const [processing, setProcessing] = useState(false)
+    const origin = router.query.origin
 
     const handleSubmit = async (e: any) => {
         e.preventDefault();
@@ -54,7 +55,8 @@ const Konfigurator: NextPage = () => {
                     address: address,
                     products: pickBy(products),
                     consumption: consumption,
-                    message: message
+                    message: message,
+                    origin: origin
                 })
             });
             const result = await res.json()
