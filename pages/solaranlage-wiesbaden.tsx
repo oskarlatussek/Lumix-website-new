@@ -197,7 +197,7 @@ const SolaranlageWiesbaden: NextPage = () => {
             yellowTitle="Kompetente Planung"
             title=" Ihrer Solaranlage in Wiesbaden"
             text="Die professionelle Dimensionierung und Planung Ihrer Solaranlage in Wiesbaden ist der entscheidende Erfolgsfaktor für das gesamte Projekt. Wir erstellen maßgeschneiderte Energiekonzepte und beraten Sie hinsichtlich der Kapazität der Anlage. Meist ist es sinnvoll, die Kapazität eher etwas größer als derzeit benötigt zu wählen, um Potenziale für die Zukunft zu schaffen. Vielleicht möchten Sie später eine Wärmepumpe mit Sonnenstrom betreiben, um auch klimaneutral zu heizen, oder ein Elektroauto über die hauseigene Wallbox aufladen. Eine vorausschauende Planung  Anlage eröffnet Ihnen in Zukunft alle Möglichkeiten. Wir planen die Solaranlage mit hochwertigen Produkten namhafter Hersteller und verwenden in Wiesbaden modernste Solarmodule und Stromspeicher. Unsere Photovoltaik-Anlagen überzeugen mit hervorragender Energieeffizienz und langer Lebensdauer von 25 und mehr Jahren."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

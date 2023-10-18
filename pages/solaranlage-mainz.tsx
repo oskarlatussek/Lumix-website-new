@@ -198,7 +198,7 @@ const SolaranlageMainz: NextPage = () => {
             yellowTitle="Solartechnik – "
             title="aktiver Klimaschutz in Mainz"
             text="Die Solartechnik wurde in den letzten Jahren immer weiter verbessert, sodass Sie mit Ihrer Solaranlage in Mainz einen nicht unerheblichen Beitrag zur Bekämpfung des Klimawandels leisten. Dank leistungsstärkerer Stromspeicher, die darüber hinaus mittlerweile wesentlich günstiger sind, erreicht man hohe Eigenverbrauchsquoten. Haushalte rund um Mainz werden damit in die Lage versetzt, ihren Stromverbrauch vollständig mit der Solaranlage zu decken. Das bedeutet außerdem, dass Sie nicht von Stromausfällen aufgrund überlasteter Stromnetze betroffen sind und ein nie dagewesenes Maß an Unabhängigkeit genießen. Lumix Solar konfiguriert Solaranlagen in Mainz aus hochwertigen Produkten, denn die Qualität der Stromspeicher und Solarmodule hat großen Einfluss auf die Effizienz und Langlebigkeit der PV-Anlage. Wagen Sie jetzt den entscheidenden Schritt und investieren Sie in Ihre eigene kleine Energiewende."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

@@ -201,7 +201,7 @@ const SolaranlageWorms: NextPage = () => {
             yellowTitle="Solartechnik "
             title="in Worms bei Lumix Solar kaufen"
             text="Lumix Solar ist Ihr kompetenter regionaler Anbieter für modernste Solartechnik und konfiguriert für Kunden aus Worms maßgeschneiderte Lösungen. Unsere Solaranlagen werden mit hochwertigen Produkten renommierter Hersteller konstruiert, denn die Qualität von Solarmodulen und Stromspeichern ist entscheidend für eine lange Lebensdauer und die Energieeffizienz der Photovoltaik-Anlage. Profitieren Sie von umfassender Beratung, professioneller Planung, fachgerechter Montage und einem exzellenten Service im Bereich Wartung und Reparatur. Mit innovativer Solartechnik senken Sie dauerhaft Ihre Stromkosten und leisten in Worms einen wichtigen Beitrag zum Klima- und Umweltschutz. Unsere Solarexperten beraten Sie zudem hinsichtlich aktueller Förderprogramme für Ihre Solaranlage und unterstützen Sie bei der Beantragung der Fördermittel. Wagen Sie jetzt den Schritt in Ihre individuelle Energiewende – mit Lumix Solar."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

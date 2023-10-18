@@ -200,7 +200,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             yellowTitle="Solaranlagen-Beratung"
             title=" vom Experten bei Ludwigshafen"
             text="In klimafreundliche Solartechnik zu investieren ist mit Sicherheit ein gute Entscheidung. Wenn Sie dabei nichts dem Zufall überlassen wollen, ist unsere kompetente Solaranlagen-Beratung in Ludwigshafen die optimale Lösung. Unsere Experten werden die Solaranlage individuell konfigurieren und dabei die örtlichen Gegebenheiten ebenso berücksichtigen wie Ihren Energiebedarf. Die Beratung schließt auch Wirtschaftlichkeitsberechnungen ein, mit denen die Frage: Lohnt sich PV?, objektiv beantwortet wird. Erfahrungsgemäß ist es empfehlenswert, einen zukünftig wachsenden Energiebedarf bei der Planung der Solaranlage in Ludwigshafen zu antizipieren – dann sind Sie bestens vorbereitet, um später eine Wärmepumpe mit Solarstrom zu betreiben oder Ihr E-Auto mit Sonnenstrom aufzuladen."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

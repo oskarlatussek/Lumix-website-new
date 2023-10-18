@@ -163,7 +163,7 @@ const PhotovoltaikPlanung: NextPage = () => {
             yellowTitle="Dimensionierung "
             title="von PV-Anlagen in Mannheim"
             text="Ziel der Installation einer Photovoltaik-Anlage ist zum einen, umweltfreundlich Strom selbst zu produzieren und sich unabhängig von Stromausfällen zu machen. Andererseits ist die Planung einer Photovoltaik-Anlage in Mannheim auch mit dem Wunsch verbunden, die Stromkosten dauerhaft zu senken. Deshalb ist es wichtig, Wirtschaftlichkeitsberechnungen durchzuführen und zu überprüfen, unter welchen Bedingungen Sie die größten Einsparpotenziale realisieren. Wir checken die Bedingungen bei Ihnen vor Ort. Manchmal ist es sinnvoll, zunächst eine Dachsanierung durchzuführen, wenn Sie eine Solaranlage planen, denn die PV-Anlagen überzeugen mit langer Nutzungsdauer, sodass Ihr Dach in Mannheim vor der Montage eventuell erneuert werden sollte. Bei der Dimensionierung der PV-Anlage wird Ihr Stromverbrauch zugrunde gelegt. Es ist jedoch empfehlenswert, bei der Planung der Photovoltaik-Anlage zukünftige Entwicklungen zu antizipieren und die Anlage in Mannheim eher etwas großzügiger zu konfigurieren, wenn es das Budget erlaubt. Dann können Sie künftig günstigen Solarstrom für ein Elektroauto oder eine Wärmepumpe nutzen. Um die Eigenverbrauchsquote und damit die Effizienz der PV-Anlage zu erhöhen, sollten Sie außerdem einen entsprechend großen Stromspeicher auswählen. Mit einer differenzierten Wirtschaftlichkeitsberechnung können wir Ihnen im Rahmen der Planung Ihrer Photovoltaik-Anlage in Mannheim die Frage: Lohnt sich PV? genau beantworten. Für unsere PV-Anlagen verwenden wir ausschließlich hochwertige Produkte und innovative Solarmodule renommierter Hersteller und sorgen mit umfassenden Serviceleistungen dafür, dass die Anlagen einen maximalen Ertrag erwirtschaften."
-            video="/Images/Sections/Video_planung.mov"
+            video="/Images/Sections/Video_planung.mp4"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -187,7 +187,7 @@ const PhotovoltaikPlanung: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="/Images/Sections/Video_Solaranlage.mov"
+            video="/Images/Sections/Video_Solaranlage.mp4"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left

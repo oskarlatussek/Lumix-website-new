@@ -227,7 +227,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

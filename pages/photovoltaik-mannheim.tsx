@@ -212,7 +212,7 @@ const PhotovoltaikMannheim: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

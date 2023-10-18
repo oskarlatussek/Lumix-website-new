@@ -234,7 +234,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             bullet4="Fachgerechte Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             left

@@ -225,7 +225,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             icons

@@ -218,7 +218,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             yellowTitle="Lumix Solar -"
             title=" Photovoltaik-Anbieter nahe Heidelberg"
             text="Sie möchten klimafreundlichen Sonnenstrom selbst produzieren und suchen nach einem kompetenten Photovoltaik-Anbieter, der Ihnen einen überzeugenden Service bietet? Das Team von Lumix Solar kennt sich bestens mit der Konfiguration und Installation von Photovoltaik Anlagen aus und betreut Ihr Projekt in Heidelberg bereits im Planungsstadium. Anhand von realistischen Wirtschaftlichkeitsberechnungen können wir Ihnen sogar die Frage: Lohnt sich PV?, ganz genau beantworten. Darüber hinaus informieren wir über aktuelle Förderprogramme und unterstützen Sie bei der Beantragung der Photovoltaik-Förderung in Heidelberg."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

@@ -211,7 +211,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Solartechnik – "
             title="beste Optionen für die Zukunft"
             text="Wir berücksichtigen sämtliche Zukunftsszenarien wie die geplante Kopplung mit einer Wärmepumpe oder einer Wallbox für Ihr E-Auto. Investieren Sie mit einer Solaranlage in eine zukunftsfähige Technologie – wir stehen Ihnen auch nach dem Kauf in Heidelberg mit einem kundenfreundlichem Service zur Verfügung."
-            video="/Images/Sections/Video_Solaranlage2.mov"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
