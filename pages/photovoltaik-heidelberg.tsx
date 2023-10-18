@@ -32,7 +32,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -75,7 +75,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             bullet6="Zuverlässiger regionaler Ansprechpartner"
             bullet7="Kompetente Wirtschaftlichkeitsberechnung"
             bullet8="Liefergarantie und vorbildlicher Service"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -160,7 +160,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             yellowTitle="PV-Anlage mit Speicher"
             title=" in Heidelberg installieren"
             text="Wenn Sie sich für eine PV-Anlage mit Speicher entscheiden, erstellen wir für Ihr Gebäude in Heidelberg eine maßgeschneiderte Energielösung. Unsere PV-Anlagen werden bedarfsgerecht dimensioniert und aus hochwertigen Produkten namhafter Hersteller konfiguriert. Sowohl die Solarmodule als auch die Stromspeicher überzeugen mit optimaler Energieeffizienz und langer Haltbarkeit."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -182,7 +182,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             yellowTitle="Ganzheitliche Lösungen"
             title=" – effeketiver Nutzen"
             text="Als erfahrener Anbieter für Photovoltaik-Anlagen bieten wir unseren Kunden aus Heidelberg einen vorbildlichen Service, der die kompetente Beratung, die detaillierte Planung, die fachgerechte Montage ebenso wie die Betreuung nach dem Kauf einschließt. Photovoltaik-Anlagen aus dem Hause Lumix Solar bilden einen effektiven Beitrag zur Energiewende und schützen Sie gleichzeitig vor Stromausfällen aufgrund von Netzüberlastungen. Falls Sie eine PV-Anlage kaufen, verliert der vieldiskutierte Blackout in Heidelberg endlich seinen Schrecken."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -198,7 +198,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             icons
@@ -218,7 +218,7 @@ const PhotovoltaikHeidelberg: NextPage = () => {
             yellowTitle="Lumix Solar -"
             title=" Photovoltaik-Anbieter nahe Heidelberg"
             text="Sie möchten klimafreundlichen Sonnenstrom selbst produzieren und suchen nach einem kompetenten Photovoltaik-Anbieter, der Ihnen einen überzeugenden Service bietet? Das Team von Lumix Solar kennt sich bestens mit der Konfiguration und Installation von Photovoltaik Anlagen aus und betreut Ihr Projekt in Heidelberg bereits im Planungsstadium. Anhand von realistischen Wirtschaftlichkeitsberechnungen können wir Ihnen sogar die Frage: Lohnt sich PV?, ganz genau beantworten. Darüber hinaus informieren wir über aktuelle Förderprogramme und unterstützen Sie bei der Beantragung der Photovoltaik-Förderung in Heidelberg."
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left

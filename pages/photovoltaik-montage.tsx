@@ -32,7 +32,7 @@ const PhotovoltaikMontage: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg)`,
+              backgroundImage: `url(/Images/Sections/Montage2.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -73,9 +73,9 @@ const PhotovoltaikMontage: NextPage = () => {
             bullet6="Engagiertes Team erfahrener Experten"
             bullet7="Umfassende Betreuung nach dem Kauf"
             bullet8="Service inkl. Reparatur und Wartung"
-            image="https://as2.ftcdn.net/v2/jpg/06/09/94/73/1000_F_609947338_6ecL1u2CcvOktKowB8xG93RUrEZnO4qQ.jpg"
+            image="/Images/Sections/montage_person.jpeg"
             link="/konfigurator"
-            linkText="Heute noch Termin vereinbaren!"
+            linkText="Heute noch Termin vereinbaren! "
             icons2
             left
           />
@@ -162,7 +162,7 @@ const PhotovoltaikMontage: NextPage = () => {
             bullet1="Aufdachmontage der PV-Anlage"
             bullet2="Integration der PV-Anlage ins Dach"
             bullet3="Vollständig gebäudeintegrierte PV-Anlage"
-            image="https://as1.ftcdn.net/v2/jpg/06/05/35/36/1000_F_605353666_wFneStQOgmFl8TqlHfIF1rM56UYxa1QI.jpg"
+            image="/Images/Sections/Montage.jpeg"
             link="/konfigurator"
             linkText="Jetzt Angebot in Mannheim erstellen lassen!"
           />
@@ -194,7 +194,7 @@ const PhotovoltaikMontage: NextPage = () => {
             yellowTitle="Professioneller  "
             title="PV-Anlagenbau in Mannheim"
             text="Der moderne PV-Anlagenbau bietet Ihnen in Mannheim verschiedene Optionen. Grundlage für die Gestaltung einer effizienten Photovoltaik-Anlage ist die Auswahl der Solarmodule sowie des Stromspeichers. Wir verwenden für Ihre Photovoltaik-Montage ausschließlich Produkte bester Qualität von renommierten Herstellern. Als führender Anbieter im Bereich des PV-Anlagenbaus haben wir in Mannheim bereits zahlreiche Solaranlagen für Privatkunden und Gewerbebetriebe konfiguriert und installiert. Profitieren Sie von den Vorteilen einer ganzheitlichen Betreuung – von der Feststellung des Bedarfs über die Konfiguration bis zur Photovoltaik-Montage. Die naheliegende Frage: Lohnt sich PV?, beantworten wir Ihnen mit einer detaillierten Wirtschaftlichkeitsberechnung. Photovoltaik-Anlagen der neuesten Generation amortisieren sich in weniger als zehn Jahren und helfen Ihnen, unabhängig von Stromlieferanten zu werden sowie einen Beitrag zur Energiewende zu leisten. Investieren Sie jetzt in Ihre eigene kleine Energiewende – mit Lumix Solar."
-            video="https://v.ftcdn.net/06/05/71/29/700_F_605712905_Zdo4J0LjhuytJITJiUSEzxO4JBMuoEOl_ST.mp4"
+            video="/Images/Sections/Video_Montage.mp4"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

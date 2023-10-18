@@ -33,7 +33,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -76,7 +76,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             bullet6="Maßgeschneiderte Lösungen"
             bullet7="Verlässliche Liefergarantien"
             bullet8="Fundierte individuelle Beratung"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -158,7 +158,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             yellowTitle="Solaranlagen mit Speicher"
             title=" – effizient, ökologisch vernünftig"
             text="Hochwertige Solaranlagen mit Speicher ermöglichen Ihnen, den Eigenverbrauch in Ludwigshafen auf bis zu 80 Prozent zu steigern und auch dann den umweltfreundlichen Strom zu nutzen, wenn die Sonne nicht scheint. Unser Team überzeugt mit Erfahrung und Expertise im Bereich der klimafreundlichen Stromerzeugung – wir planen und montieren bedarfsgerechte Solaranlagen mit Speicher sowohl für Privathaushalte als auch für Gewerbebetriebe in Ludwigshafen. Fordern Sie jetzt Ihr individuelles Angebot an. "
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren!"
           />
@@ -180,7 +180,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             yellowTitle="Modernste Solartechnik"
             title="in Ludwigshafen nutzen"
             text="Die Solartechnik hat sich in den letzten Jahren weiterentwickelt, sodass wir leistungsstarke Solaranlagen anbieten, mit denen unsere Kunden aus Ludwigshafen ihren Stromverbrauch fast vollständig durch selbstproduzierten Sonnenstrom decken können. Insbesondere im Bereich der Speichertechnik sind entscheidende Fortschritte erreicht worden, denn die Solartechnik ist mittlerweile extrem effizient und zudem sind die Stromspeicher wesentlich günstiger als noch vor einigen Jahren – gerne unterbreiten wir Ihnen in Ludwigshafen ein Angebot."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -190,7 +190,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             yellowTitle="Komplett-Service"
             title=" mit Lumix Solar"
             text="Unser Service umfasst weitaus mehr als die Lieferung der Solartechnik – wir begleiten Sie auf dem Weg zum klimafreundlichen Strom von der bedarfsorientierten Planung über die Konfiguration der Solaranlage und der fachgerechten Montage bis zur Wartung und Reparatur, die wir in Ludwigshafen selbstverständlich ebenfalls übernehmen. Profitieren Sie vom praktischen Rundum-Service Ihres zuverlässigen regionalen Anbieters von Photovoltaik-Anlagen. Wir verwenden ausschließlich Produkte namhafter Hersteller und konzipieren die Photovoltaik-Anlagen mit modernsten Stromspeichern und Solarmodulen."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
           />
@@ -200,7 +200,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             yellowTitle="Solaranlagen-Beratung"
             title=" vom Experten bei Ludwigshafen"
             text="In klimafreundliche Solartechnik zu investieren ist mit Sicherheit ein gute Entscheidung. Wenn Sie dabei nichts dem Zufall überlassen wollen, ist unsere kompetente Solaranlagen-Beratung in Ludwigshafen die optimale Lösung. Unsere Experten werden die Solaranlage individuell konfigurieren und dabei die örtlichen Gegebenheiten ebenso berücksichtigen wie Ihren Energiebedarf. Die Beratung schließt auch Wirtschaftlichkeitsberechnungen ein, mit denen die Frage: Lohnt sich PV?, objektiv beantwortet wird. Erfahrungsgemäß ist es empfehlenswert, einen zukünftig wachsenden Energiebedarf bei der Planung der Solaranlage in Ludwigshafen zu antizipieren – dann sind Sie bestens vorbereitet, um später eine Wärmepumpe mit Solarstrom zu betreiben oder Ihr E-Auto mit Sonnenstrom aufzuladen."
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left
@@ -223,7 +223,7 @@ const SolaranlageLudwigshafen: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Jetzt informieren!"
             link="/konfigurator"
             icons

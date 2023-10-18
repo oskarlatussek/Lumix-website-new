@@ -33,7 +33,7 @@ const SolaranlageDarmstadt: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -76,7 +76,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             bullet6="Bedarfsorientierten Energielösungen"
             bullet7="Einhaltung von Lieferzusagen"
             bullet8="Kompetenter persönlicher Beratung"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -160,7 +160,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             yellowTitle="Rudum-Service "
             title="für Ihre Solaranlage "
             text="Als renommierter regionaler Anbieter konfigurieren wir maßgeschneiderte PV-Anlagen für Ihre Bedürfnisse und sorgen für eine fachgerechte Montage. Unser zuverlässiges Team verfügt über jahrelange Erfahrung mit der Konfiguration von Solaranlagen für die Stromerzeugung und bietet sowohl Privatkunden als auch Gewerbebetrieben in Darmstadt einen praktischen Rundum-Service. Sie können hier direkt ein Angebot für eine Photovoltaik-Anlage anfordern und Ihre ganz persönliche Energiewende starten."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -182,7 +182,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             yellowTitle="Solaranlage"
             title=" bedarfsgerecht planen in Darmstadt"
             text="Um mit dem selbstproduzierten Strom maximale Einsparpotenziale zu realisieren, sollte man die Solaranlage professionell planen und sich dabei von den Solarexperten der Firma Lumix Solar beraten lassen. Wir dimensionieren Ihre Solaranlage in Darmstadt individuell und liefern keine „PV-Anlagen von der Stange“. Damit schaffen wir optimale Voraussetzungen dafür, dass Sie mit Ihrer neuen Anlage eine Eigenverbrauchsquote von maximal 80 Prozent erreichen und nur ein Fünftel des Sonnenstroms ins öffentliche Stromnetz eingespeist wird."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -202,7 +202,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             yellowTitle="Solartechnik – "
             title="innovative PV-Anlagen in Darmstadt"
             text="Die Weiterentwicklung der Solartechnik bietet Ihnen in Darmstadt die Möglichkeit, den eigenen Strom klimafreundlich zu produzieren. Auch die immer wieder gestellte Frage: Lohnt sich PV?,  kann uneingeschränkt mit „Ja“ beantwortet werden, denn eine Solaranlage amortisiert sich in unter zehn Jahren und erreicht eine Lebensdauer von mehr als 25 Jahren. Dank der hohen Eigenverbrauchsquoten können Sie somit Ihre Stromkosten in Darmstadt dauerhaft minimieren. Für die Solaranlagen von Lumix Solar werden ausschließlich modernste Produkte verwendet – energieeffiziente Solarmodule und Stromspeicher optimieren den Wirkungsgrad der Solartechnik und überzeugen außerdem mit geringem Wartungsbedarf und Robustheit."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             left
@@ -225,7 +225,7 @@ const SolaranlageDarmstadt: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             icons

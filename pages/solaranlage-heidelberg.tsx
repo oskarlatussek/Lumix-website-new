@@ -34,7 +34,7 @@ const SolaranlageHeidelberg: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -77,7 +77,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             bullet6="Individuelle Planung der Anlage"
             bullet7="Zuverlässige Termineinhaltung"
             bullet8="Kompetente persönliche Beratung"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -159,7 +159,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Persönliche Energiewende "
             title="jetzt gestalten!"
             text="Gestalten Sie Ihre ganz persönliche Energiewende: Als leistungsstarker Anbieter von Solaranlagen für die Stromerzeugung bieten wir Ihnen einen vorbildlichen Service, der über die Montage hinausgeht und auch die Wartung oder Reparatur umfasst. Nutzen Sie unsere Erfahrung und Expertise: Wir erstellen ein Konzept für Solaranlagen mit Speicher sowohl für Privatkunden als auch für Gewerbebetriebe in Heidelberg."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -181,7 +181,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Solartechnik"
             title=" in Heidelberg – endlich klimaneutraler Strom"
             text="Die Weiterentwicklung der Solartechnik ermöglicht es Ihnen, den eigenen Strombedarf in Heidelberg weitgehend mit grünem Sonnenstrom zu decken. Lohnt sich PV? Unsere Experten werden Ihnen den Effekt der Solartechnik anhand von Wirtschaftlichkeitsberechnungen verdeutlichen. Durchschnittlich beträgt die Amortisationsdauer einer modernen Solaranlage mit Speicher mittlerweile weniger als zehn Jahre. Danach maximieren Sie die monetären Effekte, denn Sie werden Ihre Stromrechnung dauerhaft drastisch reduzieren."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -191,7 +191,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Investition "
             title="mit Weitsicht"
             text='Die Lebensdauer innovativer Solartechnik beträgt mehr als 25 Jahre – somit handelt es sich bei Photovoltaik-Anlagen in jedem Fall um Investitionen, die sich auszahlen. Selbstverständlich gehört es zu unserem Service, Sie über alle Förderoptionen für Solaranlagen zu informieren und Sie in Heidelberg bei der Beantragung von Förderungen zu unterstützen.'
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Jetzt informieren"
           />
@@ -200,7 +200,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Kompetente Planung "
             title="Ihrer Solaranlage in Heidelberg"
             text="Lumix Solar überzeugt seit Jahren Kunden mit einem exzellenten Service und individuellen Energielösungen. Unser Team übernimmt die bedarfsgerechte Planung der Solaranlage und konfiguriert in Heidelberg Ihre PV-Anlage mit hochwertigen Produkten renommierter Hersteller. Die zuverlässige Planung sorgt dafür, dass die Solaranlage weder überdimensioniert wird noch zu schnell an ihre Kapazitätsgrenzen stößt."
-            image="https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg"
+            image="/Images/Sections/Planung.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left
@@ -211,7 +211,7 @@ const SolaranlageHeidelberg: NextPage = () => {
             yellowTitle="Solartechnik – "
             title="beste Optionen für die Zukunft"
             text="Wir berücksichtigen sämtliche Zukunftsszenarien wie die geplante Kopplung mit einer Wärmepumpe oder einer Wallbox für Ihr E-Auto. Investieren Sie mit einer Solaranlage in eine zukunftsfähige Technologie – wir stehen Ihnen auch nach dem Kauf in Heidelberg mit einem kundenfreundlichem Service zur Verfügung."
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />

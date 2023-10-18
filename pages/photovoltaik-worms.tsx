@@ -33,7 +33,7 @@ const PhotovoltaikWorms: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -76,7 +76,7 @@ const PhotovoltaikWorms: NextPage = () => {
             bullet6="Renommierter regionaler Anbieter nahe Worms"
             bullet7="Zuverlässige Wirtschaftlichkeitsberechnungen"
             bullet8="Umfangreicher Rundum-Service & Liefergarantie"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -158,7 +158,7 @@ const PhotovoltaikWorms: NextPage = () => {
             yellowTitle="Fortschritt durch Technik"
             title=" – nachhaltig, zukunftsfähig"
             text="Dank der zukunftsweisenden Technologie, die in unseren Photovoltaik-Anlagen zum Einsatz kommt, erreichen Sie hohe Eigenverbrauchsquoten und sparen in Worms einen Großteil der Stromkosten ein. Lohnt sich PV? Ja! Photovoltaik-Anlagen von Lumix Solar amortisieren sich in weniger als zehn Jahren und erreichen eine Lebensdauer von mehr als 25 Jahren."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -180,7 +180,7 @@ const PhotovoltaikWorms: NextPage = () => {
             yellowTitle="PV-Anlage"
             title=" mit modernem Speicher bei Worms kaufen "
             text="Eine PV-Anlage mit Speicher ermöglicht in Worms die Erreichung von Eigenverbrauchsquoten von bis zu 80 Prozent und damit eine optimale Wirtschaftlichkeit. Die Weiterentwicklung der Stromspeicher war ein entscheidender Schritt, damit sich eine Photovoltaik-Anlage auch für Privathaushalte in Worms rechnet. Zum einen verbesserte sich die Kapazität der Speicher und zum anderen sanken die Produktionskosten. Dadurch wurde das Problem gelöst, dass Stromerzeugung und Stromverbrauch zeitlich auseinanderfallen. Mittags produziert die Photovoltaik-Anlage den Großteil des Solarstroms – Familien in Worms benötigen diesen Strom jedoch eher morgens und abends, weil dann alle zuhause sind. Wenn Sie sich für eine PV-Anlage mit Speicher entscheiden, steht Ihnen der Sonnenstrom auch zur Verfügung, wenn die Sonne nicht scheint. Profitieren Sie von unserer Erfahrung und Expertise: Das Team von Lumix Solar plant und installiert Photovoltaik-Anlagen für Privatkunden und Gewerbebetriebe in Worms und bietet Ihnen einen exzellenten Service."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -200,7 +200,7 @@ const PhotovoltaikWorms: NextPage = () => {
             yellowTitle="Investieren "
             title="Sie in hochwertige Produkte "
             text="Einen noch größeren Effekt für den Klimaschutz erzielen Sie, wenn Sie mit dem Strom der Photovoltaik-Anlage in Worms eine Wärmepumpe betreiben und über die Kopplung mit einer Wallbox Ihr Elektroauto aufladen. Entscheiden Sie sich für eine Anlage aus dem Hause Lumix Solar, denn wir konfigurieren PV-Anlagen ausschließlich aus hochwertigen Produkten (Solarmodule und Stromspeicher) renommierter Qualitätshersteller."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Informieren Sie sich noch heute!"
             left
@@ -225,7 +225,7 @@ const PhotovoltaikWorms: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             icons

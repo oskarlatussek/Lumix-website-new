@@ -33,7 +33,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -75,7 +75,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             bullet6="Renommierter regionaler Anbieter"
             bullet7="Wirtschaftlichkeitsberechnung"
             bullet8="Komplett-Service & Liefergarantie"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -156,7 +156,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             yellowTitle="Photovoltaik – "
             title="Zukunftstechnologie, die sich für Sie rechnet"
             text="Wenn Sie sich entscheiden, eine Photovoltaik-Anlage zu kaufen, profitieren Sie in Wiesbaden von zukunftsweisender Technologie und realisieren maximale Einsparpotenziale. Lohnt sich PV? Diese Frage kann man mittlerweile tatsächlich uneingeschränkt mit „Ja“ beantworten und die Antwort mit Wirtschaftlichkeitsberechnungen untermauern. Innovative Photovoltaik-Anlagen von Lumix Solar amortisieren sich für Sie in Wiesbaden durchschnittlich in weniger als zehn Jahren und überzeugen mit einer langen Haltbarkeit von mindestens 25 Jahren."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -178,7 +178,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             yellowTitle="PV-Anlage "
             title="mit Speicher nahe Wiesbaden kaufen"
             text="Eine PV-Anlage mit Speicher in der Region Wiesbaden zu kaufen, ist eine lohnende Investition. Stromspeicher der neuesten Generation sind extrem leistungsstark und ermöglichen Ihnen, selbst dann den eigenen Solarstrom zu nutzen, wenn die Sonne nicht scheint. Damit entfällt das Hauptargument gegen Photovoltaik-Anlagen: Der meiste Sonnenstrom wird in der Mittagszeit produziert, aber morgens und abends benötigt. Eine PV-Anlage mit Speicher stellt den Solarstrom hingegen jederzeit bedarfsgerecht zur Verfügung."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -188,7 +188,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             yellowTitle="PV-Anlage – "
             title="Beratung zu weiteren Möglichkeiten"
             text="PV-Anlagen mit Speicher können mit einer Wärmepumpe und/oder einer Wallbox gekoppelt werden, um die Energieeffizienz noch weiter zu steigern. Möchten Sie sich näher darüber informieren, ob sich eine Photovoltaik-Anlage für Sie in Wiesbaden rechnet? Unser Team steht Ihnen jederzeit für eine individuelle Beratung zur Verfügung und wird dabei sowohl Ihren Stromverbrauch als auch künftige Entwicklungen und örtliche Gegebenheiten bei zu planenden Anlagen einbeziehen."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -223,7 +223,7 @@ const PhotovoltaikWiesbaden: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

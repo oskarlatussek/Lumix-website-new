@@ -32,7 +32,7 @@ const PhotovoltaikMannheim: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -74,7 +74,7 @@ const PhotovoltaikMannheim: NextPage = () => {
             bullet6="Individuelle Projektierung"
             bullet7="Regionaler Ansprechpartner"
             bullet8="Zuverlässige Liefergarantie"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -166,7 +166,7 @@ const PhotovoltaikMannheim: NextPage = () => {
             yellowTitle="Innovativer Photovoltaik-Anbieter"
             title=" in Mannheim"
             text="Als kompetenter Photovoltaik-Anbieter aus Mannheim haben wir es uns zum Ziel gemacht, einen Beitrag zur Energiewende zu leisten. Photovoltaik ermöglicht es sowohl Privathaushalten als auch Unternehmen, selbst und völlig eigenständig grüne Energie aus Sonnenlicht herzustellen. Somit unterstützt Sie Ihr regionaler Photovoltaik-Anbieter dabei, in Mannheim unabhängig von den Preissteigerungen der Stromkonzerne zu werden. Darüber hinaus trägt Photovoltaik dazu bei, dass Sie Stromausfällen im öffentlichen Stromnetz gelassen entgegenblicken können. Photovoltaik-Anlagen überzeugen mittlerweile mit ausgereifter Technologie, zudem profitieren Sie in Deutschland von steuerlichen Vorteilen, sodass sich die Investition in eine Photovoltaik-Anlage in jedem Fall lohnt – entscheiden Sie sich für einen Qualitätsanbieter aus Mannheim, der Ihnen nicht nur hochwertige Produkte liefert, sondern auch den perfekten Service für die Montage, Wartung und Reparatur der Solartechnologie bietet. Kurze Wege, Liefergarantien und eine unkomplizierte Kommunikation machen Lumix Solar zum idealen Partner, wenn Sie eine Photovoltaik-Anlage in Mannheim installieren möchten."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -187,7 +187,7 @@ const PhotovoltaikMannheim: NextPage = () => {
             yellowTitle="Photovoltaik-Anlage"
             title=" kaufen bei Ihrem vertrauensvollen Partner in Mannheim"
             text="Sie wollen eine Photovoltaik-Anlage kaufen und in Mannheim einen optimalen Service erhalten? Als renommierter Photovoltaik-Anbieter stellen wir unseren Kunden einen exzellenten Service zur Verfügung, der weit über die Lieferung der PV-Anlage hinausgeht.  Nach der Beratung werden wir unter Berücksichtigung der örtlichen Gegebenheiten und Ihrer Verbrauchsdaten planen, aus wie vielen Solarmodulen die Photovoltaik-Anlage in Mannheim bestehen sollte. Anschließend erfolgt eine Berechnung der Wirtschaftlichkeit. Wenn Sie uns nach der Planung den Auftrag erteilen, die Photovoltaik-Anlage zu installieren, übernehmen unsere Fachleute die Montage auf Ihrem Dach in Mannheim. Selbstverständlich erledigt unser Team auch die Montage von Wechselrichtern sowie Stromspeichern und installiert auf Wunsch die Backup-Box und die Wallbox für Ihr Elektroauto. Nach der Inbetriebnahme können Sie bequem mobil per App kontrollieren, wie viel Strom erzeugt und verbraucht wird. Gestalten Sie jetzt Ihre eigene persönliche Energiewende – mit Lumix Solar."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -212,7 +212,7 @@ const PhotovoltaikMannheim: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

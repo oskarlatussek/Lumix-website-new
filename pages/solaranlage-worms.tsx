@@ -34,7 +34,7 @@ const SolaranlageWorms: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -77,7 +77,7 @@ const SolaranlageWorms: NextPage = () => {
             bullet6="Individuell konfigurierte PV-Anlagen"
             bullet7="Verlässliche Liefergarantie"
             bullet8="Vorbildlicher Rundum-Service"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -159,7 +159,7 @@ const SolaranlageWorms: NextPage = () => {
             yellowTitle="Komplett-Service"
             title=" beim Kauf einer Solaranlage"
             text="Wenn Sie eine Solaranlage kaufen möchten, bieten wir Ihnen einen vorbildlichen Service, der von der Beratung über die detaillierte Planung und fachgerechte Montage bis weit über den Kauf hinausgeht. Unser Team sorgt für eine perfekte Wartung und ist auch zur Stelle, wenn die Solaranlage in Wiesbaden repariert werden muss. Gerne informieren wir Sie über vielen Möglichkeiten, die Ihnen eine Solaranlage mit Speicher bietet. Fordern Sie außerdem Ihr unverbindliches Angebot an – wir sind erfahrene Experten für die Konfiguration und die Montage von Solaranlagen mit Speicher für Privathaushalte, aber auch für Gewerbebetriebe in Wiesbaden."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -181,7 +181,7 @@ const SolaranlageWorms: NextPage = () => {
             yellowTitle="Ganzheitliche Bratung"
             title=" zu Ihrer Solaranlage "
             text="Unser Team plant und montiert Solaranlagen sowohl für Privatkunden als auch für Unternehmen und überzeugt mit Liefertreue und optimaler Servicequalität. Eine Solaranlage mit Speicher eröffnet Ihnen faszinierende Möglichkeiten, denn Sie können damit in Worms den günstigen Sonnenstrom sogar dann nutzen, wenn die Sonne gar nicht scheint. Möchten Sie mehr über die Vorteile unserer Anlagen erfahren, bevor Sie eine Entscheidung treffen? Nutzen Sie unsere herstellerunabhängige Photovoltaik-Anlagen-Beratung oder fordern Sie direkt ein Angebot an."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -191,7 +191,7 @@ const SolaranlageWorms: NextPage = () => {
             yellowTitle="Solaranlage "
             title="bedarfsorientiert planen in Worms"
             text="Wenden Sie sich an die Experten von Lumix Solar, die Ihre Solaranlage individuell planen und maßgeschneidert für Sie konfigurieren. Wir berücksichtigen bei der Planung der Solaranlage sowohl Ihren aktuellen als auch Ihren zukünftigen Strombedarf sowie die örtlichen Gegebenheiten in Worms. Wenn wir die Solaranlage planen und dimensionieren beziehen wir beispielsweise die Dachneigung und die Ausrichtung des Daches, einen eventuellen Sanierungsbedarf sowie alternative Montageoptionen in die Planung ein. Darüber hinaus führen wir bei der Planung der Solaranlage in Worms Wirtschaftlichkeitsberechnungen durch, um Ihnen die Frage: Lohnt sich PV?, exakt zu beantworten und Sie transparent darüber zu informieren, wann sich die PV-Anlage amortisiert."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
           />
@@ -201,7 +201,7 @@ const SolaranlageWorms: NextPage = () => {
             yellowTitle="Solartechnik "
             title="in Worms bei Lumix Solar kaufen"
             text="Lumix Solar ist Ihr kompetenter regionaler Anbieter für modernste Solartechnik und konfiguriert für Kunden aus Worms maßgeschneiderte Lösungen. Unsere Solaranlagen werden mit hochwertigen Produkten renommierter Hersteller konstruiert, denn die Qualität von Solarmodulen und Stromspeichern ist entscheidend für eine lange Lebensdauer und die Energieeffizienz der Photovoltaik-Anlage. Profitieren Sie von umfassender Beratung, professioneller Planung, fachgerechter Montage und einem exzellenten Service im Bereich Wartung und Reparatur. Mit innovativer Solartechnik senken Sie dauerhaft Ihre Stromkosten und leisten in Worms einen wichtigen Beitrag zum Klima- und Umweltschutz. Unsere Solarexperten beraten Sie zudem hinsichtlich aktueller Förderprogramme für Ihre Solaranlage und unterstützen Sie bei der Beantragung der Fördermittel. Wagen Sie jetzt den Schritt in Ihre individuelle Energiewende – mit Lumix Solar."
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mp4"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left
@@ -225,7 +225,7 @@ const SolaranlageWorms: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             icons
