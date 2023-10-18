@@ -33,7 +33,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -76,7 +76,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             bullet6="Bedarfsorientierte Planung der Photovoltaik-Anlage"
             bullet7="Detaillierte Wirtschaftlichkeitsberechnung"
             bullet8="Liefergarantie und Rundum-sorglos-Service"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -157,7 +157,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             yellowTitle="Photovoltaik – "
             title="Investition in die Zukunft"
             text="Die Amortisationsdauer einer innovativen PV-Anlage beträgt weniger als zehn Jahre und die Lebensdauer mehr als 25 Jahre. Sind Sie daran interessiert, dauerhaft Energiekosten einzusparen und einen Beitrag zum Klimaschutz zu leisten? Fordern Sie jetzt Ihr Angebot für eine Photovoltaik-Anlage in Darmstadt an. "
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -179,7 +179,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             yellowTitle="PV-Anlage "
             title=" mit Speicher nahe Darmstadt kaufen"
             text="Für die Wirtschaftlichkeit einer Photovoltaik-Anlage ist es entscheidend, ob diese mit einem modernen Stromspeicher ausgestattet ist. Es lohnt sich somit in jedem Fall, eine PV-Anlage mit Speicher zu kaufen, um in Darmstadt einen optimalen Effekt zu erzielen. Die Speichertechnologie wurde in den letzten Jahren immer weiter verbessert und neue Produktionsverfahren tragen gleichzeitig dazu bei, dass die Kosten für eine PV-Anlage mit Speicher gesunken sind."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -189,7 +189,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             yellowTitle="Photovoltaik"
             title=" für eine bedarfsgerechte Stromversorgung"
             text="Ein häufiges Argument gegen die Nutzung von Photovoltaik in Privathaushalten besagt, dass Stromerzeugung und Stromverbrauch zeitlich nicht zusammenfallen. Denn die Stromproduktion der Photovoltaik-Anlage ist in den Mittagsstunden am größten, Familien verbrauchen jedoch morgens und abends den meisten Strom. Eine PV-Anlage mit Speicher stellt Ihnen den Sonnenstrom in Darmstadt stattdessen bedarfsgerecht zur Verfügung – auch im Dunkeln oder wenn die Sonne nicht scheint. Klingt das interessant?"
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
@@ -210,7 +210,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             yellowTitle="Photovoltaik "
             title="und Wirtschaftlichkeit "
             text="Sie fragen sich: Lohnt sich PV? Es ist verständlich, dass Sie sich vor einer derartigen Investition über den monetären Effekt informieren möchten. Deswegen führen wir basierend auf Ihrem Stromverbrauch eine Wirtschaftlichkeitsberechnung durch. Außerdem beraten wir Sie über aktuelle Fördermöglichkeiten für Photovoltaik-Anlagen und helfen Ihnen in Darmstadt, den Förderantrag zu stellen."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             linkText="Jetzt Angebot anfordern!"
             link="/konfigurator"
           />
@@ -234,7 +234,7 @@ const PhotovoltaikDarmstadt: NextPage = () => {
             bullet4="Fachgerechte Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mov"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             left

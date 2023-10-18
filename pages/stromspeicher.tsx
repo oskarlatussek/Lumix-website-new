@@ -35,7 +35,7 @@ const Stromspeicher: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as1.ftcdn.net/v2/jpg/06/17/34/44/1000_F_617344495_QSMOWUCIQOLMIXxSTGOgzPAsXRYxW6gp.jpg)`,
+              backgroundImage: `url(/Images/Sections/Batterie.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -77,7 +77,7 @@ const Stromspeicher: NextPage = () => {
             bullet6="Beratung über aktuelle Fördermöglichkeiten"
             bullet7="Exakte Wirtschaftlichkeitsberechnungen"
             bullet8="Alle Serviceleistungen aus einer Hand"
-            image="https://as2.ftcdn.net/v2/jpg/05/21/20/51/1000_F_521205159_vw5PbN1jxO3uH2a9moyAwPKosdFJ9VmJ.jpg"
+            image="/Images/Sections/Speicher2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -168,7 +168,7 @@ const Stromspeicher: NextPage = () => {
             yellowTitle="PV-Anlage "
             title=" mit Speicher in Mannheim kaufen"
             text="Ein Stromspeicher für Photovoltaik-Anlagen steigert die Effizienz der Anlage erheblich. Aus diesem Grund entscheiden sich immer mehr Kunden dafür, eine Solaranlage mit Speicher von Lumix Solar zu kaufen. Wenn Sie in eine PV-Anlage mit Speicher investieren, können Sie in Mannheim Sonnenstrom, der nicht unmittelbar verbraucht wird, für eine spätere Nutzung speichern. Damit entfällt eines der wichtigsten Argumente gegen den Einsatz von Photovoltaik-Anlagen in privaten Haushalten: Es wird am meisten Strom produziert, wenn die Familie außer Haus ist. Das ist kein Problem, wenn Sie eine Photovoltaik-Anlage mit Speicher kaufen, denn dann können Sie in Mannheim in den frühen Morgenstunden und abends einfach den gespeicherten Solarstrom verwenden. Auf diese Weise lässt sich der Eigenverbrauch auf bis zu 80 Prozent steigern und damit erreichen Privathaushalte eine noch nie dagewesene Unabhängigkeit von den Stromanbietern. Die größten Effekte erzielen Sie mit dem Stromspeicher der Photovoltaik-Anlage, wenn Sie den Sonnenstrom in Mannheim zusätzlich für die Ladung Ihres Elektroautos oder den Betrieb einer klimafreundlichen Wärmepumpe nutzen. Speicher für Photovoltaik führen dazu, dass sich Ihr Beitrag zum Klimaschutz in Mannheim drastisch erhöht. Lumix Solar konfiguriert leistungsstarke PV-Anlagen aus hochwertigen Produkten renommierter Hersteller und verwendet ausschließlich energieeffiziente und lange haltbare Solarmodule. Sie fragen sich dennoch: Lohnt sich PV? Unsere erfahrenen Experten werden anhand von Wirtschaftlichkeitsberechnungen den monetären Effekt kalkulieren und Sie außerdem hinsichtlich aktueller Fördermöglichkeiten für Stromspeicher und Photovoltaik in Mannheim beraten."
-            image="https://as2.ftcdn.net/v2/jpg/05/55/87/93/1000_F_555879301_JODEAbKlzcFxrksLoI6vQWsOwEPsMN2I.jpg"
+            image="/Images/Sections/Speicher.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -192,7 +192,7 @@ const Stromspeicher: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="https://v.ftcdn.net/06/18/06/10/700_F_618061093_VFYEgaSImEuoG8JpvoKUXkwV2LZgI0VF_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage.mov"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             left

@@ -56,7 +56,7 @@ const PhotovoltaikBeratung: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/03/64/73/95/1000_F_364739530_68jROK4etru4li46cEesCbU4tK842Foz.jpg)`,
+              backgroundImage: `url(/Images/Sections/Planung.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -92,7 +92,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             bullet4="Generierung individueller Konfigurationen"
             bullet5="Rundum-Service inkl. Montage & Wartung"
             bullet6="Garantierte Einhaltung von Lieferzusagen"
-            image="https://as1.ftcdn.net/v2/jpg/05/30/52/82/1000_F_530528267_LChGDs2uMNfZijiI2CYjjC2vHtzWyw5g.jpg"
+            image="/Images/Sections/Beratung2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -182,7 +182,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             bullet5="Möchten Sie den Solarstrom zum Großteil selbst nutzen?"
             bullet6="Ist die Dachfläche überhaupt groß genug?"
             text="Besonders lohnend ist die Installation einer PV-Anlage, wenn der Strom zum Großteil selbst verbraucht und nicht ins öffentliche Stromnetz eingespeist wird. Optimal ist somit die Kombination einer Photovoltaik-Anlage mit einer Wallbox zum Aufladen Ihres E-Autos sowie mit einer Wärmepumpe. Darüber hinaus sorgt ein leistungsstarker Stromspeicher dafür, dass Sie Ihren Sonnenstrom sogar nutzen können, wenn keine Sonne scheint. Die Photovoltaik-Beratung wird diese Effekte im Rahmen einer Wirtschaftlichkeitsberechnung in Mannheim quantifizieren und damit eindeutig die Frage beantworten: Lohnt sich PV? "
-            image="https://as2.ftcdn.net/v2/jpg/05/91/00/61/1000_F_591006161_PS4BBA6OLtDs1eGk4RlDuEMmNMLosJtl.jpg"
+            image="/Images/Sections/Beratung.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -191,7 +191,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             {/* <p className="text-8xl font-bold text-center p-10 w-full leading-tight text-white"><span className="drop-shadow-custom">Unabhängige, effiziente und nachhaltige </span><span className="text-yellow-400 drop-shadow-none font-bold">Stromerzeugung</span><span className="drop-shadow-xl"> für alle!</span></p> */}
             <p className="hyphenate text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-tight lg:leading-tight xl:leading-tight font-semibold text-center p-5 sm:p-10 w-full">
               <span className="drop-shadow-none">
-                Unabhängige, effiziente und nachhaltige{' '}
+                Unabhängige, effiziente und nachhaltige 
               </span>
               <span className="text-yellow-400 drop-shadow-none font-bold">
                 Stromerzeugung
@@ -204,7 +204,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             yellowTitle="Welche Fördermöglichkeiten"
             title="  stehen zur Verfügung?"
             text="Wenn Sie vor der Entscheidung für eine bestimmte Photovoltaik-Anlage unsere Beratung in Mannheim nutzen, informieren wir Sie selbstverständlich auch über aktuelle Fördermöglichkeiten und innovative Produkte wie beispielsweise Solarmodule, die sich perfekt ins Dach integrieren lassen. Beachten Sie, dass die Förderung nur dann erfolgt, wenn der Antrag vor Projektbeginn gestellt wird. In diesem Fall ist eine Förderung durch einen zinsgünstigen Kredit möglich, der die Investition erleichtert. Darüber hinaus können seit Anfang 2023 auch Privathaushalte die PV-Anlage ohne Zahlung der 19 Prozent Mehrwertsteuer kaufen. Im Rahmen einer Photovoltaik-Beratung informieren wir Sie in Mannheim außerdem über Einspeisevergütungen und regionale Förderprogramme. Mit einer Photovoltaik-Anlage werden Sie unabhängig von Strompreiserhöhungen sowie von Stromausfällen und tragen erheblich dazu bei, dass die Energiewende gelingt – dank unserer Beratung erzielen Sie zudem in Mannheim maximale Einspareffekte und profitieren optimal von Förderprogrammen. Möchten Sie diese Vorteile nutzen und in Ihre eigene kleine Energiewende investieren?"
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -227,7 +227,7 @@ const PhotovoltaikBeratung: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mov"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

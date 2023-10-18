@@ -32,7 +32,7 @@ const Solarmodule: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -72,7 +72,7 @@ const Solarmodule: NextPage = () => {
             bullet4="Exzellenter Qualität"
             bullet5="Mono- & polykristallinen Modulen"
             bullet6="Fachgerechter Montage"
-            image="https://as2.ftcdn.net/v2/jpg/06/16/18/39/1000_F_616183925_IuOrRWVZw9sk7bNk6M1ylSDpFfmQDELK.jpg"
+            image="/Images/Sections/Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -156,7 +156,7 @@ const Solarmodule: NextPage = () => {
             yellowTitle="Solarmodule kaufen – "
             title="Lumix Solar in Mannheim"
             text="Es lohnt sich, Solarmodule (Solarpanels) vom Qualitätsanbieter Lumix Solar zu kaufen, denn wir sorgen in Mannheim mit optimalem Service dafür, dass Sie mit Ihrer PV-Anlage den maximalen Ertrag erzielen. Aus diesem Grund verwenden wir Solarmodule von renommierten Herstellern und unterstützen Sie versiert bei der Auswahl der Module. Dank unserer langjährigen Erfahrung mit der Konfiguration und Montage von Photovoltaik-Anlagen wissen wir genau, welche Solarmodule sich am besten für die Installation auf Ihrem Dach eignen. Wenden Sie sich deshalb an die Experten von Lumix Solar, um Solarpanels zu kaufen, die in Mannheim perfekt Ihre Anforderungen erfüllen und einen maximalen Ertrag erzielen."
-            image="https://as1.ftcdn.net/v2/jpg/05/20/94/80/1000_F_520948039_3zNc2b2IOFiC46isPwQ0wnxfiTyoHHxh.jpg"
+            image="/Images/Sections/Solaranlage_Dach_4.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -178,7 +178,7 @@ const Solarmodule: NextPage = () => {
             yellowTitle="Solarmodule "
             title="namhafter Hersteller in Mannheim!"
             text="Als Anbieter moderner PV-Anlagen verwenden wir ausschließlich Solarmodule namhafter Hersteller, sodass Sie in Mannheim von einer hervorragenden Qualität profitieren. Sie können zwischen mono- und polykristallinen Solarmodulen verschiedener Hersteller wählen und die PV-Anlage auch optisch an Ihr Haus anpassen. Mittlerweile stehen sogar Solarmodule zur Verfügung, die von der Denkmalschutzbehörde genehmigt werden. Alle in unseren Photovoltaik-Anlagen verbauten Module garantieren Ihnen in Mannheim eine sehr lange Haltbarkeit sowie einen optimalen Ertrag und benötigen zudem nur wenig Wartung. Lohnt sich PV? Diese Frage können wir Ihnen anhand einer Wirtschaftlichkeitsberechnung ganz genau beantworten. Die meisten PV-Anlagen amortisieren sich heutzutage in weniger als zehn Jahren und der Effekt der Reduzierung Ihrer Stromkosten wirkt lange darüber hinaus. Profitieren Sie von unserem exzellenten Service, der neben der Beratung auch die Planung der PV-Anlage sowie des Stromspeichers und die Montage der Solarmodule in Mannheim umfasst."
-            image="https://as2.ftcdn.net/v2/jpg/06/05/13/47/1000_F_605134761_38dguQbVgR4RZdm5lOuvUaJOVyCHxMPb.jpg"
+            image="/Images/Sections/Solaranlage_Dach_3.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -201,7 +201,7 @@ const Solarmodule: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="https://v.ftcdn.net/06/18/06/10/700_F_618061093_VFYEgaSImEuoG8JpvoKUXkwV2LZgI0VF_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage.mov"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

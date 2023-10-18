@@ -30,7 +30,7 @@ const Solaranlage: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/03/76/25/07/1000_F_376250785_CflXXEZfs1tCWm1b4nTBAVBTcA3eTNQW.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -72,7 +72,7 @@ const Solaranlage: NextPage = () => {
             bullet6="Individuelle Konfiguration der Anlage"
             bullet7="Verlässliche Liefergarantien"
             bullet8="Persönliche Ansprechpartner"
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -159,7 +159,7 @@ const Solaranlage: NextPage = () => {
             yellowTitle="Jetzt innovative"
             title=" Solaranlage kaufen in Mannheim"
             text="Ständig steigende Strompreise und eine zunehmende Versorgungsunsicherheit sind gute Gründe, um jetzt eine Solaranlage zu kaufen und sich damit in Mannheim größtenteils unabhängig von den Stromlieferanten zu machen. Dank ausgereifter Technik und verbesserten Stromspeichern können Sie mit einer modernen Solaranlage mittlerweile bis zu 80 Prozent des selbstproduzierten Stroms für den Eigenverbrauch nutzen. Es ist sogar möglich, das Elektroauto mit dem günstigen Solarstrom zu laden und somit ein noch größeres Einsparpotenzial zu realisieren. Die hochwertigen Photovoltaik-Anlagen sind leistungsstark und produzieren zuverlässig umweltfreundlichen Strom. Mit zusätzlichen Komponenten wie Backup-Boxen und Wallboxen erhöhen Sie die Effizienz Ihrer Anlage und profitieren maximal von den Vorteilen der innovativen Technologie. Darüber hinaus ist es ein gutes Gefühl, eine Solaranlage zu kaufen und in Mannheim damit einen aktiven Beitrag zur Bekämpfung des Klimawandels zu leisten."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Jetzt Solarcheck starten!"
           />
@@ -181,7 +181,7 @@ const Solaranlage: NextPage = () => {
             yellowTitle="Die Vorteile "
             title="der Solartechnik in Mannheim nutzen!"
             text="Lohnt sich PV? Man kann ohne Übertreibung feststellen, dass sich die Solartechnik in den letzten Jahren rasant weiterentwickelt hat und deshalb Solaranlagen auch für Privatkunden in Mannheim eine lohnende Investition sind. Die Lebensdauer moderner Solaranlagen beträgt mehr als 25 Jahre und zudem verursacht Solartechnik auch nur geringe Wartungskosten. Außerdem erhalten Sie eine Einspeisevergütung für den in Ihrer Solaranlage erzeugten Strom, den Sie nicht selbst verbrauchen, sondern ins öffentliche Netz in Mannheim einspeisen. Wirtschaftlichkeitsberechnungen ergeben, dass die Amortisationsdauer einer Photovoltaik-Anlage nicht einmal zehn Jahre beträgt und Sie danach einen sehr hohen Kostenvorteil genießen. Wir bieten Ihnen einen leistungsstarken Service, der neben der Beratung auch die Planung und Montage sowie die Wartung Ihrer Solaranlage umfasst und sind außerdem als regionaler Anbieter von Solartechnik Ihr zuverlässiger Ansprechpartner in Mannheim. Wagen Sie jetzt den Schritt und profitieren Sie von Ihrer persönlichen Energiewende."
-            image="https://as2.ftcdn.net/v2/jpg/03/95/91/37/1000_F_395913763_AP4ghUg5Qzj5N7hZC5XmniPh9nHWYyKZ.jpg"
+            image="/Images/Sections/Solaranlage_Dach_2.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -206,7 +206,7 @@ const Solaranlage: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            video="https://v.ftcdn.net/05/80/07/94/700_F_580079494_OsSIx8a8P5lS4Dtw1VvMi6mBIQ2kuoBB_ST.mp4"
+            video="/Images/Sections/Video_Skyview.mov"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

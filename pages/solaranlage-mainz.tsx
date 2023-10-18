@@ -33,7 +33,7 @@ const SolaranlageMainz: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -75,7 +75,7 @@ const SolaranlageMainz: NextPage = () => {
             bullet6="Individuelle Energielösungen"
             bullet7="Zuverlässige Liefergarantien"
             bullet8="Persönliche Beratung"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -156,7 +156,7 @@ const SolaranlageMainz: NextPage = () => {
             yellowTitle="Solaranlage "
             title="fachgerecht planen lassen   "
             text="Eine Solaranlage mit Speicher ermöglicht Eigenverbrauchsquoten von bis zu 80 Prozent, sodass Sie in Mainz von einer optimalen Wirtschaftlichkeit Ihrer PV-Anlage profitieren und Ihren Strombedarf fast vollständig mit dem klimafreundlichen Sonnenstrom decken können. Unser fachkompetentes Team unterstützt Sie bereits bei der Planung der Solaranlage – als renommierter Fachbetrieb für Solartechnik erarbeiten wir sowohl für Privathaushalte als auch für Gewerbebetriebe in Mainz maßgeschneiderte Energiekonzepte und sorgen für eine perfekte Montage sowie Wartung der Photovoltaik-Anlagen."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -178,7 +178,7 @@ const SolaranlageMainz: NextPage = () => {
             yellowTitle="Individuelle "
             title="Solaranlagen-Beratung in Mainz"
             text="Unser Service im Raum Mainz beginnt mit der kompetenten Solaranlagen-Beratung, denn dies ist die Voraussetzung dafür, dass sich die Investition auszahlt. Im Rahmen der Solaranlagen-Beratung führen wir Wirtschaftlichkeitsberechnungen basierend auf den Verbrauchsdaten und der möglichen Solaranlagen-Konfiguration durch und können Ihnen somit die berechtigte Frage: Lohnt sich PV?, objektiv beantworten."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -188,7 +188,7 @@ const SolaranlageMainz: NextPage = () => {
             yellowTitle="Einsparpotenziale"
             title=" mit Zukunftsperspektive "
             text="Im Durchschnitt amortisiert sich die Anlage nach weniger als zehn Jahren. Die restlichen 15 oder mehr Jahre Nutzungsdauer macht sich Ihre Anlage dann doppelt bezahlt: Sie erhalten eine Vergütung für Strom, den Sie ins öffentliche Stromnetz einspeisen und reduzieren Ihre eigene Stromrechnung auf ein Minimum. Damit Sie mit Ihrer Solaranlage in Mainz die maximalen Effekte erzielen, begleiten wir Ihr Projekt mit einer umfassenden Beratung, übernehmen die Planung und die Montage, aber auch die Wartung sowie anfallende Reparaturen. Sie erhalten also alle Leistungen für Ihre Solaranlage aus einer Hand und können sich jederzeit an Ihren persönlichen Ansprechpartner in der Nähe von Mainz wenden."
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
           />
@@ -198,7 +198,7 @@ const SolaranlageMainz: NextPage = () => {
             yellowTitle="Solartechnik – "
             title="aktiver Klimaschutz in Mainz"
             text="Die Solartechnik wurde in den letzten Jahren immer weiter verbessert, sodass Sie mit Ihrer Solaranlage in Mainz einen nicht unerheblichen Beitrag zur Bekämpfung des Klimawandels leisten. Dank leistungsstärkerer Stromspeicher, die darüber hinaus mittlerweile wesentlich günstiger sind, erreicht man hohe Eigenverbrauchsquoten. Haushalte rund um Mainz werden damit in die Lage versetzt, ihren Stromverbrauch vollständig mit der Solaranlage zu decken. Das bedeutet außerdem, dass Sie nicht von Stromausfällen aufgrund überlasteter Stromnetze betroffen sind und ein nie dagewesenes Maß an Unabhängigkeit genießen. Lumix Solar konfiguriert Solaranlagen in Mainz aus hochwertigen Produkten, denn die Qualität der Stromspeicher und Solarmodule hat großen Einfluss auf die Effizienz und Langlebigkeit der PV-Anlage. Wagen Sie jetzt den entscheidenden Schritt und investieren Sie in Ihre eigene kleine Energiewende."
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mov"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
             left
@@ -223,7 +223,7 @@ const SolaranlageMainz: NextPage = () => {
             bullet2="Stromspeicher"
             bullet3="Wechselrichter"
             bullet4="Backup- & Wallboxen"
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             link="/konfigurator"
             icons

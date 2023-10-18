@@ -13,7 +13,7 @@ const Produkte: NextPage = () => {
       <div className="flex flex-col items-center max-w-full">
         <div
           style={{
-            backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+            backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

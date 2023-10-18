@@ -32,7 +32,7 @@ const PhotovoltaikMainz: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -74,7 +74,7 @@ const PhotovoltaikMainz: NextPage = () => {
             bullet6="Erfahrener regionaler Anbieter bei Mainz"
             bullet7="Exakte Wirtschaftlichkeitsberechnung"
             bullet8="Rundum-sorglos-Service und Termintreue"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -157,7 +157,7 @@ const PhotovoltaikMainz: NextPage = () => {
             yellowTitle="Photovoltaik-Anlage "
             title="mit Speicher unweit von Mainz kaufen"
             text="Es ist empfehlenswert, sich für eine Photovoltaik-Anlage mit Speicher zu entscheiden, denn dadurch sind in Mainz Eigenverbrauchsquoten von bis zu 80 Prozent erreichbar, wodurch sich die Wirtschaftlichkeit erheblich verbessert. Stromspeicher wurden in den vergangenen Jahren erstens immer leistungsstärker und zweitens kostengünstiger, sodass es sich lohnt, eine Photovoltaik-Anlage mit einem Speicher auszustatten – auf diese Weise profitieren Sie auch dann von günstigem Solarstrom, wenn die Sonne in Mainz nicht scheint."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -179,7 +179,7 @@ const PhotovoltaikMainz: NextPage = () => {
             yellowTitle="PV-Anlage "
             title="mit Speicher – zukunftsfähige Technologie"
             text="Das erfahrene Team von Lumix Solar dimensioniert Photovoltaik-Anlagen mit Speicher bedarfsorientiert und berät Sie hinsichtlich einer zukunftssicheren Ausstattung der PV-Anlage. Die Energieeffizienz Ihres Hauses lässt sich weiter steigern, wenn Sie die Anlage mit einer Wärmepumpe koppeln und auch für die Heizung umweltfreundlichen Solarstrom nutzen. Eine weitere Option zur Verbesserung des eigenen Beitrags zum Klimaschutz ist die Verwendung des Sonnenstroms zum Aufladen Ihres Elektroautos. Zu diesem Zweck koppeln wir die Photovoltaik-Anlage mit Speicher zusätzlich mit einer Wallbox. Gerne informieren wir Sie über die vielfältigen Möglichkeiten, Photovoltaik in Mainz wirtschaftlich einzusetzen."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -189,7 +189,7 @@ const PhotovoltaikMainz: NextPage = () => {
             yellowTitle="PV-Anlage"
             title=" kaufen in Mainz: Ihr Partner Lumix Solar"
             text="Sie möchten eine PV-Anlage kaufen, um künftig in Mainz unabhängig von Stromanbietern zu werden? Lumix Solar ist Ihr kompetenter Ansprechpartner und bietet Ihnen als regionaler Anbieter die Sicherheit einer perfekten Betreuung. Sie können sich jederzeit an unsere Photovoltaik-Experten wenden, wenn Sie eine Beratung vor dem Kauf benötigen oder später Fragen zum Betrieb der PV-Anlage haben."
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
@@ -224,7 +224,7 @@ const PhotovoltaikMainz: NextPage = () => {
             bullet4="Fachgerechte Montage der Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mov"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             icons

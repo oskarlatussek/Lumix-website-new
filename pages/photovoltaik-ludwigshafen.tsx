@@ -33,7 +33,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
         <div className="flex flex-col items-center max-w-full">
           <div
             style={{
-              backgroundImage: `url(https://as2.ftcdn.net/v2/jpg/05/29/27/59/1000_F_529275953_MnISE2r90Y2WNNhyWH249QqIxPfFkAnb.jpg)`,
+              backgroundImage: `url(/Images/Sections/Solaranlage_Dach_5.jpeg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -75,7 +75,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             bullet6="Leistungsstarker regionaler Anbieter"
             bullet7="Genaue Wirtschaftlichkeitsberechnung"
             bullet8="Liefergarantie und exzellenter Service"
-            image="https://as2.ftcdn.net/v2/jpg/06/06/35/13/1000_F_606351333_2E2KZd5gZDejot9kVR11E4ntFpYOpR5q.jpg"
+            image="/Images/Sections/Montage2.jpeg"
             link="/konfigurator"
             linkText="Heute noch Termin vereinbaren!"
             icons2
@@ -157,7 +157,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             yellowTitle="Ganzheitlicher Service "
             title=" mit Lumix Solar"
             text="Sie möchten mehr darüber erfahren, ob sich Photovoltaik für Sie lohnt? Wir bieten unseren Privat- und Gewerbekunden aus Ludwigshafen einen Rundum-sorglos-Service, der auch die kompetente Beratung und bedarfsgerechte Dimensionierung der PV-Anlage umfasst. Auf Wunsch erstellen wir außerdem direkt ein Angebot für eine Photovoltaik-Anlage."
-            image="https://as2.ftcdn.net/v2/jpg/05/52/32/61/1000_F_552326147_QaFOH5cBtUxdtmLdDyhzAPjP3nfhYaAg.jpg"
+            image="/Images/Sections/Haus_Solaranlage2.jpeg"
             link="/konfigurator"
             linkText="Mehr erfahren"
           />
@@ -179,7 +179,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             yellowTitle="Photovoltaik-Anlage"
             title=" mit Speicher in Ludwigshafen"
             text="Der Wirkungsgrad einer Photovoltaik-Anlage mit Speicher ist in Ludwigshafen ungleich höher als der einer PV-Anlage ohne Stromspeicher. Eines der am häufigsten genannten Argumente gegen die Nutzung von Solarenergie zur Stromerzeugung bestand darin, dass Stromerzeugung und -verbrauch zeitlich nicht übereinstimmen. Ein Großteil der Stromerzeugung mittels Photovoltaik findet in den Mittagsstunden statt, Familien benötigen in Ludwigshafen jedoch vor allem morgens und in den Abendstunden Strom."
-            image="https://as1.ftcdn.net/v2/jpg/05/54/39/78/1000_F_554397802_q8tSzs5NpQULONQpLxNy5aOMrtxut0Y8.jpg"
+            image="/Images/Sections/Haus_Solaranlage.jpeg"
             linkText="Hier Angebot anfordern!"
             link="/konfigurator"
             left
@@ -189,7 +189,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             yellowTitle="Verfügbare Energie "
             title="dank Stromspeicher"
             text="Strom sollte gerade in tageszeitlichen Bedarfsspitzen zur Verfügung stehen: Das Problem wurde durch neue Speichertechnologien und die kostengünstigere Produktion der Stromspeicher gelöst. Eine Photovoltaik-Anlage mit Speicher ermöglicht Ihnen deshalb, fast den gesamten Solarstrom selbst zu verwenden. Wir verbauen in unseren Photovoltaik-Anlagen in Ludwigshafen ausschließlich hochwertige Produkte wie Stromspeicher und Solarmodule renommierter Produzenten, die mit optimaler Energieeffizienz und langer Haltbarkeit überzeugen."
-            image="https://as1.ftcdn.net/v2/jpg/06/19/46/00/1000_F_619460030_utbTTIw2Z4zTEgyt74Ci3S09owoqNjny.jpg"
+            image="/Images/Sections/Montage.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
@@ -209,7 +209,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             yellowTitle="Geldwerte Optionen "
             title="für die Zukunft"
             text="Einspareffekte lassen sich durch Koppelung der PV-Anlage mit einer Wärmpumpe und/oder einer Wallbox für Ihr E-Auto weiter steigern. Wenn Sie eine PV-Anlage von Lumix Solar kaufen, profitieren Sie in Ludwigshafen von hoher Qualität und bestem Service. Starten Sie jetzt Ihre ganz persönliche Energiewende. Unser Team freut sich darauf, Ihnen die Vorteile von Photovoltaik zu erläutern!"
-            image="https://as1.ftcdn.net/v2/jpg/03/16/90/16/1000_F_316901683_Biz4WZy12zLIysQMWUBGlp9CcfW2M57N.jpg"
+            image="/Images/Sections/Solaranlage.jpeg"
             linkText="Jetzt Solarcheck starten!"
             link="/konfigurator"
           />
@@ -234,7 +234,7 @@ const PhotovoltaikLudwigshafen: NextPage = () => {
             bullet4="Montage der PV-Anlage"
             bullet5="Prüfung und Inbetriebnahme"
             bullet6="Wartung und Reparatur"
-            video="https://v.ftcdn.net/06/07/83/49/700_F_607834919_fuv9bJd3VvakduLG4tWgyxksDwzIe299_ST.mp4"
+            video="/Images/Sections/Video_Solaranlage2.mov"
             link="/konfigurator"
             linkText="Noch Fragen? Dann schreiben Sie uns"
             left
