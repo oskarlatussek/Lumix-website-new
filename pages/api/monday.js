@@ -3,6 +3,7 @@
 export default async function handler (req, res) {
     const labels = {
         "meta": "Meta Ads",
+        "meta-darmstadt": "Meta Darmstadt",
         "google": "Google Ads",
         "tuerflyer_v1": "Türflyer V1",
         "tuerflyer_v2": "Türflyer V2",
