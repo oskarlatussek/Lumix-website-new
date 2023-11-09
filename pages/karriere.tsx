@@ -8,6 +8,23 @@ import ImageSection from '../components/section/ImageSection';
 import Stelle from '../components/section-element/Stelle';
 import Link from 'next/link';
 
+const tasksVertriebsspezialist = [
+    "Abhalten von persönlichen Beratungsgesprächen bei Interessenten vor Ort",
+    "Eigenständige Planung und Auslegung der Solarprojekte",
+    "Erstellen von individuell auf den Kunden zugeschnittenen Angeboten",
+    "Digitale oder persönliche Follow-up Gespräche mit den Kunden",
+    "Qualifizierung von Anfragen und Terminierung der eigenen Beratungsgespräche",
+]
+
+const qualificationsVertriebsspezialist = [
+    "Erfahrung im Vertrieb und der Planung von Photovoltaikanlagen",
+    "Technisches und handwerkliches Verständnis der Funktionsweise einer Photovoltaikanlage",
+    "Freundliches Auftreten und sehr gute kommunikative Fähigkeiten",
+    "Motivation, Neues zu lernen und an innovativen Lösungen mitzuwirken",
+    "Selbstständige, lösungsorientierte Arbeitsweise mit Verantwortungsbewusstsein",
+    "Führerschein Klasse B"
+]
+
 const tasksHeizungsbauer = [
     "Bereichsverantwortlichkeit für den neuen Geschäftszweig „Wärmepumpen“",
     "Aufbau deines neuen Verantwortlichkeitsbereiches",
@@ -212,6 +229,7 @@ const Team: NextPage = () => {
                     <p className='text-white text-center max-w-2xl p-5 text-base md:text-xl pb-20'>Hier findest du unsere offenen Stellen. Bitte schick uns deine Bewerbung an <a href='mailto:karriere@lumix.solar' className='text-yellow-400'>karriere@lumix.solar</a>. Wenn aktuell keine passende Stelle für dich ausgeschrieben ist, kannst du uns auch gerne eine Initiativbewerbung schicken.</p>
 
                     <div className='flex flex-wrap justify-center gap-5 max-w-screen-xl'>
+                        <Stelle title="Vertriebsspezialist (m/w/d) für PV-Anlagen" type="Vollzeit" tasks={tasksVertriebsspezialist} qualifications={qualificationsVertriebsspezialist} />
                         <Stelle title="Heizungsbauer (m/w/d) für Wärmepumpen" type="Vollzeit" tasks={tasksHeizungsbauer} qualifications={qualificationsHeizungsbauer} />
                         <Stelle title="Elektromeister (m/w/d)" type="Vollzeit" tasks={tasksElektromeister} qualifications={qualificationsElektromeister} />
                         <Stelle title="Solar Operations Specialist (m/w/d)" type="Vollzeit | Teilzeit" tasks={tasksSachbearbeiter} qualifications={qualificationsSachbearbeiter} />
