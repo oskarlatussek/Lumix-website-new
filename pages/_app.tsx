@@ -54,13 +54,12 @@ function MyApp({ Component, pageProps }: AppProps) {
                         `,
           }}
         /> */}
-      </Head>
 
-      <Script
-        id="gtag"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          id="gtag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             
@@ -73,23 +72,24 @@ function MyApp({ Component, pageProps }: AppProps) {
                       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                       })(window,document,'script','dataLayer','GTM-5NZX2FPH');`,
-        }}
-      />
+          }}
+        />
 
-      {consent === true && (
-        <Script
-          id="consent"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
+        {consent === true && (
+          <Script
+            id="consent"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
             gtag('consent', 'update', {
               'ad_storage': 'granted',
               'analytics_storage': 'granted'
             });
           `,
-          }}
-        />
-      )}
+            }}
+          />
+        )}
+      </Head>
 
       {/* <Script
         id="fb-pixel"
