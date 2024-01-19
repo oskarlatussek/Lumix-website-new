@@ -40,7 +40,26 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage."
         />
 
-        <Script
+
+
+
+                {/* <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=GTM-NNFZGHS`}
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'GTM-NNFZGHS');
+                        `,
+          }}
+        /> */}
+      </Head>
+      <Script
           id="gtag"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -76,25 +95,6 @@ function MyApp({ Component, pageProps }: AppProps) {
             }}
           />
         )}
-
-
-                {/* <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=GTM-NNFZGHS`}
-        />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                            gtag('config', 'GTM-NNFZGHS');
-                        `,
-          }}
-        /> */}
-      </Head>
-
       {/* <Script
         id="fb-pixel"
         strategy="afterInteractive"

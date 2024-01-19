@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 import { setCookie, hasCookie, deleteCookie } from 'cookies-next';
+import Script from 'next/script';
 
 function Consent() {
-    const [consent, setConsent] = useState(true);
+    const [consent, setConsent] = useState(null);
     useEffect(() => {
         // console.log(hasCookie('localConsent'))
         setConsent(hasCookie('localConsent'));
@@ -15,33 +16,56 @@ function Consent() {
         // console.log('accepting cookies');
     };
     const denyCookie = () => {
-        setConsent(true);
+        setConsent(undefined);
         deleteCookie('localConsent', { maxAge: 60 * 60 * 24 * 365 });
         // console.log('denying cookie');
     };
-    if (consent === true) {
-        return null;
+
+    if (consent == true || consent == undefined) {
+        return (<>
+            {consent && (
+                <Script
+                    id="consent"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+              });
+            `,
+                    }}
+                />
+            )}
+        </>
+
+        );
     }
     return (
-        <div className={`fixed flex flex-row sm:flex-col items-center space-y-0 sm:space-y-5 space-x-2 sm:space-x-0 bottom-0 sm:bottom-3 z-50 max-w-[100%] sm:max-w-sm right-0 sm:right-3 p-2 sm:p-3 rounded-md bg-white/40 backdrop-blur-2xl ${consent ? 'hidden' : ''}`} >
-            <p className='text-xs sm:text-sm max-h-[75px] lg:max-h-[100px] overflow-scroll'>Auf dieser Website nutzen wir Cookies und vergleichbare Funktionen zur Verarbeitung von Endgeräteinformationen und personenbezogenen Daten. Die Verarbeitung dient der Einbindung von Inhalten, externen Diensten und Elementen Dritter, der statistischen Analyse/Messung, personalisierten Werbung sowie der Einbindung sozialer Medien. Je nach Funktion werden dabei Daten an Dritte weitergegeben und von diesen verarbeitet.</p>
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-x-0 sm:space-x-5 space-y-2 sm:space-y-0 justify-center w-full">
-                <button
-                    onClick={(e) => denyCookie()}
-                    className="text-xs p-2 sm:text-sm border border-black rounded-md"
-                >
-                    Ablehnen
-                </button>
-                <button
-                    onClick={() => {
-                        acceptCookie();
-                    }}
-                    className="text-xs p-2 sm:text-sm bg-yellow-400 border-yellow-400 border rounded-md"
-                >
-                    Akzeptieren
-                </button>
+        <>
+
+            <div className={`fixed flex flex-row sm:flex-col items-center space-y-0 sm:space-y-5 space-x-2 sm:space-x-0 bottom-0 sm:bottom-3 z-50 max-w-[100%] sm:max-w-sm right-0 sm:right-3 p-2 sm:p-3 rounded-md bg-white/40 backdrop-blur-2xl ${consent ? 'hidden' : ''}`} >
+                <p className='text-xs sm:text-sm max-h-[75px] lg:max-h-[100px] overflow-scroll'>Auf dieser Website nutzen wir Cookies und vergleichbare Funktionen zur Verarbeitung von Endgeräteinformationen und personenbezogenen Daten. Die Verarbeitung dient der Einbindung von Inhalten, externen Diensten und Elementen Dritter, der statistischen Analyse/Messung, personalisierten Werbung sowie der Einbindung sozialer Medien. Je nach Funktion werden dabei Daten an Dritte weitergegeben und von diesen verarbeitet.</p>
+                <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-x-0 sm:space-x-5 space-y-2 sm:space-y-0 justify-center w-full">
+                    <button
+                        onClick={(e) => denyCookie()}
+                        className="text-xs p-2 sm:text-sm border border-black rounded-md"
+                    >
+                        Ablehnen
+                    </button>
+                    <button
+                        onClick={() => {
+                            acceptCookie();
+                        }}
+                        className="text-xs p-2 sm:text-sm bg-yellow-400 border-yellow-400 border rounded-md"
+                    >
+                        Akzeptieren
+                    </button>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
