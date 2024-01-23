@@ -40,10 +40,47 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Solaranlagen und Batteriespeicher in Mannheim, der Pfalz und der Rhein-Neckar Region. Individuelle Beratung, Planung und professionelle Montage."
         />
 
+        <script
+          id="gtag"
+          // strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    
+                    gtag('consent', 'default', {
+                      'ad_storage': 'denied',
+                      'analytics_storage': 'denied'
+                    });
+                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                              })(window,document,'script','dataLayer','GTM-5NZX2FPH');`,
+          }}
+        />
+
+        {consent === true && (
+          <script
+            id="consent"
+            // strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'update', {
+              'ad_storage': 'granted',
+              'analytics_storage': 'granted'
+            });
+          `,
+            }}
+          />
+        )}
 
 
 
-                {/* <script
+
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=GTM-NNFZGHS`}
         />
@@ -59,11 +96,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           }}
         /> */}
       </Head>
-      <Script
-          id="gtag"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
+      {/* <Script
+        id="gtag"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             
@@ -76,15 +113,15 @@ function MyApp({ Component, pageProps }: AppProps) {
                       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                       })(window,document,'script','dataLayer','GTM-5NZX2FPH');`,
-          }}
-        />
+        }}
+      /> */}
 
-        {consent === true && (
-          <Script
-            id="consent"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
+      {/* {consent === true && (
+        <Script
+          id="consent"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
             gtag('consent', 'update', {
@@ -92,9 +129,9 @@ function MyApp({ Component, pageProps }: AppProps) {
               'analytics_storage': 'granted'
             });
           `,
-            }}
-          />
-        )}
+          }}
+        />
+      )} */}
       {/* <Script
         id="fb-pixel"
         strategy="afterInteractive"
