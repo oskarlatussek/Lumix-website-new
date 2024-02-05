@@ -5,14 +5,23 @@ import { Footer, Toolbar } from '../components'
 import '../styles/globals.css'
 import '../styles/review.css'
 import Script from 'next/script'
-import { getCookie } from 'cookies-next'
+import { getCookie, setCookie } from 'cookies-next'
 import Consent from '../components/general/Conset'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 // @ts-ignore 
 // import * as fbq from '../lib/fpixel'
 // import { useRouter } from 'next/router'
 // import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter()
+  const gclid = router.query.gclid
+  useEffect(() => {
+    setCookie('gclid', gclid, { maxAge: 60 * 60 * 24 * 365 });
+  }, [gclid])
+
+
   const consent = getCookie('localConsent')
 
   // const router = useRouter()

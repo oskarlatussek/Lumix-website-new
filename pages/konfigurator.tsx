@@ -19,6 +19,7 @@ import { useRouter } from 'next/router';
 import { BsFillSunFill, BsPeopleFill } from 'react-icons/bs';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import ImageSection from '../components/section/ImageSection';
+import { getCookie } from 'cookies-next';
 
 
 const Konfigurator: NextPage = () => {
@@ -40,6 +41,7 @@ const Konfigurator: NextPage = () => {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         setProcessing(true)
+        const gclid = getCookie('gclid')
 
         try {
             const res = await fetch("/api/monday", {
@@ -56,7 +58,8 @@ const Konfigurator: NextPage = () => {
                     products: pickBy(products),
                     consumption: consumption,
                     message: message,
-                    origin: origin
+                    origin: origin,
+                    gclid: gclid
                 })
             });
             const result = await res.json()

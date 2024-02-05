@@ -1,3 +1,4 @@
+import { getCookie } from "cookies-next"
 import { useState } from "react"
 import { FiMail, FiPhone } from "react-icons/fi"
 
@@ -14,6 +15,7 @@ const Contact = () => {
         e.preventDefault();
         setProcessing(true)
         window.dataLayer.push({'event': 'kontaktformular'})
+        const gclid = getCookie('gclid')
 
         try {
             const res = await fetch("/api/contact", {
@@ -21,7 +23,7 @@ const Contact = () => {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({ name: name, email: email, phone: phone, message: message })
+                body: JSON.stringify({ name: name, email: email, phone: phone, message: message, gclid: gclid })
             });
             const result = await res.json()
             if (result.err) {

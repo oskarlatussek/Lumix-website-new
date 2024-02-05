@@ -16,6 +16,7 @@ export default async function handler (req, res) {
     const consumption = req.body.consumption
     const message = req.body.message
     const origin = labels[req.body.origin]
+    const gclid = req.body.gclid
 
     let addNewContact = 'mutation ($myItemName: String!, $columnVals: JSON!) { create_item (board_id:2945892503, group_id:neue_gruppe73807, item_name:$myItemName, column_values:$columnVals) { id } }';
 
@@ -30,7 +31,8 @@ export default async function handler (req, res) {
           "langer_text": message,
           "status": "Neuer Lead",
           "datum": new Date().toISOString().substring(0, 10),
-          "status_1": origin
+          "status_1": origin,
+          "text5": gclid
         })
       };
 
