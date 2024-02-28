@@ -36,7 +36,7 @@ const Team: NextPage = () => {
 
                     <div className='flex flex-col lg:flex-row space-y-5 lg:space-y-0 items-center w-full justify-center max-w-screen-2xl'>
                         <div className='min-w-[35%] self-center lg:self-start h-full relative max-w-2xl overflow-hidden rounded-xl z-20 group'>
-                            <img src="/Images/Team/DSC02349.jpg" className='group-hover:scale-105 transition duration-300 ease-linear rounded-xl w-full h-full' />
+                            <img src="/Images/Team/DSC02349.png" className='group-hover:scale-105 transition duration-300 ease-linear rounded-xl w-full h-full' />
                         </div>
                         <p className='text-yellow-400 ml-0 lg:-ml-44 font-bold text-4xl xs:text-6xl lg:text-6xl xl:text-8xl bg-black/40 z-50 self-center lg:self-end p-3 pb-3 lg:pb-6 backdrop-blur-xl px-8 rounded-tl-xl min-w-max'>Operations</p>
 
@@ -45,7 +45,7 @@ const Team: NextPage = () => {
                             <TeamCard name="Maximilian Mühlhause" img_src='/Images/Team/DSC02339.jpg' />
                             <TeamCard name="Lucas Zacher" img_src='/Images/Team/DSC02274.jpg' />
                             <div className='hidden lg:block'></div>
-                            <TeamCard name="Jens Maier" img_src='/Images/Team/DSC02262.jpg' />
+                            {/* <TeamCard name="Jens Maier" img_src='/Images/Team/DSC02262.jpg' /> */}
                             <TeamCard name="Filippo Werner" img_src='/Images/Team/DSC02197.jpg' />
                         </div>
                     </div>

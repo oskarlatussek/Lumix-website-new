@@ -215,7 +215,7 @@ const Team: NextPage = () => {
                                 <p className='text-white text-base'><b className='text-xl'>Offene Arbeitskultur eines jungen Unternehmens:<br /> </b>Wir pflegen eine offene und dynamische Arbeitskultur, in der frische Ideen willkommen sind und ein Raum für Austausch und Kreativität geschaffen wird.</p>
                             </div>
                         </div>
-                        <ImageSection image='/Images/karriere-2.jpg' />
+                        <ImageSection image='/Images/DSC01958.jpg' />
                     </div>
 
                 </div>
